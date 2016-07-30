@@ -205,6 +205,10 @@ We can test our bear like this
     by their **filename** and display them based on their
     **classname**.
 
+Normally, providing a severity-map is not needed, as coala has a default
+severity-map which recognizes many common words used for severities. Check out
+the API documentation for keywords supported!
+
 Using the ``corrected`` Output Format
 -------------------------------------
 
