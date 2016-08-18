@@ -43,7 +43,6 @@ Welcome to the coala documentation!
    Codestyle <Developers/Codestyle>
    Git Basics <Developers/Git_Basics>
    Review <Developers/Review>
-   How To Get In Touch With Us <Developers/Getting_In_Touch>
    Development Setup <Developers/Development_Setup>
    Writing Bears <Developers/Writing_Bears>
    Writing Linter Bears <Developers/Writing_Linter_Bears>
@@ -57,6 +56,7 @@ Welcome to the coala documentation!
    :caption: Help
    :hidden:
 
+   How To Get In Touch With Us <Help/Getting_In_Touch>
    Frequently Asked Questions <Help/FAQ>
    MAC Hints <Help/MAC_Hints>
 
@@ -97,7 +97,7 @@ everyone to fix an issue by themselves.
 .. note::
 
   To contact us, always feel free to check our
-  :doc:`Getting In Touch<Developers/Getting_In_Touch>` page.
+  :doc:`Getting In Touch<Help/Getting_In_Touch>` page.
 
 What do I get?
 --------------
