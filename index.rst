@@ -62,47 +62,42 @@ Welcome to the coala documentation!
 
 You might also want to look at `our website <http://coala-analyzer.org/>`_.
 
-.. Start ignoring LineLengthBear
+.. image:: https://cloud.githubusercontent.com/assets/7521600/15992701/ef245fd4-30ef-11e6-992d-275c5ca7c3a0.jpg
 
-::
+coala: Language Independent Code Analysis
+-----------------------------------------
 
-                                                         .o88Oo._
-                                                        d8P         .ooOO8bo._
-                                                        88                  '*Y8bo.
-                                          __            YA                      '*Y8b   __
-                                        ,dPYb,           YA                        68o68**8Oo.
-                                        IP'`Yb            "8D                       *"'    "Y8o
-                                        I8  8I             Y8     'YB                       .8D
-                                        I8  8P             '8               d8'             8D
-                                        I8  8'              8       d8888b          d      AY
-         ,gggo,    ,ggggo,    ,gggo,gg  I8 dP    ,gggo,gg   Y,     d888888         d'  _.oP"
-        dP"  "Yb  dP"  "Y8go*8P"  "Y8I  I8dP    dP"  "Y8I    q.    Y8888P'        d8
-       i8'       i8'    ,8P i8'    ,8I  I8P    i8'    ,8I     "q.  `Y88P'       d8"
-      ,d8,_    _,d8,   ,d8' d8,   ,d8b,,d8b,_ ,d8,   ,d8b,       Y           ,o8P
-    ooP""Y8888PP*"Y8888P"   "Y8888P"`Y88P'"Y88P"Y8888P"`Y8            oooo888P"
+**coala provides a unified command-line interface for linting and fixing all
+your code, regardless of the programming languages you use.**
 
-.. Stop ignoring LineLengthBear
+With coala, users can create
+:doc:`rules and standards <Users/coafile>` to be followed in the source
+code. coala has an **user-friendly interface** that is completely customizable.
+It can be used in any environment and is completely modular.
 
-What is coala?
---------------
+coala has a set of official bears (plugins) for several languages, including
+popular languages such as **C/C++**, **Python**, **JavaScript**, **CSS**,
+**Java** and many more, in addition to some generic language independent
+algorithms. To learn more about the different languages supported and the
+bears themselves,
+`click here. <https://github.com/coala-analyzer/bear-docs/blob/master/README.rst>`__
 
-coala provides a common command-line interface for linting and fixing all your
-code, regardless of the programming languages you use. coala is written with a
-lower case "c".
+.. note::
 
-Code analysis happens in python scripts while coala manages these, tries
-to provide helpful libraries and provides multiple user interfaces.
-(Currently we support only Console output but others will follow.)
+  To see what coala can do for you and your language, take a look at
+  `our capabilities listing <https://github.com/coala-analyzer/bear-docs/blob/master/README.rst>`__.
 
-One could say coala unites all language independent parts of a linter
-and is arbitrarily extensible.
+If you are here to use coala for your own projects, take a look at our
+:doc:`installation guide<Users/Install>`.
 
-To see what coala can do for you and your language, take a look at
-`our capabilities listing <https://github.com/coala-analyzer/bear-docs/blob/master/README.rst>`__.
+If you want to start contributing to coala, you can follow our
+:doc:`tutorial for newcomers<Developers/Newcomers_Guide>` which aims to get
+everyone to fix an issue by themselves.
 
-To get started, take a look at our :doc:`Installation
-Instructions <Users/Install>` and the
-:doc:`Tutorial <Users/Tutorial>`.
+.. note::
+
+  To contact us, always feel free to check our
+  :doc:`Getting In Touch<Developers/Getting_In_Touch>` page.
 
 What do I get?
 --------------
@@ -120,21 +115,25 @@ As a Developer
 ~~~~~~~~~~~~~~
 
 If you are not satisfied with the functionality given by the bears we
-provide, you can easily write own bears. coala is written with easiness
+provide, you can easily write your own bears. coala is written with easiness
 of extension in mind. That means: no big boilerplate, just write one
 small object with one routine, add the parameters you like and see how
 coala automates the organization of settings, user interaction and
 execution parallelization. You shouldn't need to care about anything
 else than just writing your algorithm!
 
-See :doc:`Writing Bears <Developers/Writing_Bears>` for more information on
-this.
+.. seealso::
+
+  Check out :doc:`Writing Bears <Developers/Writing_Bears>` for more
+  information on this.
 
 Also, coala provides an external API using the dbus message protocol.
 This allows other applications to easily use the code analysis
 functionalities coala provides in their applications.
 
-See :doc:`External APIs <Users/External_APIs>` for more information.
+.. seealso::
+
+  Check :doc:`External APIs <Users/External_APIs>` for more information.
 
 Status and Stability of the Project
 -----------------------------------
@@ -147,11 +146,5 @@ branches. Our master branch is continuously prereleased to our users so you can
 rely on the upcoming release being rock stable.
 
 If you want to see how the development progresses, check out
-
-https://github.com/coala-analyzer/coala
-
-Indices and tables
-------------------
-
-* :ref:`genindex`
-* :ref:`modindex`
+`coala <https://github.com/coala-analyzer/coala>`__ and
+`coala-bears <https://github.com/coala-analyzer/coala-bears>`__.
