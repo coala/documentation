@@ -1,9 +1,9 @@
-Writing a coala Configuration File (coafile)
-============================================
+Writing a coala Configuration File (coafile and coarc)
+======================================================
 
-This document gives a short introduction into the specification of a
-*coala* configuration file. It is meant to be rather factual, if you wish
-to learn by example, please take a look at the :doc:`Tutorials/Tutorial`.
+This document gives a short introduction to the specification of a
+coala configuration file. It is meant to be rather factual. If you wish
+to learn by example, please take a look at the :doc:`Tutorial`.
 
 Naming, Scope and Location
 --------------------------
@@ -108,6 +108,6 @@ Similarly, you can also set a value to multiple keys:
 ``key_2 = value`` in separate lines.
 
 As the backslash is the escape character it is recommended to use
-forward slashes as path separator even on windows (to keep relative
+forward slashes as path separator even on Windows (to keep relative
 paths platform independent), use double-backslashes if you really mean a
 backslash in all places.

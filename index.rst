@@ -26,7 +26,7 @@ Welcome to the coala documentation!
 
    Installing coala <Users/Install>
    Getting Started with coala <Users/Tutorial>
-   Writing a coala Configuration File (coafile) <Users/coafile>
+   Writing a coala Configuration File (coafile and coarc) <Users/coafile>
    Using Glob Patterns <Users/Glob_Patterns>
    Exit Codes <Users/Exit_Codes>
    External APIs <Users/External_APIs>
