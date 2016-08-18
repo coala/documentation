@@ -47,6 +47,7 @@ Welcome to the coala documentation!
    Writing Bears <Developers/Writing_Bears>
    Writing Linter Bears <Developers/Writing_Linter_Bears>
    Linter Bears - Suggesting Corrections <Developers/Self_Correcting_Bears>
+   External Bears <Developers/External_Bears>
    Testing Bears <Developers/Testing_Bears>
    Writing Tests <Developers/Writing_Tests>
    Writing Documentation <Developers/Writing_Documentation>
