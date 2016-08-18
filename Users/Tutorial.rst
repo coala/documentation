@@ -1,4 +1,4 @@
-coala Tutorial
+Getting Started with coala
 ================
 
 Welcome to this little tutorial. It is meant to be a gentle introduction

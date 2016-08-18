@@ -1,4 +1,4 @@
-﻿coala Installation
+﻿Installing coala
 ==================
 
 This page will run you through the installation of coala. coala currently

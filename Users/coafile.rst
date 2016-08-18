@@ -1,5 +1,5 @@
-The .coafile Specification
-==========================
+Writing a coala Configuration File (coafile)
+============================================
 
 This document gives a short introduction into the specification of a
 *coala* configuration file. It is meant to be rather factual, if you wish
