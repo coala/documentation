@@ -13,7 +13,7 @@ Coverage Installation Hints for OSX Users:
     $ brew install python3
     $ python3 --version   # To check the installed version
 
-3. Create Virtual environments with pyvenv
+3. Create Virtual Environments with pyvenv
 ------------------------------------------
 
 ::
@@ -60,4 +60,3 @@ Finally!
 
     # Install python-coverage3 by
     $ easy_install coverage
-
