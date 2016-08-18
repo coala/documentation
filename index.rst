@@ -25,46 +25,40 @@ Welcome to the coala documentation!
    :hidden:
 
    Installing coala <Users/Install>
-   Getting Started with coala <Users/Tutorials/Tutorial>
+   Getting Started with coala <Users/Tutorial>
    Writing a coala Configuration File (coafile) <Users/coafile>
    Using Glob Patterns <Users/Glob_Patterns>
    Exit Codes <Users/Exit_Codes>
    External APIs <Users/External_APIs>
-   Adding coala as a Git Hook <Users/Git_Hooks>
-   Shell Autocompletion <Users/Tutorials/Shell_Autocompletion>
-   coala as a Docker Image <Users/Container>
+   Adding coala as a Git Hook <Users/coala_as_Git_Hook>
+   Shell Autocompletion <Users/Shell_Autocompletion>
+   coala as a Docker Image <Users/Docker_Image>
 
 .. toctree::
    :caption: For Developers
    :hidden:
 
-   Newcomers' Guide <Getting_Involved/Newcomers>
-   Writing Good Commit Messages <Getting_Involved/Writing_Good_Commits>
-   Codestyle <Getting_Involved/Codestyle>
-   Git Basics <Users/Tutorials/Git_Help>
-   Review <Getting_Involved/Review>
-   How To Get In Touch With Us <Getting_Involved/README>
-   Development Setup <Users/Tutorials/Development_Setup>
-   Writing Bears <Users/Tutorials/Writing_Bears>
-   Writing Linter Bears <Users/Tutorials/Linter_Bears>
-   Linter Bears - Suggesting Corrections <Users/Tutorials/Self_Correcting_Bears>
-   Testing Bears <Users/Tutorials/Testing_Bears>
-   Writing Tests <Getting_Involved/Writing_Tests>
-   Writing Documentation <Getting_Involved/Writing_Documentation>
-   Executing Tests <Getting_Involved/Testing>
+   Newcomers' Guide <Developers/Newcomers_Guide>
+   Writing Good Commit Messages <Developers/Writing_Good_Commits>
+   Codestyle <Developers/Codestyle>
+   Git Basics <Developers/Git_Basics>
+   Review <Developers/Review>
+   How To Get In Touch With Us <Developers/Getting_In_Touch>
+   Development Setup <Developers/Development_Setup>
+   Writing Bears <Developers/Writing_Bears>
+   Writing Linter Bears <Developers/Writing_Linter_Bears>
+   Linter Bears - Suggesting Corrections <Developers/Self_Correcting_Bears>
+   Testing Bears <Developers/Testing_Bears>
+   Writing Tests <Developers/Writing_Tests>
+   Writing Documentation <Developers/Writing_Documentation>
+   Executing Tests <Developers/Executing_Tests>
 
 .. toctree::
    :caption: Help
    :hidden:
 
-   Frequently Asked Questions <Users/FAQ>
-   MAC Hints <Getting_Involved/MAC_Hints>
-
-.. toctree::
-   :caption: API Documentation
-   :hidden:
-
-   List of Modules (Generated)<API/modules>
+   Frequently Asked Questions <Help/FAQ>
+   MAC Hints <Help/MAC_Hints>
 
 You might also want to look at `our website <http://coala-analyzer.org/>`_.
 
@@ -108,7 +102,7 @@ To see what coala can do for you and your language, take a look at
 
 To get started, take a look at our :doc:`Installation
 Instructions <Users/Install>` and the
-:doc:`Tutorial <Users/Tutorials/Tutorial>`.
+:doc:`Tutorial <Users/Tutorial>`.
 
 What do I get?
 --------------
@@ -133,7 +127,7 @@ coala automates the organization of settings, user interaction and
 execution parallelization. You shouldn't need to care about anything
 else than just writing your algorithm!
 
-See :doc:`Writing Bears <Users/Tutorials/Writing_Bears>` for more information on
+See :doc:`Writing Bears <Developers/Writing_Bears>` for more information on
 this.
 
 Also, coala provides an external API using the dbus message protocol.
