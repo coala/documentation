@@ -141,6 +141,12 @@ Now there's two possibilities:
     and has labeled it ``process/wip``. Else, if you push again and his comments
     disappear, it can be considered rude.
 
+.. note::
+
+    You might be wondering what those CI things on your ``Pull Request`` are.
+    For more detailed info about them, see
+    :doc:`this page <../Help/FAQ>`.
+    
 It's highly unlikely that your ``Pull Request`` will be accepted on the first
 attempt - but don't worry, that's just how it works. It helps us maintain
 coala **clean** and **stable**.
