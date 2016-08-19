@@ -1,5 +1,5 @@
 Getting Started with coala
-================
+==========================
 
 Welcome to this little tutorial. It is meant to be a gentle introduction
 to the usage of coala.
