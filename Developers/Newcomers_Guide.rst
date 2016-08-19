@@ -1,13 +1,13 @@
 .. _newcomer-guide:
 
-Welcome to the Newcomers guide!
+Welcome to the Newcomers Guide!
 ===============================
 
-This guide will help you to get involved and teach you how to make your first
-contribution to *coala*!
+This is a step-based guide that will help you get your first contribution
+at coala!
 
-Meet the community!
--------------------
+Step 1. Meet the Community!
+---------------------------
 
 To get started, the first step is to meet the community. We use gitter to
 communicate, and there the helpful community will guide you.
@@ -17,10 +17,10 @@ because we care!
 
 **Congratulations!** You are now part of our community.
 
-Start working
--------------
+Step 2. Grab an Invitation to the Organization
+----------------------------------------------
 
-Let us know that you are interested in contributing on gitter and ask for an
+Let us know on gitter that you are interested in contributing and ask for an
 invitation to our org. This is your first step towards contributing.
 The invitation will be sent by mail and you will have to accept
 it to join. If you don't find the invitation, accept it `here <https://github.com/coala-analyzer>`_.
@@ -28,20 +28,24 @@ it to join. If you don't find the invitation, accept it `here <https://github.co
 Now that you are part of our organization, you can start working on issues.
 If you are familiar with git, you can skip the next section and pick an issue.
 
-
-Get help with git
------------------
+Optional. Get Help With Git
+---------------------------
 
 We use GitHub to manage our repository. If you're not familiar with git, we
 strongly recommend following a tutorial, such as `this one <https://try.github.io/levels/1/challenges/1>`_.
 
+We also have a page dedicated to git commands that will help you learn the
+basics,
+:doc:`here <Git_Basics>`.
+
 If there's anything unclear, or you are encountering problems, feel free
-to contact us on gitter, and we will help you!
+to contact us on `gitter <https://gitter.im/coala-analyzer/coala/>`_,
+and we will help you!
 
-Picking up an issue
--------------------
+Step 3. Picking Up an Issue
+---------------------------
 
-Now is the time to pick an issue.
+Now it is time to pick an issue.
 Here is the link that will lead you to `Newcomers issues <http://tinyurl.com/coala-new>`_.
 
 .. seealso::
@@ -49,26 +53,36 @@ Here is the link that will lead you to `Newcomers issues <http://tinyurl.com/coa
     For more information about what bears are, please check the following link: `Writing bears <http://coala.readthedocs.org/en/latest/Users/Tutorials/Writing_Bears.html>`_
 
 The easy issues that will help you get started are labeled as
-"difficulty/newcomer" and are only there to give you a glimpse of how it is
-to work with us.
+``difficulty/newcomer`` and are only there to give you a glimpse of how it is
+to work with us and regarding the workflow.
 
 Now pick an issue which isn't assigned, and if you want to fix
 it, then leave a comment that you would like to get assigned. This way
 we don't have multiple people working on the same issue at the same time.
 Now you can start working on it.
-For more info on how to work correctly with git, try `this <http://coala.readthedocs.org/en/latest/Users/Tutorials/Git_Help.html>`_.
 
 .. note::
 
     Before starting to write your first commit, check out this link:
-    `Writing good commits <http://coala.readthedocs.org/en/latest/Getting_Involved/Writing_Good_Commits.html>`_
+    :doc:`Writing good commits <Writing_Good_Commits>`.
 
-Things to do before pushing
----------------------------
+Step 4. Creating a Fork and Testing Your Changes
+------------------------------------------------
+
+This tutorial implies you working on your fork. To fork the repository, go
+to the official repository of coala/coala-bears and click on the ``Fork``
+button from the website interface. To add it locally, simply run:
+
+::
+
+    $ git remote add myfork fork_link
+
+where ``myfork`` is the name of your fork, and ``fork_link`` is a link to your
+fork repository.
 
 Now you need to make sure your change is actually working. For this, you will
 need to test it locally before pushing it to your fork, and checking it with
-concrete examples. So basically, run tests and run *coala* by simply typing
+concrete examples. So basically, run tests and run coala by simply typing
 
 ::
 
@@ -80,18 +94,20 @@ into your bash. This will analyze your code and help you fix it.
 
     `Executing tests <http://coala.readthedocs.org/en/latest/Getting_Involved/Testing.html>`_
 
-Sending your changes
---------------------
+Step 5. Sending Your Changes
+----------------------------
 
 Now that you've fixed the issue, you've tested it and you think it is ready
-to be used, create a commit and push it to your fork, using:
+to be merged, create a commit and push it to your fork, using:
 
 ::
 
-    $ git push origin fix-branch
+    $ git push myfork
 
-Creating a ``Pull Request``
----------------------------
+where ``myfork`` is the name of your fork that you added at the previous step.
+
+Step 6. Creating a ``Pull Request``
+-----------------------------------
 
 Now that your commit has been sent to your fork, it is time
 to do a ``Pull Request``. It can be done by accessing your fork on GitHub and
@@ -99,30 +115,41 @@ clicking ``New Pull Request``.
 
 **Congratulations!** You have now created your first ``Pull Request``!
 
-If you know you have more work to do on this pull request before it is
+If you know you have more work to do on this ``Pull Request`` before it is
 ready to be accepted, you can optionally indicate this to other
-developers by starting your pull request title with "wip"
+developers by starting your ``Pull Request`` title with ``wip``
 (case-insensitive).
 
-What to do after creating a ``Pull Request``
---------------------------------------------
+Step 7. Review Process
+----------------------
 
-After creating your ``Pull Request``, there's two options:
+After creating your ``Pull Request``, it is under the review process. This can
+be deduced from the ``process/pending review`` label. Now all you have to do
+is wait, or let the other developers know on Gitter that you have published
+your changes.
 
-- your ``Pull Request`` gets accepted, and your commit will get merged into the
+Now there's two possibilities:
+
+- your ``Pull Request`` gets accepted, and your commits will get merged into the
   master branch
 - your ``Pull Request`` doesn't get accepted, and therefore you will
   need to to modify it as per the review comments
 
+.. note::
+
+    Wait until the reviewer has already reviewed your whole Pull Request
+    and has labeled it ``process/wip``. Else, if you push again and his comments
+    disappear, it can be considered rude.
+
 It's highly unlikely that your ``Pull Request`` will be accepted on the first
 attempt - but don't worry, that's just how it works. It helps us maintain
-*coala* **clean** and **stable**.
+coala **clean** and **stable**.
 
 .. seealso::
 
     `Review Process <http://coala.readthedocs.org/en/latest/Getting_Involved/Review.html>`_.
 
-Now if you need to modify your code, you can simply edit it again, add it and
+Now, if you need to modify your code, you can simply edit it again, add it and
 commit it using
 
 ::
@@ -140,8 +167,14 @@ and send it. You have successfully edited your last commit!
 
 ::
 
-    $ git push --force origin
+    $ git push --force myfork
 
 **Congratulations!** Your PR just got accepted! You're awesome.
-Now try `writing a bear <http://coala.readthedocs.org/en/latest/Users/Tutorials/Writing_Bears.html>`_,
+Now you should go for
+`a low issue <tinyurl.com/coala-low>`__,
 they are really rewarding!
+
+.. note::
+
+    If you need help picking up an issue, you can always ask us and we'll help
+    you!
