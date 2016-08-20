@@ -52,9 +52,9 @@ Getting to work
 ---------------
 
 First let's talk about remotes. To communicate with the outside world, git uses
-what are called remotes. These are repositories other than the one on your local
-disk which you can push your changes into (so that other people can see them) or
-pull from (so that you can get others changes).
+what are called remotes. These are repositories other than the one on your
+local disk which you can push your changes into (so that other people can see
+them) or pull from (so that you can get others changes).
 Now you should add a remote to your local machine so that you can ``pull`` and
 ``push`` your commits. This can be simply done by using the command:
 
@@ -143,8 +143,8 @@ parts. They should have a newline between them.
 
 - **The issue that is being fixed**
 
-  This part will usually have "Fixes <issue_link>", so the issue gets referenced
-  on GitHub.
+  This part will usually have "Fixes <issue_link>", so the issue gets
+  referenced on GitHub.
 
 .. seealso::
 
@@ -270,11 +270,11 @@ your commits run the following command:
     master is the SHA1 hash of the commit before which you want to squash all
     the commits and make sure that rebase is done onto master branch.
 
-An editor will be fired up with all the commits in your current branch (ignoring
-merge commits), which come after the given commit. Keep the first one as "pick"
-and on the second and subsequent commits with "squash". After saving, another
-editor will be fired up with all the messages of commits which you want to
-squash. Clean up all the messages and add a new message which you want to be
+An editor will be fired up with all the commits in your current branch
+(ignoring merge commits), which come after the given commit. Keep the first one
+as "pick" and on the second and subsequent commits with "squash". After saving,
+another editor will be fired up with all the messages of commits which you want
+to squash. Clean up all the messages and add a new message which you want to be
 displayed for the single commit.
 
 Useful Git commands
@@ -340,11 +340,11 @@ repository. Here <branch> is the name of the branch you want to switch to.
     $ git rebase
 
 Rebasing is the process of moving a branch to a new base commit. From a content
-perspective, rebasing really is just moving a branch from one commit to another.
-But internally, Git accomplishes this by creating new commits and applying them
-to the specified base—it’s literally rewriting your project history. It’s very
-important to understand that, even though the branch looks the same, it’s
-composed of entirely new commits.
+perspective, rebasing really is just moving a branch from one commit to
+another. But internally, Git accomplishes this by creating new commits and
+applying them to the specified base—it’s literally rewriting your project
+history. It’s very important to understand that, even though the branch looks
+the same, it’s composed of entirely new commits.
 
 
 ::
