@@ -5,11 +5,8 @@ Bears That Can Suggest And Make Corrections
 <http://coala.readthedocs.org/en/latest/Users/Tutorials/Linter_Bears.html>`_
 before reading this.
 
-**Warning**: This tutorial uses the deprecated ``Lint`` object. Please use
-``linter`` instead, it works similar. We will update this soon.
-
 Some executables (like ``indent`` or ``autopep8``) can generate a corrected
-file from the original. We can use such executables so that *coala*, using
+file from the original. We can use such executables so that coala, using
 these bears, can suggest and also make automatic corrections. Here's an
 example bear. (GNUIndentBear)
 
@@ -17,54 +14,59 @@ example bear. (GNUIndentBear)
 
     import platform
 
-    from coalib.bearlib.abstractions.Lint import Lint
-    from coalib.bearlib.spacing.SpacingHelper import SpacingHelper
-    from coalib.bears.LocalBear import LocalBear
+    from coalib.bearlib.abstractions.Linter import linter
+    from coalib.bearlib import deprecate_settings
 
 
-    class GNUIndentBear(Lint, LocalBear):
-        executable = "indent" if platform.system() != "Darwin" else "gindent"
-        diff_message = "Indentation can be improved."
-        use_stdin = True
-        gives_corrected = True
+    @linter(executable="indent" if platform.system() != "Darwin" else "gindent",
+        use_stdin=True,
+        output_format='corrected',
+        result_message="Indentation can be improved.")
+    class GNUIndentBear:
+        """
+        This bear checks and corrects spacing and indentation via the well known
+        Indent utility.
+        """
 
-        def run(self,
-                filename,
-                file,
-                max_line_length: int=80,
-                use_spaces: bool=True,
-                tab_width: int=SpacingHelper.DEFAULT_TAB_WIDTH,
-                indent_cli_options: str=''):
-            """
-            This bear checks and corrects spacing and indentation via the well
-            known Indent utility. It is designed to work with the C programming
-            language but may work reasonably with syntactically similar
-            languages.
+    @staticmethod
+    @deprecate_settings(indent_size='tab_width')
+    def create_arguments(filename, file, config_file,
+                         max_line_length: int=79,
+                         use_spaces: bool=True,
+                         blank_lines_after_declarations: bool=False,
+                         blank_lines_after_procedures: bool=False,
+        """
+        :param max_line_length:
+            Maximum number of characters for a line.
+        :param use_spaces:
+            True if spaces are to be used, else tabs.
+        :param blank_lines_after_declarations:
+            Forces blank lines after the declarations.
+        :param blank_lines_after_procedures:
+            Force blank lines after procedure bodies.
+        :param blank_lines_after_commas:
+            Forces newline after comma in declaration.
+        """
 
-            :param max_line_length:    Maximum number of characters for a line.
-            :param use_spaces:         True if spaces are to be used, else
-                                       tabs.
-            :param tab_width:          Number of spaces per indent level.
-            :param indent_cli_options: Any command line options the indent
-                                       binary understands. They will be simply
-                                       passed through.
-            """
-            self.arguments = "--no-tabs" if use_spaces else "--use-tabs"
-            self.arguments += (" --line-length {0} --indent-level {1} "
-                               "--tab-size {1} {2}".format(max_line_length,
-                                                           tab_width,
-                                                           indent_cli_options))
-            return self.lint(filename, file)
+        indent_options = ("--no-tabs" if use_spaces else "--use-tabs",
+                      "--line-length", str(max_line_length),
+                      "--indent-level", str(indent_size),
+                      "--tab-size", str(indent_size), )
+        indent_options += (("--blank-lines-after-procedures",)
+                          if blank_lines_after_procedures else ("-nbap",))
+        indent_options += (("--blank-lines-after-declarations",)
+                           if blank_lines_after_declarations else ("-nbad",))
+        return (indent_options,)
 
 
 In the example above, the important line is:
 
 ::
 
-    gives_corrected = True
+    output_format = 'corrected'
 
-This tells the ``Lint`` class that this bear can suggest corrections. When we
-do this, internally a ``diff`` of the original file and the generated
+This tells the ``linter`` decorator that this bear can suggest corrections.
+When we do this, internally a ``diff`` of the original file and the generated
 'corrected file' along with some other not-important-for-this-tutorial magic
 is used to get the final output (which may be suggestions or
 auto-corrections).
