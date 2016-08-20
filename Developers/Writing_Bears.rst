@@ -18,7 +18,7 @@ directory of the coala-tutorial repository.
 .. note::
 
     If you want to wrap an already existing tool, please refer to
-    :doc:`this tutorial instead<Linter_Bears>`.
+    :doc:`this tutorial instead<Writing_Linter_Bears>`.
 
 What is a bear?
 ---------------
