@@ -1,7 +1,9 @@
-Introduction
-============
+How To Write a Good Commit Message
+==================================
 
-At *coala* we are looking heavily at the maintainability of the code.
+At coala we are looking heavily at the maintainability of the code.
+
+.. note::
 
     Code is more often read than written!
 
@@ -12,28 +14,31 @@ better.
 What Makes a Good Commit
 ------------------------
 
-A good commit is atomic. It describes but only one logical change and
-not more. Why do we do that? Because we find more bugs if we do! Also it
-features a good commit message.
+A good commit is atomic. It should describe only one change and not more.
+
+Why? Because we may create more bugs if we had more changes per commit.
 
 How to Write Good Commit Messages
 ---------------------------------
 
-A commit message consists of 3 parts - The shortlog (short description),
-the long description and the issue reference. There should have an empty
-line between each section.
+A commit message consists of 3 parts:
+
+- the shortlog
+- the commit body
+- the issue reference
+
+Example:
 
 ::
 
-    This is the shortlog - one line only
+    setup.py: Change bears' entrypoint
 
-    This is the long description which can extend to multiple lines
-    of text.
+    This entrypoint ensures that coala discovers
+    the bears correctly.
+    It helps not writing more functions inside
+    ``coalib`` for this.
 
-    And can have multiple paragraphs which explain things in more
-    detail too.
-
-    Next is the issue reference
+    Fixes https://github.com/coala-analyzer/coala/issues/5861
 
 Shortlog
 ~~~~~~~~
@@ -60,8 +65,8 @@ Example:
         ``Adding something`` or ``Added something``).
       - No trailing period.
 
-Long Description
-~~~~~~~~~~~~~~~~
+Commit Body
+~~~~~~~~~~~
 
 Example:
 
@@ -77,6 +82,7 @@ Example:
 -  Should describe the reasoning for your changes. This is especially
    important for complex changes that are not self explanatory. This is also
    the right place to write about related bugs.
+-  First person should not be used here
 
 Issue reference
 ~~~~~~~~~~~~~~~
@@ -87,8 +93,8 @@ Example:
 
     Fixes https://github.com/coala-analyzer/coala/issues/269
 
--  Should use the ``Fixes`` or the ``Closes`` keyword, depending if it is a bug
-   or a feature request that is closed.
+-  Should use the ``Fixes`` keyword if your commit fixes a bug, or ``Closes``
+   if it adds a feature/enhancement.
 -  Should use full URL to the issue.
 -  There should be a single space between the ``Fixes`` or ``Closes`` and the
    URL.
@@ -98,14 +104,15 @@ Example:
     -  The issue reference will automatically add the link of the commit in
        the issue.
     -  It will also automatically close the issue when the commit is
-       accepted into *coala*.
+       accepted into coala.
 
 .. seealso::
 
     https://wiki.gnome.org/Git/CommitMessages
 
-Example
-~~~~~~~
+More Examples
+-------------
+
 Example 1 (fixed bug):
 ::
 
