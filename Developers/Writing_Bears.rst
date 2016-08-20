@@ -30,7 +30,7 @@ or where it goes.
 There are two kinds of bears:
 
 - LocalBears, which only perform analysis on each file itself
-- GlobalBears, which are project wide
+- GlobalBears, which are project wide, like the GitCommitBear
 
 A bear can communicate with the user via two ways:
 

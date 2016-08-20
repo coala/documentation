@@ -242,9 +242,9 @@ Installation Errors
 -------------------
 
 In case you are getting
-``ValueError:('Expected version spec in', 'appdirs ~=1.4.0', 'at', ' ~=1.4.0')``,
-then don't panic. It happens when you are using an outdated version of pip
-that doesn't support our version specifiers yet.
+``ValueError:('Expected version spec in', 'appdirs ~=1.4.0', 'at',
+' ~=1.4.0')``, then don't panic. It happens when you are using an outdated
+version of pip that doesn't support our version specifiers yet.
 
 
     Ideally, you have to create a virtual environment with a newer pip:
