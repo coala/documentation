@@ -24,7 +24,7 @@ our :ref:`newcomers' guide <newcomer-guide>` to familiarize yourself with our
 workflow, and perhaps with GitHub itself.
 
 You will most likely need to work only in the ``coala`` or ``coala-bears``
-repository. The former is the core of *coala*, and the latter contains the set
+repository. The former is the core of coala, and the latter contains the set
 of standard bears. You can fork and clone the repositories from:
 
 https://github.com/coala-analyzer/coala
@@ -63,5 +63,5 @@ You will need to install the following packages to build the documentation:
     (venv)$ pip3 install sphinx sphinx_rtd_theme
 
 Once you have done so, you can build the documentation by entering the docs
-directory and running ``make``. The documentation on the *coala* website is in
+directory and running ``make``. The documentation on the coala website is in
 the ``coala`` (not ``coala-bears``) repository.
