@@ -7,8 +7,8 @@ than Python.
 
 .. note::
 
-  This tutorial assumes that you already know the basics. If you are new, please
-  refer to the
+  This tutorial assumes that you already know the basics. If you are new,
+  please refer to the
   :doc:`Writing Bears<Writing_Bears>` section.
 
   If you are planning to create a bear that uses an already existing tool (aka
@@ -54,9 +54,9 @@ in order to generate the wrapper for the bear.
 Writing a Bear in C++
 ---------------------
 
-The bear that will be created with this tutorial will check whether there is any
-**coala** spelled with a capital ``C`` since that is a horrible mistake for one
-to make.
+The bear that will be created with this tutorial will check whether there is
+any **coala** spelled with a capital ``C`` since that is a horrible mistake for
+one to make.
 
 1. Create a new directory and make it your current working directory.
 2. Run ``coala-bears-create`` as mentioned above in order to create the wrapper
@@ -67,9 +67,11 @@ to make.
    the bear name. Use ``coalaCheckBear`` for the bear name and
    ``coalaCheck_cpp`` for the executable name.
 4. The rest of the questions are not important (languages, developer name and
-   contact info, license, etc) to the tutorial and you can go with the defaults.
+   contact info, license, etc) to the tutorial and you can go with the
+   defaults.
    When you are prompted about ``settings`` answer ``no`` (default). After the
-   script is finished running there should be 2 files in your current directory:
+   script is finished running there should be 2 files in your current
+   directory:
    ``coalaCheckBear.py`` (the wrapper) and ``coalaCheckBearTest.py``.
 5. This tutorial will not focus on testing so ignore the second file for now.
    The wrapper should look similar to the code block presented below. Some code
@@ -270,15 +272,15 @@ to make.
     }
 
 13. After building the executable it has to be added it to the ``PATH`` env
-    variable. It is possible to modify the wrapper and give there the full path.
-    Add the current directory to the ``PATH`` like so:
+    variable. It is possible to modify the wrapper and give there the full
+    path. Add the current directory to the ``PATH`` like so:
 
 ::
 
     $ export PATH=$PATH:$PWD
 
-The last step is to test if everything is working properly. This is the testfile
-used in this tutorial (
+The last step is to test if everything is working properly. This is the
+testfile used in this tutorial (
 `testfile <https://raw.githubusercontent.com/Redridge/coalaCheckBear-cpp/master/testfile>`__).
 
 14. Execute the Bear by running:
@@ -304,8 +306,8 @@ uses a script that needs another binary to run (e.g. python, bash, node).
 
 .. note::
 
-  This tutorial uses ``node v6.2.2``. It should work with older versions too but
-  we suggest that you update.
+  This tutorial uses ``node v6.2.2``. It should work with older versions too
+  but we suggest that you update.
 
 When another binary is needed to run the source code, the ``create_arguments``
 method comes in handy.
@@ -314,7 +316,8 @@ method comes in handy.
    (so that the command becomes ``node coalaCheck.js``).
 
 The ``create_arguments`` method returns a tuple so if only one
-argument is added then a comma has to be used at the end (e.g. ``(one_item,)``).
+argument is added then a comma has to be used at the end
+(e.g. ``(one_item,)``).
 
 .. note::
 
@@ -471,9 +474,9 @@ argument is added then a comma has to be used at the end (e.g. ``(one_item,)``).
 In order to run this Bear there is no need to add the source code to the path
 because the binary being run is ``node``. Although there is a problem: the
 argument supplied will be looked up only in the current directory. To fix this
-you can add the full path of the ``.js`` file in the argument list. In this case
-just run the bear from the same directory as ``coalaCheck.js``. The code for
-this example can be found
+you can add the full path of the ``.js`` file in the argument list. In this
+case just run the bear from the same directory as ``coalaCheck.js``. The code
+for this example can be found
 `here <https://github.com/Redridge/coalaCheckBear-js>`__.
 
 The JSON Spec

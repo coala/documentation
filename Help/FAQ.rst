@@ -13,9 +13,9 @@ is well visualizable, it's easy to memorize.
 Is there corporate backing behind coala? What are your intentions?
 ------------------------------------------------------------------
 
-coala was founded for fun. coala was, is and will always be free software and is
-developed mostly by students and there's no corporate interest and no CLA. If
-you want to back us, contact us on our
+coala was founded for fun. coala was, is and will always be free software and
+is developed mostly by students and there's no corporate interest and no CLA.
+If you want to back us, contact us on our
 `gitter channel <https://gitter.im/coala-analyzer/coala>`__.
 
 What sort of analysis does coala do? What languages are supported?
@@ -71,8 +71,8 @@ our master branch. Right now we use 7 of those checks:
   of them, the status will still be failed, so be careful to run ``$ coala``
   before making each commit.
 
-- **review/gitmate/manual** This one is the only one that is manual, this can be
-  given by any coala member and shows that the commit has been reviewed and
+- **review/gitmate/manual** This one is the only one that is manual, this can
+  be given by any coala member and shows that the commit has been reviewed and
   has no problems, so it is ready to be merged. It can be done by commenting
   ``ack commit_sha``. For more information about the whole process, we have
   it all documented

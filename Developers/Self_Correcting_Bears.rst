@@ -18,14 +18,15 @@ example bear. (GNUIndentBear)
     from coalib.bearlib import deprecate_settings
 
 
-    @linter(executable="indent" if platform.system() != "Darwin" else "gindent",
+    @linter(executable="indent" if platform.system() != "Darwin"
+                                  else "gindent",
         use_stdin=True,
         output_format='corrected',
         result_message="Indentation can be improved.")
     class GNUIndentBear:
         """
-        This bear checks and corrects spacing and indentation via the well known
-        Indent utility.
+        This bear checks and corrects spacing and indentation via
+        the well known Indent utility.
         """
 
     @staticmethod

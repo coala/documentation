@@ -130,23 +130,23 @@ your changes.
 
 Now there's two possibilities:
 
-- your ``Pull Request`` gets accepted, and your commits will get merged into the
-  master branch
+- your ``Pull Request`` gets accepted, and your commits will get merged into
+  the master branch
 - your ``Pull Request`` doesn't get accepted, and therefore you will
   need to to modify it as per the review comments
 
 .. note::
 
     Wait until the reviewer has already reviewed your whole Pull Request
-    and has labeled it ``process/wip``. Else, if you push again and his comments
-    disappear, it can be considered rude.
+    and has labeled it ``process/wip``. Else, if you push again and his
+    comments disappear, it can be considered rude.
 
 .. note::
 
     You might be wondering what those CI things on your ``Pull Request`` are.
     For more detailed info about them, see
     :doc:`this page <../Help/FAQ>`.
-    
+
 It's highly unlikely that your ``Pull Request`` will be accepted on the first
 attempt - but don't worry, that's just how it works. It helps us maintain
 coala **clean** and **stable**.
