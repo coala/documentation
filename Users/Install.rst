@@ -10,7 +10,7 @@ Installing Python and Pip
 In order to use coala, you need Python installed. In order to do so, you should
 install Python >= 3.4 from `here <https://www.python.org/downloads/>`_.
 
-The easiest way to install *coala* is using pip (Pip Installs Packages).
+The easiest way to install coala is using pip (Pip Installs Packages).
 If you don't already have pip, you can install it like described in the
 `pip installation guide <https://pip.pypa.io/en/stable/installing.html>`_.
 
@@ -108,7 +108,7 @@ the corresponding environment.
 
         $ venv\scripts\activate
 
-Finally, you should install *coala* and the supported bears inside the activated
+Finally, you should install coala and the supported bears inside the activated
 virtualenv with:
 
 ::
