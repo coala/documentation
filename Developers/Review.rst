@@ -1,29 +1,52 @@
 Reviewing
 =========
 
-This document is a guide to *coala*'s review process. It will be extended
-over time.
+This document is a guide to coala's review process.
 
-Review Process
---------------
+Manual Review Process
+---------------------
 
-The review process for *coala* is as follows:
+The review process for coala is as follows:
 
-1. Anyone can submit commits for review. This usually happens on WIP
-   branches, submitting goes via GitHub Pull Requests.
-2. A reviewer reviews every commit by its own and validates that every
-   commit is a good change and does not destroy anything.
-3. If a commit does not fulfill the expectations of the reviewer, go to
-   step one.
-4. If the commits are not linearly mergeable into master, rebase and go
+1. Anyone can submit commits for review. There are submitted via Pull Requests
+   on Github.
+2. After a Pull Request has been created, another developer shall be
+   assigned to review the Pull Request. In order for this to be done properly,
+   the case of assignment should be asked on the main channel.
+3. The commits will undergo review of the developer that is assigned,
+   while other developers have the possibility of reviewing it as well.
+4. The Pull Request will be labeled with a ``process`` label:
+
+    - ``pending review`` the commit has just been pushed and is awaiting review
+    - ``wip`` the Pull Request has been marked as a ``Work in Progress`` by the
+      reviewers and has comments on it regarding how the commits shall be
+      changed
+    - ``approved`` the commits have been reviewed by the developers and they
+      are ready to be merged into the master branch
+
+5. The developers will acknowledge the commits by writing
+
+::
+
+    ack commit_SHA
+
+in case the commit is ready, or
+
+::
+
+    unack commit_SHA / commit_SHA needs work
+
+in case it is not ready yet and needs some more work.
+
+6. If the commits are not linearly mergeable into master, rebase and go
    to step one.
-5. All commits are acknowledged and fit linearly onto master. All
+7. All commits are acknowledged and fit linearly onto master. All
    continuous integration services (as described below) pass. Anyone
    with collaborator permission may leave the ``@rultor merge`` command
    to get the PR merged automatically.
 
-Continous Integration
----------------------
+Automated Review Process
+------------------------
 
 It is only allowed to merge a pull request into master if all of the
 following apply:
@@ -39,7 +62,7 @@ avoided. Tests must work for every commit.
 Continuous integration is always done for the last commit on a pull
 request.
 
-Reviewing Commits
+For the Reviewers
 -----------------
 
 -  Generated code is not intended to be reviewed. Instead rather try to
@@ -55,9 +78,9 @@ Reviewing Commits
    consistent.
 -  Check the commit message.
 -  Take a look at continuous integration results in the end even if they
-   pass:
+   pass.
 -  Coverage shall not fall.
--  Scrutinizer oftentimes yields helpful results.
+-  Scrutinizer often yields helpful results.
 
 As you perform your review of each commit, please make comments on the
 relevant lines of code in the GitHub pull request.  After performing your
