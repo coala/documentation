@@ -143,7 +143,7 @@ Pylint!
 Using Severities
 ----------------
 
-*coala* uses three types of severities, that categorize the importance of a
+coala uses three types of severities, that categorize the importance of a
 result:
 
 -  INFO
@@ -171,7 +171,7 @@ named group ``severity``:
 So we want to take up the severities denoted by the letters ``W``, ``F``,
 ``E``, ``C``, ``R`` or ``I``. In order to use this severity value, we will
 first have to provide a map that takes the matched severity letter and maps it
-to a severity value of ``coalib.results.RESULT_SEVERITY`` so *coala*
+to a severity value of ``coalib.results.RESULT_SEVERITY`` so coala
 understands it. This is possible via the ``severity_map`` parameter of
 ``@linter``:
 
@@ -201,7 +201,7 @@ We can test our bear like this
 
     In order for the above command to work we should have 2 files in
     our current dir: ``PylintTutorialBear.py`` and our ``sample.py``.
-    Naming is **very** important in *coala*. *coala* will look for bears
+    Naming is **very** important in coala. coala will look for bears
     by their **filename** and display them based on their
     **classname**.
 
@@ -288,7 +288,7 @@ documentation together with the metadata attributes:
 
 .. note::
 
-    The documentation of the param is parsed by *coala* and it will be used
+    The documentation of the param is parsed by coala and it will be used
     as help to the user for that specific setting.
 
 Finished Bear
@@ -350,7 +350,7 @@ By running
 
     $ coala --bear-dirs=. --bears=PylintTutorialBear -B
 
-We can see that our Bear setting is documented properly. To use *coala*
+We can see that our Bear setting is documented properly. To use coala
 with our Bear on `sample.py` we run
 
 ::
