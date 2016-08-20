@@ -4,14 +4,14 @@ Development Setup Notes
 =======================
 
 The following are some useful notes for setting up an environment to work on
-*coala*.
+coala.
 
 Virtualenv
 ----------
 
-We highly recommend installing *coala* in a virtualenv for development. This
-will allow you to have a contained environment in which to modify *coala*,
-separate from any other installation of *coala* that you may not want to
+We highly recommend installing coala in a virtualenv for development. This
+will allow you to have a contained environment in which to modify coala,
+separate from any other installation of coala that you may not want to
 break. For more information about virtualenvs, please refer to the
 :ref:`virtualenv setup <venv-setup>` section for information on setting one
 up.
@@ -19,7 +19,7 @@ up.
 Repositories
 ------------
 
-If you are interested in contributing to *coala*, we recommend that you read
+If you are interested in contributing to coala, we recommend that you read
 our :ref:`newcomers' guide <newcomer-guide>` to familiarize yourself with our
 workflow, and perhaps with GitHub itself.
 
@@ -33,7 +33,7 @@ https://github.com/coala-analyzer/coala-bears
 Installing from Git
 -------------------
 
-We recommend first installing the latest development snapshot of *coala*'s
+We recommend first installing the latest development snapshot of coala's
 master branch from and all of its dependencies with pip using
 
 ::
