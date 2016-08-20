@@ -47,7 +47,6 @@ Welcome to the coala documentation!
    Development Setup <Developers/Development_Setup>
    Writing Bears <Developers/Writing_Bears>
    Writing Linter Bears <Developers/Writing_Linter_Bears>
-   Linter Bears - Suggesting Corrections <Developers/Self_Correcting_Bears>
    External Bears <Developers/External_Bears>
    Testing Bears <Developers/Testing_Bears>
    Writing Tests <Developers/Writing_Tests>
