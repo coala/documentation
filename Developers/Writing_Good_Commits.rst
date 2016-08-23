@@ -23,9 +23,9 @@ How to Write Good Commit Messages
 
 A commit message consists of 3 parts:
 
-- the shortlog
-- the commit body
-- the issue reference
+- shortlog
+- commit body
+- issue reference
 
 Example:
 
