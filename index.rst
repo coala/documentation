@@ -39,6 +39,7 @@ Welcome to the coala documentation!
    :hidden:
 
    Newcomers' Guide <Developers/Newcomers_Guide>
+   Bear Installation Tool <Developers/Bear_Installation_Tool>
    Writing Good Commit Messages <Developers/Writing_Good_Commits>
    Codestyle <Developers/Codestyle>
    Git Basics <Developers/Git_Basics>
