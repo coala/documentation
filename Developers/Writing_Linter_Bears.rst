@@ -33,7 +33,7 @@ Writing the Bear
 ----------------
 
 To write a linter bear, we need to create a class that interfaces with our
-linter-bear infrastructure, that is provided via the ``@linter`` decorator.
+linter-bear infrastructure, which is provided via the ``@linter`` decorator.
 
 ::
 
@@ -143,7 +143,7 @@ Pylint!
 Using Severities
 ----------------
 
-coala uses three types of severities, that categorize the importance of a
+coala uses three types of severities that categorize the importance of a
 result:
 
 -  INFO
