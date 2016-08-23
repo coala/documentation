@@ -71,6 +71,18 @@ You can use these parameters to construct the command line arguments. The
 linter expects from you to return an argument sequence here. A tuple is
 preferred. We will do this soon for ``PylintTutorialBear``.
 
+.. note::
+
+    ``create_arguments`` doesn't have to be a static method. In this case you
+    also need to prepend ``self`` to the parameters in the signature. Some
+    functionality of ``@linter`` is only available inside an instance, like
+    logging.
+
+    ::
+
+        def create_arguments(self, filename, file, config_file):
+            self.log("Hello world")
+
 So which are the exact command line arguments we need to provide? It depends on
 the output format of the linter. The ``@linter`` decorator is capable of
 handling different output formats:
