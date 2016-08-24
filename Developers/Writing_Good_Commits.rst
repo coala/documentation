@@ -82,7 +82,7 @@ Example:
 -  Should describe the reasoning for your changes. This is especially
    important for complex changes that are not self explanatory. This is also
    the right place to write about related bugs.
--  First person should not be used here
+-  First person should not be used here.
 
 Issue reference
 ~~~~~~~~~~~~~~~
