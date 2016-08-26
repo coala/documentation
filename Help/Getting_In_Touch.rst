@@ -11,7 +11,8 @@ following things:
 -  Subscribe to our `mailing lists <https://github.com/coala-analyzer/coala/wiki/Mailing-Lists>`__.
 -  Open an issue. Whether you want a new feature for coala or you have found
    a bug, just file `an issue <https://github.com/coala-analyzer/coala/issues>`__
-   and we will check it out!
+   and we will check it out. In case of long discussion, you should create
+   a new issue with clearly defined task!
 -  Give us feedback. If you think we're doing something useless or something
    amazing, let us know by dropping a message on gitter or a mail on our
    mailing lists!
