@@ -227,17 +227,17 @@ So let's see how you could tell coala which Bears to run before yours:
             results = dependency_results[OtherBear.name]
 
         @staticmethod
-        def get_dependencies():
+        def BEAR_DEPS():
             return [OtherBear]
 
-As you can see we have a :meth:`~coalib.bears.Bear.Bear.get_dependencies`
+As you can see we have a :meth:`~coalib.bears.Bear.Bear.BEAR_DEPS`
 method which returns a list of bears we wish to depend on.
 In this case it is a list with 1 item: "OtherBear".
 
 .. note::
     The list must have classes of the bear itself, not the name as a string.
 
-coala searches for the ``get_dependencies`` function before executing
+coala searches for the ``BEAR_DEPS`` function before executing
 the ``DependentBear`` and runs all the Bears which are returned by it.
 
 After running these bears, coala gives all the results returned by the Bears
