@@ -12,28 +12,59 @@ To install the tool, simply run:
 
 ::
 
-    $ pip3 install coala-install
+    $ pip3 install cib
 
 Usage
 -----
-To use the tool, run
+
+
+To use the tool, you need to give it arguments.
+
+To install bears, simply run ``cib --install`` followed by names of bears,
+or by ``all``. Therefore:
 
 ::
 
-    $ coala-install
+    $ cib --install all
 
-and a question will pop-up. To install all the bears, simple type ``All``.
-If you want just a few bears, type ``Some``. Then, a list with all the
-bears, collected from PyPI, will pop up. You will now have to choose the bears
-you want to install, separated by commas, and along with the dependencies,
-the bears will install. To quit, simply type anything else.
+will install all the available bears, whereas
 
-The tool features syntax highlighting, which highlights the options that are
-in the given lists, and also autocompletion.
+::
 
-Developer Insight
------------------
+    $ cib --install CPPCheckBear PEP8Bear
 
-The tool gathers all the bear packages from PyPI using the one thing only they
-have in common: the coala website in the description. Then it generates a list,
-pops it up and installs all the packages.
+will install the specified bears only.
+``cib --uninstall`` works exactly the same way as ``cib --install``.
+
+To see the full list of available bears, run
+
+::
+
+    $ cib --show
+
+To upgrade the already installed bears, run
+
+::
+
+    $ cib --upgrade all
+
+to upgrade all installed bears, or
+
+::
+
+    $ cib --upgrade CPPCheckBear PEP8Bear
+
+to upgrade the specified bears. However, if they are not installed, they will
+not be upgraded.
+
+``cib`` also checks for bears' dependencies, using:
+
+::
+
+    $ cib --check-deps all
+
+For more information, run
+
+::
+
+    $ cib --help
