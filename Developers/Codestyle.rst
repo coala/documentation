@@ -12,7 +12,7 @@ Additional Style Guidelines
 Documentation Comments
 ~~~~~~~~~~~~~~~~~~~~~~
 
-A documentation comment consists of 2 parts, splitted by a newline:
+A documentation comment consists of 2 parts split by a newline:
 
 - the description of what it does
 - a list of the parameters it takes in and their descriptions, the return
