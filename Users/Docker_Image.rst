@@ -4,6 +4,13 @@ coala as a Docker Image
 We provide a ``coala/base`` docker image for your convenience, that has
 dependencies for most official bears already installed.
 
+You can use the ``coala/base`` docker image to perform static code analysis
+on your code in the working directory, like this:
+
+::
+
+    docker run --volume=$(pwd):/app --workdir=/app coala/base coala-ci
+
 .. seealso::
   See also https://hub.docker.com/r/coala/base/.
 
@@ -45,3 +52,20 @@ for the ``gitlab-ci-multi-runner`` runner:
 Please be aware that the most generic ``dns`` setting listed in the
 ``gitlab-ci-multi-runner`` documentation has been recently added and at
 the time of this writing is not available in official builds.
+
+coala on Travis CI
+------------------
+
+You can use the ``coala/base`` docker image to perform static code analysis
+on your code with a ``.travis.yml``, like this:
+
+::
+
+    language: generic
+    services: docker
+    script: docker run --volume=$(pwd):/app --workdir=/app coala/base coala-ci
+
+.. note::
+
+  For more information about Travis CI configuration, consult the
+  `official documentation <https://docs.travis-ci.com/>`__.
