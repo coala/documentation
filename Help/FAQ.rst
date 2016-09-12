@@ -36,13 +36,13 @@ How do I get started with coala?
 --------------------------------
 
 If you're looking to get started using coala, we have a full tutorial
-`here <http://coala.readthedocs.io/en/latest/Users/Tutorials/Tutorial.html>`__
+:doc:`here <../Users/Tutorial>`
 that will teach you everything you need to know to use coala.
 
 If you're willing to contribute and become a part of our coalaian community,
 we have written a guide that will help you fix an issue on your own, just by
 following and understanding the indications
-`here <http://coala.readthedocs.io/en/latest/Getting_Involved/Newcomers.html>`__.
+:doc:`here <../Developers/Newcomers_Guide>`.
 It is meant for newcomers, and it does not require you to have any precedent
 knowledge regarding coala.
 
@@ -53,7 +53,7 @@ We are very active on our
 `gitter channel <https://gitter.im/coala-analyzer/coala>`__
 and will try to respond to any question in a matter of minutes.
 However, for a full list of how to get in touch with us, consult
-`this link <http://coala.readthedocs.io/en/latest/Getting_Involved/README.html>`__.
+:doc:`this link <Getting_In_Touch>`.
 
 What are those things failing/passing on my Pull Request?
 ---------------------------------------------------------
@@ -76,7 +76,7 @@ our master branch. Right now we use 7 of those checks:
   has no problems, so it is ready to be merged. It can be done by commenting
   ``ack commit_sha``. For more information about the whole process, we have
   it all documented
-  `here <http://coala.readthedocs.io/en/latest/Getting_Involved/Review.html>`__.
+  :doc:`here <../Developers/Review>`.
 
 - **scrutinizer** Checks for the code quality, and points out all the code
   elements that were added, such as functions, classes, etc.
