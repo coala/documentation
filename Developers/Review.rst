@@ -8,7 +8,7 @@ Manual Review Process
 
 The review process for coala is as follows:
 
-1. Anyone can submit commits for review. There are submitted via Pull Requests
+1. Anyone can submit commits for review. These are submitted via Pull Requests
    on Github.
 2. After a Pull Request has been created, another developer shall be
    assigned to review the Pull Request. In order for this to be done properly,
