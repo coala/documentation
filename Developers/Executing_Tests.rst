@@ -9,26 +9,27 @@ Executing our Tests
 coala has a big test suite. It is meant to work on every platform on
 every PC. If you just execute our tests you are doing us a favor.
 
-To run tests, You first need to install some dependencies.
-This can be done by following these steps:
+To run tests, you will need to open a file located in the default coala
+directory.
 
-If you have not already, clone the
-`repository <https://github.com/coala-analyzer/coala>`_ (or a fork of
-it) by running:
+If you have not already, you can start by cloning a copy of the project to
+your local machine.
+
+Either fork the repo on Github https://github.com/coala-analyzer/coala,
+or clone it directly from coala.
 
 ::
 
     $ git clone https://github.com/coala-analyzer/coala.git
 
-Navigate to the directory where coala is located.
+Then navigate to the directory where coala is located.
 
-Next you need to install some requirements. This can be
-done by executing the following command while in the root of the
-coala project directory.
+Next you need to install some dependencies. This can be
+done by executing:
 
 ::
 
-    $ pip3 install -r test-requirements.txt  -r requirements.txt
+    $ pip3 install -r test-requirements.txt -r requirements.txt
 
 You can then execute our tests with
 
