@@ -257,7 +257,7 @@ configuration file for Pylint. Let's add that functionality to our bear.
 
 Just adding the needed parameter to the ``create_arguments`` signature
 suffices, like you would do for other bears inside ``run``! Additional
-parameters are automatically queried from the coafile. Let's add also some
+parameters are automatically queried from the coafile. Let's also add some
 documentation together with the metadata attributes:
 
 ::
