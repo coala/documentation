@@ -3,7 +3,7 @@ Bears That Can Suggest And Make Corrections
 
 **Note**: Go through the `Linter Bears
 <http://coala.readthedocs.org/en/latest/Users/Tutorials/Linter_Bears.html>`_
-before reading this.
+documentation before reading this.
 
 Some executables (like ``indent`` or ``autopep8``) can generate a corrected
 file from the original. We can use such executables so that coala, using
