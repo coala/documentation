@@ -28,7 +28,7 @@ coala project directory.
 
 ::
 
-    $ pip3 install -r test-requirements.txt  -r requirements.txt
+    $ pip3 install -r test-requirements.txt -r requirements.txt
 
 You can then execute our tests with
 
