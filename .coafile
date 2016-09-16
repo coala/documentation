@@ -8,3 +8,8 @@ default_actions = SpaceConsistencyBear: ApplyPatchAction
 
 [commit]
 bears = GitCommitBear
+
+[invalidlinks]
+enabled = False
+files = **/*.rst, README.rst
+bears = InvalidLinkBear
