@@ -5,3 +5,6 @@ files = **/*.rst, README.rst
 ignore = venv/**
 ignore_length_regex = ^.*https?://
 default_actions = SpaceConsistencyBear: ApplyPatchAction
+
+[commit]
+bears = GitCommitBear
