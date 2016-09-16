@@ -1,7 +1,7 @@
 [DOCS]
 bears = SpaceConsistencyBear, LineLengthBear
 
-files = **/*.rst, README.md
+files = **/*.rst, README.rst
 ignore = venv/**
 ignore_length_regex = ^.*https?://
 default_actions = SpaceConsistencyBear: ApplyPatchAction
