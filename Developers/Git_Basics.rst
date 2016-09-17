@@ -274,7 +274,7 @@ An editor will be fired up with all the commits in your current branch
 (ignoring merge commits), which come after the given commit. Keep the first one
 as "pick" and on the second and subsequent commits with "squash". After saving,
 another editor will be fired up with all the messages of commits which you want
-to squash. Clean up all the messages and add a new message which you want to be
+to squash. Clean up all the messages and add a new message to be
 displayed for the single commit.
 
 Useful Git commands
