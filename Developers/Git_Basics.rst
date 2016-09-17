@@ -174,7 +174,7 @@ Now you would like to get your commit into the actual master branch. Making
 your changes available to all future users of the project. For this, you will
 have to create a Pull Request. To do this, you will have to go on GitHub, on
 your fork page. You should change the branch to the one you have worked on and
-submitted the commit on. Now you can create a Pull Request by clicking
+submitted the commit on. Now you can create a Pull Request by clicking the
 ``New Pull Request`` button in the pull request tab.
 
 **Congratulations!** You have just created your first Pull Request!
