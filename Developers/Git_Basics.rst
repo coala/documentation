@@ -257,7 +257,7 @@ Squashing your commits
 -------------------------
 
 It's possible that you have more than one commit and you want them to be
-squashed into single commit. You can take your series of commits and squash
+squashed into a single commit. You can take your series of commits and squash
 them down into a single commit with the interactive rebasing tool. To squash
 your commits run the following command:
 
