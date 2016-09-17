@@ -272,7 +272,7 @@ one to make.
     }
 
 13. After building the executable it has to be added to the ``PATH`` env
-    variable. It is possible to modify the wrapper and give there the full
+    variable. It is possible to modify the wrapper and give it the full
     path. Add the current directory to the ``PATH`` like so:
 
 ::
