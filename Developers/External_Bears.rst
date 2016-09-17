@@ -61,7 +61,7 @@ one to make.
 1. Create a new directory and make it your current working directory.
 2. Run ``coala-bears-create`` as mentioned above in order to create the wrapper
    for our ``C++`` bear. Answer the first question with a path to your created
-   directory (since it should be the current one you can go with the default
+   directory (since it should be the current one you can choose the default
    value and just hit ``Enter``).
 3. The most important questions are the ones regarding the executable name and
    the bear name. Use ``coalaCheckBear`` for the bear name and
