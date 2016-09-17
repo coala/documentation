@@ -271,7 +271,7 @@ one to make.
         return 0;
     }
 
-13. After building the executable it has to be added it to the ``PATH`` env
+13. After building the executable it has to be added to the ``PATH`` env
     variable. It is possible to modify the wrapper and give there the full
     path. Add the current directory to the ``PATH`` like so:
 
