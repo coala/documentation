@@ -28,6 +28,7 @@ repository. The former is the core of coala, and the latter contains the set
 of standard bears. You can fork and clone the repositories from:
 
 https://github.com/coala-analyzer/coala
+
 https://github.com/coala-analyzer/coala-bears
 
 Installing from Git
