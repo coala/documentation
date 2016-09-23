@@ -46,7 +46,7 @@ Step 3. Picking Up an Issue
 ---------------------------
 
 Now it is time to pick an issue.
-Here is the link that will lead you to `Newcomers issues <http://tinyurl.com/coala-new>`_.
+Here is the link that will lead you to `Newcomers issues <http://coala.io/new>`_.
 
 .. seealso::
 
