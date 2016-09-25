@@ -30,7 +30,7 @@ User-Wide and System-Wide coafile
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can place a ``.coarc`` file in your home directory to set certain
-settings user wide. Those settings will automatically be taken for all
+user wide settings. Those settings will automatically be taken for all
 projects executed with that user.
 
 All settings specified here override only settings given by the system
