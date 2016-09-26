@@ -106,6 +106,11 @@ to be merged, create a commit and push it to your fork, using:
 
 where ``myfork`` is the name of your fork that you added at the previous step.
 
+.. note::
+
+    You could also add a profile picture on your Github account, so that you can be
+    distinguished out from the crowd!
+
 Step 6. Creating a ``Pull Request``
 -----------------------------------
 
