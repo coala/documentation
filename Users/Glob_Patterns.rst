@@ -22,10 +22,10 @@ The special characters used in shell-style wildcards are:
 | PATTERN           | MEANING                                                 |
 +===================+=========================================================+
 | ``[seq]``         | Matches any character in seq. Cannot be empty. Any      |
-|                   | special character looses its special meaning in a set.  |
+|                   | special character loses its special meaning in a set.  |
 +-------------------+---------------------------------------------------------+
 | ``[!seq]``        | Matches any character not in seq. Cannot be empty. Any  |
-|                   | special character looses its special meaning in a set.  |
+|                   | special character loses its special meaning in a set.  |
 +-------------------+---------------------------------------------------------+
 | ``(seq_a|seq_b)`` | Matches either sequence_a or sequence_b as a whole. More|
 |                   | than two or just one sequence can be given.             |
@@ -49,7 +49,7 @@ Examples
 ~~~~~~~~~
 
     Matches any character in seq. Cannot be empty. Any special character
-    looses its special meaning in a set.
+    loses its special meaning in a set.
 
 Opening and closing brackets can be part of a set, although closing
 brackets have to be placed at the first position.
@@ -82,7 +82,7 @@ brackets have to be placed at the first position.
 ~~~~~~~~~~
 
     Matches any character not in seq. Cannot be empty. Any special
-    character looses its special meaning in a set.
+    character loses its special meaning in a set.
 
 ::
 
