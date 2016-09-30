@@ -50,7 +50,7 @@ Here is the link that will lead you to `Newcomers issues <https://coala.io/new>`
 
 .. seealso::
 
-    For more information about what bears are, please check the following link: `Writing bears <http://coala.readthedocs.org/en/latest/Users/Tutorials/Writing_Bears.html>`_
+    For more information about what bears are, please check the following link: `Writing bears <http://coala.io/writingbears>`_
 
 The easy issues that will help you get started are labeled as
 ``difficulty/newcomer`` and are only there to give you a glimpse of how it is
