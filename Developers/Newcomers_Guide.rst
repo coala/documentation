@@ -182,7 +182,7 @@ and send it. You have successfully edited your last commit!
 
 **Congratulations!** Your PR just got accepted! You're awesome.
 Now you should go for
-`a low issue <tinyurl.com/coala-low>`__,
+`a low issue <https://coala.io/low>`__,
 they are really rewarding!
 
 .. note::
