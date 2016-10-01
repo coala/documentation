@@ -92,7 +92,7 @@ into your bash. This will analyze your code and help you fix it.
 
 .. seealso::
 
-    `Executing tests <http://coala.readthedocs.org/en/latest/Getting_Involved/Testing.html>`_
+    `Executing tests <http://coala.readthedocs.io/en/latest/Developers/Testing_Bears.html>`_
 
 Step 5. Sending Your Changes
 ----------------------------
