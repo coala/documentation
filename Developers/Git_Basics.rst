@@ -185,7 +185,7 @@ You are awesome!
     to sync your local fork with the remote repository before sending
     a pull request.
 
-    More information regarding syncing can be found `here <http://coala.readthedocs.org/en/latest/Users/Tutorials/Git_Help.html#keeping-your-fork-in-sync>`_.
+    More information regarding syncing can be found `here <http://coala.readthedocs.io/en/latest/Developers/Git_Basics.html#rebasing>`_.
 
 Follow-up
 ---------
