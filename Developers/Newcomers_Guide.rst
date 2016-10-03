@@ -158,7 +158,7 @@ coala **clean** and **stable**.
 
 .. seealso::
 
-    `Review Process <http://coala.readthedocs.org/en/latest/Getting_Involved/Review.html>`_.
+    `Review Process <http://coala.readthedocs.io/en/latest/Developers/Review.html>`_.
 
 Now, if you need to modify your code, you can simply edit it again, add it and
 commit it using
