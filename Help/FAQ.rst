@@ -93,3 +93,33 @@ our master branch. Right now we use 7 of those checks:
 
 - **continuous-integration/appveyor/pr** This one does the same as the one
   above, but for Windows, both 32 and 64bits versions.
+
+How are labels used in issues and pull requests?
+------------------------------------------------
+
+- ``area/`` labels, such as ``area/documenation``, ``area/bears``, ``area/core``, 
+  or ``area/actions``, refer to a particular section in the code base. 
+
+- ``difficulty/`` labels, such as ``difficulty/newcomer``, ``difficulty/low``, 
+  ``difficulty/medium``, or ``difficulty/high``, indicate that an issue is ready 
+  to work on. New contributors start by tackling a newcomer issue and then move on 
+  to low difficulty issues. Experienced contributors focus their attention on more 
+  difficult issues. 
+  
+- ``status/`` labels indicate the status of an issue or pull request. For example, 
+  ``status/needs design`` and ``status/needs info`` suggest that there is an ongoing discussion on how to 
+  implement it or if it should be implemented, respectively.
+  
+- ``importance/`` labels, such as ``importance/low``, ``importance/medium``, or 
+  ``importance/critical``, indicate which issues or pull requests take priority. 
+
+- For ``process/`` labels please refer to :doc:`Review <../Developers/Review>`.
+
+- ``size/`` labels, such as ``size/S``, ``size/M``, or ``size/L``, indicate the 
+  size of the commit(s) in a pull request. 
+
+- ``type/`` labels indicate the type of issue or pull request. For example, 
+  ``type/codestyle`` and ``type/feature`` suggest that code readability could be 
+  improved or a new feature could be added, respectively.
+
+- The **absence** of a label indicates that it is pending review.
