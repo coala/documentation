@@ -34,7 +34,7 @@ The path of the temporary configuration file can be accessed inside
         @staticmethod
         def generate_config(filename, file):
             config_file = ("value1 = 1\n"
-                           "value=2 = 2")
+                           "value2 = 2")
             return config_file
 
         @staticmethod
