@@ -97,29 +97,67 @@ our master branch. Right now we use 7 of those checks:
 How are labels used in issues and pull requests?
 ------------------------------------------------
 
-- ``area/`` labels, such as ``area/documenation``, ``area/bears``, ``area/core``, 
-  or ``area/actions``, refer to a particular section in the code base. 
+``area`` labels refer to a particular section in the code base.
 
-- ``difficulty/`` labels, such as ``difficulty/newcomer``, ``difficulty/low``, 
-  ``difficulty/medium``, or ``difficulty/high``, indicate that an issue is ready 
-  to work on. New contributors start by tackling a newcomer issue and then move on 
-  to low difficulty issues. Experienced contributors focus their attention on more 
-  difficult issues. 
+- ``area/actions`` 
+- ``area/bears`` tools to implement bears
+- ``area/CI`` continuous integration
+- ``area/CLI``
+- ``area/core`` coala core
+- ``area/documentation`` docstrings, readthedocs
+- ``area/results``
+- ``area/tests``
+- ``area/upstream``
+- ``area/usability``
+- **coala-bears** specific: ``area/lintbears`` 
+
+``difficulty`` labels indicate that an issue is ready to work on. 
+
+- ``difficulty/newcomer`` typos and straightforward fixes to help new 
+  contributors get acquainted with the workflow
+- ``difficulty/low`` easy things such as change a feature or implement a bear
+- ``difficulty/medium`` design something usable by coala, usually has major 
+  impact
+- ``difficulty/high`` ``difficulty/very-high`` crucial—rework a part of coala 
+  or add a new feature required by coala
   
-- ``status/`` labels indicate the status of an issue or pull request. For example, 
-  ``status/needs design`` and ``status/needs info`` suggest that there is an ongoing discussion on how to 
-  implement it or if it should be implemented, respectively.
+``status`` labels indicate the status of an issue or pull request.
+
+- ``status/abandoned``
+- ``status/blocked`` 
+- ``status/cant reproduce``
+- ``status/duplicate``
+- ``status/invalid`` 
+- ``status/needs design`` there is an ongoing discussion on how to 
+  implement it.
+- ``status/needs info`` there is an ongoing discussion if it should be 
+  implemented.
+- ``status/wontfix/accepting patches``
+- ``status/wonfix/not happening``
   
-- ``importance/`` labels, such as ``importance/low``, ``importance/medium``, or 
-  ``importance/critical``, indicate which issues or pull requests take priority. 
+``importance`` labels indicate which issues or pull requests take priority.
 
-- For ``process/`` labels please refer to :doc:`Review <../Developers/Review>`.
+- ``importance/high`` ``importance/critical`` urgent—to be done in the 
+  following days
+- ``importance/medium`` not so urgent—to be done in the following weeks
+- ``importance/low`` not urgent—nothing depends on this
 
-- ``size/`` labels, such as ``size/S``, ``size/M``, or ``size/L``, indicate the 
-  size of the commit(s) in a pull request. 
+``type`` labels indicate the type of issue or pull request.
 
-- ``type/`` labels indicate the type of issue or pull request. For example, 
-  ``type/codestyle`` and ``type/feature`` suggest that code readability could be 
-  improved or a new feature could be added, respectively.
+- ``type/bug`` bugs to fix (issue) or that are being fixed (pull request)
+- ``type/codestyle`` improve code readability
+- ``type/feature`` new feature to add
+- ``type/performance``
+- **coala-bears** specific: ``type/dependencies``
 
-- The **absence** of a label indicates that it is pending review.
+**coala-bears** specific labels:
+
+- ``bear proposal`` propose an idea for a new bear
+- ``upstream``
+
+For ``process`` labels please refer to :doc:`Review <../Developers/Review>`.
+
+``size``, ``cautious review``, and ``review carefully!`` labels are generated 
+by gitmate-bot. 
+
+The **absence** of a label indicates that it is pending review.
