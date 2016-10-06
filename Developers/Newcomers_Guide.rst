@@ -11,7 +11,7 @@ Step 1. Meet the Community!
 
 To get started, the first step is to meet the community. We use gitter to
 communicate, and there the helpful community will guide you.
-Join us at `coala gitter <https://gitter.im/coala-analyzer/coala/>`_.
+Join us at `coala gitter <https://gitter.im/coala/coala/>`_.
 The newcomers should ping us "Hello World" to let us know they are here
 because we care!
 
@@ -23,7 +23,7 @@ Step 2. Grab an Invitation to the Organization
 Let us know on gitter that you are interested in contributing and ask for an
 invitation to our org. This is your first step towards contributing.
 The invitation will be sent by mail and you will have to accept
-it to join. If you don't find the invitation, accept it `here <https://github.com/coala-analyzer>`_.
+it to join. If you don't find the invitation, accept it `here <https://github.com/coala>`_.
 
 Now that you are part of our organization, you can start working on issues.
 If you are familiar with git, you can skip the next section and pick an issue.
@@ -39,7 +39,7 @@ basics,
 :doc:`here <Git_Basics>`.
 
 If there's anything unclear, or you are encountering problems, feel free
-to contact us on `gitter <https://gitter.im/coala-analyzer/coala/>`_,
+to contact us on `gitter <https://gitter.im/coala/coala/>`_,
 and we will help you!
 
 Step 3. Picking Up an Issue
