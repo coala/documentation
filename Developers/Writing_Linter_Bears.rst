@@ -387,5 +387,4 @@ Congratulations!
 Where to Find More...
 ---------------------
 
-If you need more information about the ``@linter`` decorator, refer to the API
-documentation.
+If you need more information about the ``@linter`` decorator, refer to the `writing linter bears tutorial. <http://docs.coala.io/en/stable/Users/Tutorials/Linter_Bears.html>`_
