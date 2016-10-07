@@ -40,7 +40,9 @@ The special characters used in shell-style wildcards are:
 .. note::
 
     If you're looking for a negation pattern to exclude paths, check out the
-    ``--ignore`` argument or ``ignore`` .coafile option!
+    ``--ignore`` argument or ``ignore`` .coafile option `here
+    <http://coala.readthedocs.io/en/latest/Users/Tutorial.html#ignoring
+    -issues>`_.
 
 Examples
 --------
