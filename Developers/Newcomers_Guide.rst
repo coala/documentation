@@ -21,7 +21,7 @@ because we care!
     
     The first thing you should do is check other developers' pull requests to get the 
     hang of things.
-    You should also start working on low level issues or help us with artwork, tweets, etc.
+    You should also start working on difficulty/low labelled issues or help us with artwork, tweets, etc.
 
 Step 2. Grab an Invitation to the Organization
 ----------------------------------------------
@@ -195,7 +195,7 @@ they are really rewarding!
     
     The first thing you should do is check other developers' pull requests to get the 
     hang of things.
-    You should also start working on low level issues or help us with artwork, tweets, etc.
+    You should also start working on difficulty/low labelled issues or help us with artwork, tweets, etc.
 
 .. note::
 
