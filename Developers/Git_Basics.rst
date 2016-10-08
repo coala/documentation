@@ -253,6 +253,11 @@ that are ahead of the rebased branch to the top of the history on that branch.
     **Warning:** Never force-push on the master branch, or any branch not
     owned by you.
 
+To verify whether you have rebased correctly, go to the web page of the
+branch in your fork. If it says your branch is ``n commits behind
+coala:master`` (or whichever repo you are contributing to), then you
+haven't correctly rebased yet. Otherwise, you're good to go!
+
 Squashing your commits
 -------------------------
 
