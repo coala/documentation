@@ -149,7 +149,7 @@ parts. They should have a newline between them.
 .. seealso::
 
   For more information about writing commit messages, check this
-  `link <http://coala.readthedocs.org/en/latest/Getting_Involved/Writing_Good_Commits.html>`_.
+  `link <http://coala.io/commit>`_.
 
 Now that your message is written, you will have to save the file. Press escape
 to exit insert mode, and save the file (in Vim that is being done by pressing
