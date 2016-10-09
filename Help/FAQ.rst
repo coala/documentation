@@ -14,35 +14,35 @@ Is there corporate backing behind coala? What are your intentions?
 ------------------------------------------------------------------
 
 coala was founded for fun. coala was, is and will always be free software and
-is developed mostly by students and there's no corporate interest and no CLA.
+is developed mostly by students and there's no corporate interest and no CLA(Copyright Licensing Agency).
 If you want to back us, contact us on our
-`gitter channel <https://gitter.im/coala-analyzer/coala>`__.
+[gitter](https://gitter.im/coala-analyzer/coala) channel.
 
 What sort of analysis does coala do? What languages are supported?
 ------------------------------------------------------------------
 
 A list of all analysis routines and supported languages is
-`here <https://github.com/coala-analyzer/bear-docs/blob/master/README.rst#supported-languages>`__
+[here](https://github.com/coala-analyzer/bear-docs/blob/master/README.rst#supported-languages)
 - fully browsable.
 
 For a top level view on what languages support what kind of analysis roughly,
-consult `this link <https://docs.google.com/spreadsheets/d/1bm63TQHndmGf3HQ33fp9UEmGKNYI7dTkjMyFIof2PqA/edit?usp=sharing>`__.
+consult this [link](https://docs.google.com/spreadsheets/d/1bm63TQHndmGf3HQ33fp9UEmGKNYI7dTkjMyFIof2PqA/edit?usp=sharing).
 
 There are also generic bears, which can be applied language independently on
 your code. Their capabilities and information can be seen
-`here <https://github.com/coala-analyzer/bear-docs/blob/master/README.rst#all>`__.
+[here](https://github.com/coala-analyzer/bear-docs/blob/master/README.rst#all).
 
 How do I get started with coala?
 --------------------------------
 
 If you're looking to get started using coala, we have a full tutorial
-:doc:`here <../Users/Tutorial>`
+[here](https://github.com/coala/documentation/blob/master/Users/Tutorial.rst)
 that will teach you everything you need to know to use coala.
 
-If you're willing to contribute and become a part of our coalaian community,
+If you're willing to contribute and become a part of our coala community member,
 we have written a guide that will help you fix an issue on your own, just by
 following and understanding the indications
-:doc:`here <../Developers/Newcomers_Guide>`.
+[here](https://github.com/coala/documentation/blob/master/Developers/Newcomers_Guide.rst).
 It is meant for newcomers, and it does not require you to have any precedent
 knowledge regarding coala.
 
@@ -50,15 +50,15 @@ How do I get in touch with the coala team?
 ------------------------------------------
 
 We are very active on our
-`gitter channel <https://gitter.im/coala-analyzer/coala>`__
+[gitter](https://gitter.im/coala-analyzer/coala) channel
 and will try to respond to any question in a matter of minutes.
-However, for a full list of how to get in touch with us, consult
-:doc:`this link <Getting_In_Touch>`.
+However, for a full list of how to get in touch with us, consult with
+this [link](https://github.com/coala/documentation/blob/master/Help/Getting_In_Touch.rst).
 
 What are those things failing/passing on my Pull Request?
 ---------------------------------------------------------
 
-We use a few checks to make sure your Pull Request is ready to be merged into
+We use a few checks to make sure your Pull Request(PR) is ready to be merged into
 our master branch. Right now we use 7 of those checks:
 
 - **review/gitmate/commit** Checks this particular commit has any new gitmate
@@ -75,8 +75,7 @@ our master branch. Right now we use 7 of those checks:
   be given by any coala member and shows that the commit has been reviewed and
   has no problems, so it is ready to be merged. It can be done by commenting
   ``ack commit_sha``. For more information about the whole process, we have
-  it all documented
-  :doc:`here <../Developers/Review>`.
+  it all documented [here](https://github.com/coala/documentation/blob/master/Developers/Review.rst).
 
 - **scrutinizer** Checks for the code quality, and points out all the code
   elements that were added, such as functions, classes, etc.
