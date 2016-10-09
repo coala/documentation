@@ -16,7 +16,7 @@ Is there corporate backing behind coala? What are your intentions?
 coala was founded for fun. coala was, is and will always be free software and
 is developed mostly by students and there's no corporate interest and no CLA(Copyright Licensing Agency).
 If you want to back us, contact us on our
-[gitter](https://gitter.im/coala-analyzer/coala) channel.
+[gitter]("https://gitter.im/coala-analyzer/coala") channel.
 
 What sort of analysis does coala do? What languages are supported?
 ------------------------------------------------------------------
