@@ -23,7 +23,7 @@ Step 2. Grab an Invitation to the Organization
 Let us know on gitter that you are interested in contributing and ask for an
 invitation to our org. This is your first step towards contributing.
 The invitation will be sent by mail and you will have to accept
-it to join. If you don't find the invitation, accept it `here <https://github.com/coala-analyzer>`_.
+it to join. If you don't find the invitation, accept it `here <https://github.com/coala>`_.
 
 Now that you are part of our organization, you can start working on issues.
 If you are familiar with git, you can skip the next section and pick an issue.
