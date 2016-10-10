@@ -36,13 +36,14 @@ How do I get started with coala?
 --------------------------------
 
 If you're looking to get started using coala, we have a full tutorial
-:doc:`here <../Users/Tutorial>`
+`here <https://coala.readthedocs.io/en/stable/Users/Tutorials/Tutorial.html>`__.
+
 that will teach you everything you need to know to use coala.
 
 If you're willing to contribute and become a part of our coalaian community,
 we have written a guide that will help you fix an issue on your own, just by
 following and understanding the indications
-:doc:`here <../Developers/Newcomers_Guide>`.
+`here <https://coala.readthedocs.io/en/stable/Getting_Involved/Newcomers.html>`__.
 It is meant for newcomers, and it does not require you to have any precedent
 knowledge regarding coala.
 
@@ -53,7 +54,7 @@ We are very active on our
 `gitter channel <https://gitter.im/coala-analyzer/coala>`__
 and will try to respond to any question in a matter of minutes.
 However, for a full list of how to get in touch with us, consult
-:doc:`this link <Getting_In_Touch>`.
+`this link <http://docs.coala.io/en/latest/Help/Getting_In_Touch.html>`__.
 
 What are those things failing/passing on my Pull Request?
 ---------------------------------------------------------
