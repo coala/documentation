@@ -159,7 +159,7 @@ This section lists dependencies of coala that are not automatically
 installed. On Windows, you can get many with ``nuget``
 (https://www.nuget.org/). On Mac, Homebrew will help you installing
 dependencies (http://brew.sh/). These dependencies require you to have
-`the repository <https://github.com/coala-analyzer/coala-bears>`__
+`the repository <https://github.com/coala/coala-bears>`__
 cloned locally.
 
 JS Dependencies
@@ -264,7 +264,7 @@ Generating Documentation
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 coala documentation is
-`in a separate repository <https://github.com/coala-analyzer/documentation>`__.
+`in a separate repository <https://github.com/coala/documentation>`__.
 First you need to install the requirements:
 
 ::

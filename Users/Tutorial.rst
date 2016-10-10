@@ -20,7 +20,7 @@ can retrieve our tutorial samples:
 
 ::
 
-    git clone https://github.com/coala-analyzer/coala-tutorial.git
+    git clone https://github.com/coala/coala-tutorial
 
 Please note that the commands given in this tutorial are intended for
 use with this sample code and may need minor adjustments.
@@ -171,7 +171,7 @@ sequentially.
 .. note::
 
     For a list of configuration options for the bears, take a look at our
-    `bear-docs <https://github.com/coala-analyzer/bear-docs>`_ documentation.
+    `bear-docs <https://github.com/coala/bear-docs>`_ documentation.
 
 Auto-applying Results
 ---------------------
@@ -364,7 +364,7 @@ Continuing the Journey
 If you want to know about more options, take a look at our help with
 ``coala -h``. If you liked or disliked this tutorial, feel free to drop
 us a note at our `bug tracker
-<https://github.com/coala-analyzer/coala/issues>`_ or `mailing list
+<https://github.com/coala/coala/issues>`_ or `mailing list
 <https://groups.google.com/forum/#!forum/coala-devel>`_.
 
 If you need more flexibility, know that coala is extensible in many ways

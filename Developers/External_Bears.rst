@@ -18,8 +18,8 @@ than Python.
 Why is This Useful?
 -------------------
 
-coala is a great language independent static analysis tool, where users can write
-their own static analysis routines.
+coala is a great language independent static analysis tool, where users can
+write their own static analysis routines.
 
 Enabling users to write external ``bears`` means that they can write their own
 static analysis routine in their favourite language.

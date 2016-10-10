@@ -38,7 +38,7 @@ Example:
     It helps not writing more functions inside
     ``coalib`` for this.
 
-    Fixes https://github.com/coala-analyzer/coala/issues/5861
+    Fixes https://github.com/coala/coala/issues/5861
 
 Shortlog
 ~~~~~~~~
@@ -91,7 +91,7 @@ Example:
 
 ::
 
-    Fixes https://github.com/coala-analyzer/coala/issues/269
+    Fixes https://github.com/coala/coala/issues/269
 
 -  Should use the ``Fixes`` keyword if your commit fixes a bug, or ``Closes``
    if it adds a feature/enhancement.
@@ -123,7 +123,7 @@ Example 1 (fixed bug):
     it is easier, more reliable and platform independent to let distutils
     install it by itself.
 
-    Fixes https://github.com/coala-analyzer/coala/issues/269
+    Fixes https://github.com/coala/coala/issues/269
 
 Example 2 (implemented feature):
 ::
@@ -132,7 +132,7 @@ Example 2 (implemented feature):
 
     This massively helps debugging linters.
 
-    Closes https://github.com/coala-analyzer/coala/issues/2060
+    Closes https://github.com/coala/coala/issues/2060
 
 Why Do We Need Good Commits?
 ----------------------------

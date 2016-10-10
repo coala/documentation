@@ -11,7 +11,7 @@ Step 1. Meet the Community!
 
 To get started, the first step is to meet the community. We use gitter to
 communicate, and there the helpful community will guide you.
-Join us at `coala gitter <https://gitter.im/coala-analyzer/coala/>`_.
+Join us at `coala gitter <https://coala.io/chat>`_.
 The newcomers should ping us "Hello World" to let us know they are here
 because we care!
 
@@ -39,7 +39,7 @@ basics,
 :doc:`here <Git_Basics>`.
 
 If there's anything unclear, or you are encountering problems, feel free
-to contact us on `gitter <https://gitter.im/coala-analyzer/coala/>`_,
+to contact us on `gitter <https://coala.io/chat>`_,
 and we will help you!
 
 Step 3. Picking Up an Issue
@@ -108,8 +108,8 @@ where ``myfork`` is the name of your fork that you added at the previous step.
 
 .. note::
 
-    You could also add a profile picture on your Github account, so that you can be
-    distinguished out from the crowd!
+    You could also add a profile picture on your Github account, so that
+    you can be distinguished out from the crowd!
 
 Step 6. Creating a ``Pull Request``
 -----------------------------------

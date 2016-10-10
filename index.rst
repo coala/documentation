@@ -62,7 +62,7 @@ Welcome to the coala documentation!
    Frequently Asked Questions <Help/FAQ>
    MAC Hints <Help/MAC_Hints>
 
-You might also want to look at `our website <http://coala-analyzer.org/>`_.
+You might also want to look at `our website <http://coala.io/>`_.
 
 .. image:: https://cloud.githubusercontent.com/assets/7521600/15992701/ef245fd4-30ef-11e6-992d-275c5ca7c3a0.jpg
 
@@ -82,12 +82,12 @@ popular languages such as **C/C++**, **Python**, **JavaScript**, **CSS**,
 **Java** and many more, in addition to some generic language independent
 algorithms. To learn more about the different languages supported and the
 bears themselves,
-`click here. <https://github.com/coala-analyzer/bear-docs/blob/master/README.rst>`__
+`click here. <https://github.com/coala/bear-docs/blob/master/README.rst>`__
 
 .. note::
 
   To see what coala can do for you and your language, take a look at
-  `our capabilities listing <https://github.com/coala-analyzer/bear-docs/blob/master/README.rst>`__.
+  `our capabilities listing <https://github.com/coala/bear-docs/blob/master/README.rst>`__.
 
 If you are here to use coala for your own projects, take a look at our
 :doc:`installation guide<Users/Install>`.
@@ -148,5 +148,5 @@ branches. Our master branch is continuously prereleased to our users so you can
 rely on the upcoming release being rock stable.
 
 If you want to see how the development progresses, check out
-`coala <https://github.com/coala-analyzer/coala>`__ and
-`coala-bears <https://github.com/coala-analyzer/coala-bears>`__.
+`coala <https://github.com/coala/coala>`__ and
+`coala-bears <https://github.com/coala/coala-bears>`__.

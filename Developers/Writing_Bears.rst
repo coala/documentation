@@ -10,7 +10,7 @@ repository, go clone it with:
 
 ::
 
-    git clone https://github.com/coala-analyzer/coala-tutorial.git
+    git clone https://github.com/coala/coala-tutorial
 
 All paths and commands given here are meant to be executed from the root
 directory of the coala-tutorial repository.
@@ -201,8 +201,8 @@ yield them and write the method as a generator.
     Don't worry: in order to migrate your Bears to our new API, you will
     likely only need to change two lines of code. For more information
     about how bears will look in the future, please read up on
-    https://github.com/coala-analyzer/coala/issues/725 or ask us on
-    https://gitter.im/coala-analyzer/coala.
+    https://github.com/coala/coala/issues/725 or ask us on
+    https://coala.io/chat.
 
 Bears Depending on Other Bears
 ------------------------------

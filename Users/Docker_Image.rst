@@ -31,7 +31,7 @@ on your code with a ``.gitlab-ci.yml``, like this:
 .. note::
 
   For more information about GitLab CI configuration, consult the
-  `official documentation <http://docs.gitlab.com/ce/ci/>`__.
+  `official documentation <https://docs.gitlab.com/ce/ci/>`__.
 
 Troubleshooting GitLab CI
 -------------------------

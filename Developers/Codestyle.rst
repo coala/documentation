@@ -67,9 +67,9 @@ and ``c`` is not ``None``.
 Line Continuation
 ~~~~~~~~~~~~~~~~~
 
-Since line continuation is not covered by PEP8 coding style guide you are supposed 
-to keep your multiple-line lists, dicts, tuples, function definitions, function calls,
-and any such structures either:
+Since line continuation is not covered by PEP8 coding style guide you are
+supposed to keep your multiple-line lists, dicts, tuples, function definitions,
+function calls, and any such structures either:
 
 - stay on one line
 - span multiple lines that list one parameter/item each

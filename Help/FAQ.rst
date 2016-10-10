@@ -16,13 +16,13 @@ Is there corporate backing behind coala? What are your intentions?
 coala was founded for fun. coala was, is and will always be free software and
 is developed mostly by students and there's no corporate interest and no CLA.
 If you want to back us, contact us on our
-`gitter channel <https://gitter.im/coala-analyzer/coala>`__.
+`gitter channel <https://coala.io/chat>`__.
 
 What sort of analysis does coala do? What languages are supported?
 ------------------------------------------------------------------
 
 A list of all analysis routines and supported languages is
-`here <https://github.com/coala-analyzer/bear-docs/blob/master/README.rst#supported-languages>`__
+`here <https://github.com/coala/bear-docs/blob/master/README.rst#supported-languages>`__
 - fully browsable.
 
 For a top level view on what languages support what kind of analysis roughly,
@@ -30,7 +30,7 @@ consult `this link <https://docs.google.com/spreadsheets/d/1bm63TQHndmGf3HQ33fp9
 
 There are also generic bears, which can be applied language independently on
 your code. Their capabilities and information can be seen
-`here <https://github.com/coala-analyzer/bear-docs/blob/master/README.rst#all>`__.
+`here <https://github.com/coala/bear-docs/blob/master/README.rst#all>`__.
 
 How do I get started with coala?
 --------------------------------
@@ -50,7 +50,7 @@ How do I get in touch with the coala team?
 ------------------------------------------
 
 We are very active on our
-`gitter channel <https://gitter.im/coala-analyzer/coala>`__
+`gitter channel <https://coala.io/chat>`__
 and will try to respond to any question in a matter of minutes.
 However, for a full list of how to get in touch with us, consult
 :doc:`this link <Getting_In_Touch>`.

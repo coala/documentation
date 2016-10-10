@@ -13,12 +13,12 @@ To run tests, You first need to install some dependencies.
 This can be done by following these steps:
 
 If you have not already, clone the
-`repository <https://github.com/coala-analyzer/coala>`_ (or a fork of
+`repository <https://github.com/coala/coala>`_ (or a fork of
 it) by running:
 
 ::
 
-    $ git clone https://github.com/coala-analyzer/coala.git
+    $ git clone https://github.com/coala/coala
 
 Navigate to the directory where coala is located.
 

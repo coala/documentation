@@ -6,11 +6,11 @@ coala is a place where people from all over the world are part of a friendly,
 growing community. If you want to get in touch with us, you can do any of the
 following things:
 
--  Join us on our `gitter channel <https://gitter.im/coala-analyzer/coala>`__
+-  Join us on our `gitter channel <https://coala.io/chat>`__
    where we are very active and happy to help you!
--  Subscribe to our `mailing lists <https://github.com/coala-analyzer/coala/wiki/Mailing-Lists>`__.
+-  Subscribe to our `mailing lists <https://github.com/coala/coala/wiki/Mailing-Lists>`__.
 -  Open an issue. Whether you want a new feature for coala or you have found
-   a bug, just file `an issue <https://github.com/coala-analyzer/coala/issues>`__
+   a bug, just file `an issue <https://github.com/coala/coala/issues>`__
    and we will check it out. In case of long discussion, you should create
    a new issue with clearly defined task!
 -  Give us feedback. If you think we're doing something useless or something

@@ -24,8 +24,8 @@ Getting Started with coala
 
 First of all, you have to fork the repository you are going to contribute to.
 This will basically give you a clone of the repository to your own repository.
-You can do this by opening `this to fork the coala repository <https://github.com/coala-analyzer/coala>`_
-or `this to fork the coala-bears repository <https://github.com/coala-analyzer/coala-bears>`_
+You can do this by opening `this to fork the coala repository <https://github.com/coala/coala>`_
+or `this to fork the coala-bears repository <https://github.com/coala/coala-bears>`_
 and then clicking 'Fork' in the upper right corner.
 
 Grabbing coala on your local machine
@@ -37,13 +37,13 @@ To do this, you can use these to clone the coala/coala-bears repositories:
 
 ::
 
-    $ git clone https://github.com/coala-analyzer/coala
+    $ git clone https://github.com/coala/coala
 
 or
 
 ::
 
-    $ git clone https://github.com/coala-analyzer/coala-bears
+    $ git clone https://github.com/coala/coala-bears
 
 You should ideally clone the fork so that gets set to 'origin' automatically.
 Now you have all your code on your local machine!
@@ -104,7 +104,8 @@ It will give you an idea about what files are currently modified.
     that contain the syntax.
 
 .. seealso::
-    For more information about tests, check `this link <http://coala.readthedocs.org/en/latest/Getting_Involved/Writing_Tests.html>`_.
+    For more information about tests, check
+    :doc:`this link. <Writing_Tests>`
 
 Adding the files and commiting
 ------------------------------
@@ -206,7 +207,7 @@ don't worry that's just how it works. It helps us maintain coala
 
 .. seealso::
 
-     `Review Process <http://coala.readthedocs.org/en/latest/Getting_Involved/Review.html>`_.
+     :doc:`Review Process. <Review>`
 
 Now if you need to modify your code, you can simply edit it again, add it and
 commit it using

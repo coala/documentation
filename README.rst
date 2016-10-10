@@ -4,7 +4,7 @@ The official documentation for coala
 ====================================
 
 This is the official documentation for coala. The coala repository can be found
-`here <https://github.com/coala-analyzer/coala/>`__.
+`here <https://github.com/coala/coala>`__.
 
 How to build
 ============
@@ -20,7 +20,7 @@ You can test the documentation locally through simply running
 ::
 
     make html
-    
+
 in the root directory. This generates _build\html\index.html that you can view
 on your browser.
 
