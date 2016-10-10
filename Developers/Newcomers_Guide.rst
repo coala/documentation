@@ -146,6 +146,10 @@ Now there's two possibilities:
     and has labeled it ``process/wip``. Else, if you push again and his
     comments disappear, it can be considered rude.
 
+    Do `not` delete your comments on Github while working on an issue because 
+    it makes things hard for other developers to follow on that issue. You can 
+    edit your comment, if felt necessary.
+
 .. note::
 
     You might be wondering what those CI things on your ``Pull Request`` are.
