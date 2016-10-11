@@ -6,6 +6,25 @@ Welcome to the Newcomers Guide!
 This is a step-based guide that will help you get your first contribution
 at coala!
 
+There's a few things a contributor needs in order to be considered a full-norm
+coalaian:
+
+  - merge a ``difficulty/newcomer`` Pull Request
+  - review other Pull Requests
+  - merge a ``difficulty/low`` Pull Request
+
+.. note::
+
+    **Do not only fix a newcomer issue!** Supervising newcomers is really a lot
+    of work. We're all volunteers and we can't keep this up if you don't help
+    us in other areas as well!
+
+Of course, the order is not important, although, we recommend you to start
+with a ``newcomer`` issue, end with a ``low`` issue, and review other PRs in
+the meantime!
+
+For more information about Pull Requests, keep reading!
+
 Step 1. Meet the Community!
 ---------------------------
 
@@ -125,13 +144,36 @@ ready to be accepted, you can optionally indicate this to other
 developers by starting your ``Pull Request`` title with ``wip``
 (case-insensitive).
 
-Step 7. Review Process
+Step 7. Waiting for Review
+--------------------------
+
+After creating a Pull Request, your PR is open to the review process (to read
+more about it, have patience and it is explained on the next step), and all
+you can do is wait. The best thing you can do while at this step is review
+other people's PRs. Not only will this help the maintainers with the work load,
+but this is one of the three core steps towards becoming a full-norm coalaian.
+
+For more information about reviewing code, check out
+:doc:`this link.<Review>`
+
+.. note::
+
+    Reviewing code helps you by watching other people's mistakes and not making
+    them yourself in the future!
+
+
+Step 8. Review Process
 ----------------------
 
 After creating your ``Pull Request``, it is under the review process. This can
 be deduced from the ``process/pending review`` label. Now all you have to do
 is wait, or let the other developers know on Gitter that you have published
 your changes.
+
+.. note::
+
+    Do not tag the reviewers every time you push a change. They review PRs
+    consistently whenever they have time!
 
 Now there's two possibilities:
 
@@ -184,6 +226,12 @@ and send it. You have successfully edited your last commit!
 Now you should go for
 `a low issue <https://coala.io/low>`__,
 they are really rewarding!
+
+.. note::
+
+    **Do not only fix a newcomer issue!** Supervising newcomers is really a lot
+    of work. We're all volunteers and we can't keep this up if you don't help
+    us in other areas as well!
 
 .. note::
 
