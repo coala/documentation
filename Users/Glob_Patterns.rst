@@ -1,6 +1,47 @@
 Glob - Extended unix style pathname expansion
 =============================================
 
+Using Glob Patterns
+-------------------
+
+Suppose you want ``SpaceConsistencyBear`` to perform an analysis on a file
+``first.c``, you should use the command:
+::
+
+    coala --files=src/first.c --bears=SpaceConsistencyBear --save
+
+.. note::
+
+    If you don't know the functions of a bear or how to perform the analysis
+    with a bear, you should go through `Tutorial
+    <http://coala.readthedocs.io/en/latest/Users/Tutorial.html>`_ first.
+
+Now, if you want all the ``.c`` files in a specific directory to be analysed,
+you can take help of glob patterns.
+::
+
+    coala --files='src/*.c' --bears=SpaceConsistencyBear --save
+
+Here, ``*.c`` matches all ``.c`` files in the ``src`` directory.
+Going further, if you want all ``.c`` as well as ``.java`` files to
+be analysed:
+::
+
+    coala --files='src/*.(java|c)' --bears=SpaceConsistencyBear --save
+
+If you want your ``files`` argument to match all directories and
+subdirectories, you can use ``**`` glob pattern for that.
+::
+
+    files = **/*.c
+
+.. note::
+
+    While using ``files = **/*.c``, since we have used ``/`` in the glob
+    pattern, all ``.c`` files at least one subdirectory below the root
+    directory will be matched.
+
+
 In coala, files and directories are specified by file name. To allow
 input of multiple files without requiring a large number of filenames,
 coala supports a number of wildcards. These are based on the unix-style
@@ -98,8 +139,6 @@ brackets have to be placed at the first position.
     True
     >>> fnmatch("a!a", "a[!]a")
     False
-    >>> fnmatch("aa", "a[!]a")
-    False
     >>> fnmatch("a[!]a", "a[!]a")
     True
 
@@ -123,13 +162,9 @@ brackets. Parentheses that have no match are ignored as well as
     False
     >>> fnmatch("aXb", "(a(X|Y)b|c)")
     True
-    >>> fnmatch("c", "(a(X|Y)b|c)")
-    True
     >>> fnmatch("a", "a|b")
     False
     >>> fnmatch("a|b", "a|b")
-    True
-    >>> fnmatch("(a|b", "(a|b")
     True
     >>> fnmatch("(aa", "(a(a|b)")
     True
@@ -174,14 +209,10 @@ brackets. Parentheses that have no match are ignored as well as
 
 ::
 
-    >>> fnmatch("abc", "a*c")
-    True
     >>> fnmatch("abbc", "a*c")
     True
     >>> fnmatch("a/c", "a*c")
     False
-    >>> fnmatch("a?c", "a*c")
-    True
     >>> fnmatch("ac", "a*c")
     True
 
@@ -192,13 +223,7 @@ brackets. Parentheses that have no match are ignored as well as
 
 ::
 
-    >>> fnmatch("abc", "a**c")
-    True
     >>> fnmatch("abbc", "a**c")
     True
     >>> fnmatch("a/c", "a**c")
-    True
-    >>> fnmatch("a?c", "a**c")
-    True
-    >>> fnmatch("ac", "a**c")
     True
