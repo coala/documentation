@@ -98,6 +98,8 @@ brackets have to be placed at the first position.
     True
     >>> fnmatch("a!a", "a[!]a")
     False
+    >>> fnmatch("aa", "a[!]a")
+    False
     >>> fnmatch("a[!]a", "a[!]a")
     True
 
@@ -105,11 +107,11 @@ brackets have to be placed at the first position.
 ~~~~~~~~~~~~~~~~~~~~
 
     Matches either sequence\_a or sequence\_b as a whole. More than two
-    or just one sequence can be given. Can be empty.
+    or just one sequence can be given.
 
 Parentheses cannot be part of an alternative, unless they are escaped by
-brackets. Parentheses that have no match are ignored. 
-``|``-separators that are not inside matching parentheses are ignored as well.
+brackets. Parentheses that have no match are ignored as well as
+``|``-separators that are not inside matching parentheses.
 
 ::
 
@@ -121,9 +123,13 @@ brackets. Parentheses that have no match are ignored.
     False
     >>> fnmatch("aXb", "(a(X|Y)b|c)")
     True
+    >>> fnmatch("c", "(a(X|Y)b|c)")
+    True
     >>> fnmatch("a", "a|b")
     False
     >>> fnmatch("a|b", "a|b")
+    True
+    >>> fnmatch("(a|b", "(a|b")
     True
     >>> fnmatch("(aa", "(a(a|b)")
     True
@@ -174,6 +180,8 @@ brackets. Parentheses that have no match are ignored.
     True
     >>> fnmatch("a/c", "a*c")
     False
+    >>> fnmatch("a?c", "a*c")
+    True
     >>> fnmatch("ac", "a*c")
     True
 
@@ -184,7 +192,13 @@ brackets. Parentheses that have no match are ignored.
 
 ::
 
+    >>> fnmatch("abc", "a**c")
+    True
     >>> fnmatch("abbc", "a**c")
     True
     >>> fnmatch("a/c", "a**c")
+    True
+    >>> fnmatch("a?c", "a**c")
+    True
+    >>> fnmatch("ac", "a**c")
     True
