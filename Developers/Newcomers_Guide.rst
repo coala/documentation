@@ -3,15 +3,20 @@
 Welcome to the Newcomers Guide!
 ===============================
 
-This is a step-based guide that will help you get your first contribution
-at coala!
+To become part of the coala developers team, there's a few steps you need
+to complete. The newcomer process is as it follows:
 
-There's a few things a contributor needs in order to be considered a full-norm
-coalaian:
+You will start as a newcomer, which is kind of a trial. If you complete the
+following tasks, you will become a developer at coala:
 
   - merge a ``difficulty/newcomer`` Pull Request
-  - review other Pull Requests
+  - review at least a ``difficulty/newcomer`` Pull Request
   - merge a ``difficulty/low`` Pull Request
+  - review at least a``difficulty/low`` or higher Pull Request
+
+Once you have achieved all these, just ask for being promoted on the chat and
+provide links to your reviews and merged Pull Requests. Then, you will be able
+to name yourself a coala developer!
 
 .. note::
 
@@ -22,6 +27,9 @@ coalaian:
 Of course, the order is not important, although, we recommend you to start
 with a ``newcomer`` issue, end with a ``low`` issue, and review other PRs in
 the meantime!
+
+This is a step-based guide that will help you get your first contribution
+at coala, making you familiar with the work flow!
 
 For more information about Pull Requests, keep reading!
 
@@ -41,6 +49,8 @@ Step 2. Grab an Invitation to the Organization
 
 Let us know on gitter that you are interested in contributing and ask for an
 invitation to our org. This is your first step towards contributing.
+A maintainer will command ``cobot`` (our gitter bot) to invite
+you and be part of the Newcomer team.
 The invitation will be sent by mail and you will have to accept
 it to join. If you don't find the invitation, accept it `here <https://github.com/coala>`_.
 
