@@ -3,8 +3,9 @@
 The official documentation for coala
 ====================================
 
-This is the official documentation for coala. The coala repository can be found
-`here <https://github.com/coala/coala>`__.
+This is the official documentation for coala, and it is online at https://docs.coala.io.
+The coala repository can be found
+`here <https://github.com/coala/coala>`__. 
 
 How to build
 ============
