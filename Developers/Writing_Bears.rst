@@ -276,3 +276,143 @@ parameter in ``HiddenResult`` should be the instance of the Bear that yields
 this result (in this case ``self``), and second argument should be the content
 we want to transfer between the Bears. Here we use a list of strings as content
 but it can be any object.
+
+More Configuration Options
+--------------------------
+
+coala provides metadata to further configure your bear according to your needs.
+Here is the list of all the metadata you can supply:
+
+- `LANGUAGES`_
+- `REQUIREMENTS`_
+- `INCLUDE_LOCAL_FILES`_
+- `CAN_DETECT and CAN_FIX`_
+- `BEAR_DEPS`_
+- `Other Metadata`_
+
+
+LANGUAGES
+~~~~~~~~~
+
+To indicate which languages your bear supports, you need to give it a `set` of
+strings as a value:
+
+.. code:: python
+
+    class SomeBear(Bear):
+        LANGUAGES = {'C', 'CPP','C#', 'D'}
+
+REQUIREMENTS
+~~~~~~~~~~~~
+
+To indicate the requirements of the bear, assign ``REQUIREMENTS`` a set with
+instances of subclass of ``PackageRequirement`` such as:
+
+- PipRequirement
+- NpmRequirement
+- CondaRequirement
+- DistributionRequirement
+- GemRequirement
+- GoRequirement
+- JuliaRequirement
+- RscriptRequirement
+
+.. code:: python
+
+    class SomeBear(Bear):
+        REQUIREMENTS = {
+        PipRequirement('coala_decorators', '0.2.1')}
+
+To specify multiple requirements you can use the multiple method.
+This can receive both tuples of strings, in case you want a specific version,
+or a simple string, in case you want the latest version to be specified.
+
+.. code:: python
+
+    class SomeBear(Bear):
+        REQUIREMENTS = PipRequirement.multiple(
+            ('colorama', '0.1'),
+            'coala_decorators')
+
+INCLUDE_LOCAL_FILES
+~~~~~~~~~~~~~~~~~~~
+
+If your bear needs to include local files, then specify it by giving strings
+containing file paths, relative to the file containing the bear, to the
+``INCLUDE_LOCAL_FILES``.
+
+.. code:: python
+
+    class SomeBear(Bear):
+        INCLUDE_LOCAL_FILES = {'checkstyle.jar',
+            'google_checks.xml'}
+
+CAN_DETECT and CAN_FIX
+~~~~~~~~~~~~~~~~~~~~~
+
+To easily keep track of what a bear can do, you can set the value of
+`CAN_FIX` and `CAN_DETECT` sets.
+
+
+.. code:: python
+
+    class SomeBear(Bear):
+        CAN_DETECT = {'Unused Code', 'Spelling'}
+
+        CAN_FIX = {'Syntax', 'Formatting'}
+
+
+To view a full list of possible values, check this list:
+
+- `Syntax`
+- `Formatting`
+- `Security`
+- `Complexity`
+- `Smell`
+- `Unused Code`
+- `Redundancy`
+- `Variable Misuse`
+- `Spelling`
+- `Memory Leak`
+- `Documentation`
+- `Duplication`
+- `Commented Code`
+- `Grammar`
+- `Missing Import`
+- `Unreachable Code`
+- `Undefined Element`
+- `Code Simplification`
+
+Specifying something to `CAN_FIX` makes it obvious that it can be detected too,
+so it may be omitted from `CAN_DETECT`
+
+BEAR_DEPS
+~~~~~~~~~
+
+``BEAR_DEPS`` contains bear classes that are to be executed before this bear
+gets executed. The results of these bears will then be passed to the run method
+as a dict via the `dependency_results` argument. The dict will have the name of
+the Bear as key and the list of its results as value:
+
+.. code:: python
+
+    class SomeOtherBear(Bear):
+        BEAR_DEPS = {SomeBear}
+
+For more detail see `Bears Depending on Other Bears`_.
+
+Other Metadata
+~~~~~~~~~~~~~~
+
+Other metadata such as ``AUTHORS``, ``AUTHORS_EMAILS``, ``MAINTAINERS``,
+``MAINTAINERS_EMAILS``, ``LICENSE``, ``ASCIINEMA_URL`` can be used as follows:
+
+.. code:: python
+
+    class SomeBear(Bear):
+        AUTHORS = {'Jon Snow'}
+        AUTHORS_EMAILS = {'jon_snow@gmail.com'}
+        MAINTAINERS = {'Catelyn Stark'}
+        MAINTAINERS_EMAILS = {'catelyn_stark@gmail.com'}
+        LICENSE = 'AGPL-3.0'
+        ASCIINEMA_URL = 'https://asciinema.org/a/80761'
