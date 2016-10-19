@@ -223,22 +223,22 @@ So let's see how you could tell coala which Bears to run before yours:
 
     class DependentBear(LocalBear):
 
+        BEAR_DEPS = {OtherBear}
+
         def run(self, filename, file, dependency_results):
             results = dependency_results[OtherBear.name]
 
-        @staticmethod
-        def BEAR_DEPS():
-            return [OtherBear]
 
 As you can see we have a :meth:`~coalib.bears.Bear.Bear.BEAR_DEPS`
-method which returns a list of bears we wish to depend on.
-In this case it is a list with 1 item: "OtherBear".
+set which contains a list of bears we wish to depend on.
+In this case it is a set with 1 item: "OtherBear".
 
 .. note::
-    The list must have classes of the bear itself, not the name as a string.
+    The `BEAR_DEPS` set must have classes of the bear itself,
+    not the name as a string.
 
-coala searches for the ``BEAR_DEPS`` function before executing
-the ``DependentBear`` and runs all the Bears which are returned by it.
+coala gets the ``BEAR_DEPS`` before executing the ``DependentBear``
+and runs all the Bears in there first.
 
 After running these bears, coala gives all the results returned by the Bears
 in the ``dependency_results`` dictionary, which has the Bear's name as a key
