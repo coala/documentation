@@ -229,7 +229,7 @@ So let's see how you could tell coala which Bears to run before yours:
             results = dependency_results[OtherBear.name]
 
 
-As you can see we have a :meth:`~coalib.bears.Bear.Bear.BEAR_DEPS`
+As you can see we have a :attr:`~coalib.bears.Bear.Bear.BEAR_DEPS`
 set which contains a list of bears we wish to depend on.
 In this case it is a set with 1 item: "OtherBear".
 
