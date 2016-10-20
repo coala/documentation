@@ -123,7 +123,7 @@ everything we've found out so far:
     class PylintTutorialBear:
         @staticmethod
         def create_arguments(filename, file, config_file):
-            return ('--msg_template="L{line}C{column}: {msg_id} - {msg}"',
+            return ('--msg-template="L{line}C{column}: {msg_id} - {msg}"',
                     '--reports=n', filename)
 
 As you can see, the ``output_regex`` parameter consists of named groups. These
@@ -267,7 +267,7 @@ configuration file for Pylint. Let's add that functionality to our bear.
         @staticmethod
         def create_arguments(filename, file, config_file,
                              pylint_rcfile: str=os.devnull):
-            return ('--msg_template="L{line}C{column}: {msg_id} - {msg}"',
+            return ('--msg-template="L{line}C{column}: {msg_id} - {msg}"',
                     '--reports=n', '--rcfile=' + pylint_rcfile, filename)
 
 Just adding the needed parameter to the ``create_arguments`` signature
@@ -353,7 +353,7 @@ it should look something like this
             :param pylint_rcfile:
                 The configuration file Pylint shall use.
             """
-            return ('--msg_template="L{line}C{column}: {msg_id} - {msg}"',
+            return ('--msg-template="L{line}C{column}: {msg_id} - {msg}"',
                     '--reports=n', '--rcfile=' + pylint_rcfile, filename)
 
 Running and Testing our Bear
