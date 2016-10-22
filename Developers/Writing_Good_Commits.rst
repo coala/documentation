@@ -7,7 +7,8 @@ At coala we are looking heavily at the maintainability of the code.
 
     Code is more often read than written!
 
-It is obvious that we need good code. Therefore we are ensuring that every change to our code (i.e the commits) will make it better.
+It is obvious that we need good code. Therefore we are ensuring that
+every change to our code (i.e the commits) will make it better.
 
 What Makes a Good Commit
 ------------------------
