@@ -118,7 +118,9 @@ html_theme_options = {
     'github_user': 'coala',
     'github_repo': 'coala',
     'github_banner': True,
-    'github_type': 'star'
+    'github_type': 'star',
+    'logo': '/images/coala_logo.svg',
+    'logo_name': True,
 }
 
 # Add any paths that contain custom themes here, relative to this directory.

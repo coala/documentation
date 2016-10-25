@@ -9,3 +9,7 @@
 div.sphinxsidebar .caption-text {
     font-size: 120%;
 }
+
+img.logo {
+    width: 100px;
+}
