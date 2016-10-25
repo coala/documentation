@@ -149,6 +149,13 @@ clicking ``New Pull Request``.
 
 **Congratulations!** You have now created your first ``Pull Request``!
 
+.. note::
+
+    Do not delete your comments on Github because it makes it hard for other
+    developers to follow on that issue. If necessary, edit your comment in case
+    there is a typo or a task list to be updated. If you have to add some new
+    information, make a new comment.
+
 If you know you have more work to do on this ``Pull Request`` before it is
 ready to be accepted, you can optionally indicate this to other
 developers by starting your ``Pull Request`` title with ``wip``
