@@ -202,7 +202,7 @@ understands it. This is possible via the ``severity_map`` parameter of
 ``coalib.results.RESULT_SEVERITY`` contains three different values, ``Info``,
 ``Warning`` and ``Error`` you can use. In case no severity map is provided, the a default map is used.
 The default map includes the following mappings:
-``
+
 ::
             severity_map={
                     "critical": RESULT_SEVERITY.MAJOR,
@@ -220,7 +220,8 @@ The default map includes the following mappings:
                     "info": RESULT_SEVERITY.INFO,
                     "i": RESULT_SEVERITY.INFO,
                     "note": RESULT_SEVERITY.INFO,
-                    "suggestion": RESULT_SEVERITY.INFO}``
+                    "suggestion": RESULT_SEVERITY.INFO}
+..
 
 We can test our bear like this
 
