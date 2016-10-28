@@ -204,6 +204,7 @@ understands it. This is possible via the ``severity_map`` parameter of
 The default map includes the following mappings:
 
 ::
+
             severity_map={
                     "critical": RESULT_SEVERITY.MAJOR,
                     "c": RESULT_SEVERITY.MAJOR,
@@ -221,7 +222,7 @@ The default map includes the following mappings:
                     "i": RESULT_SEVERITY.INFO,
                     "note": RESULT_SEVERITY.INFO,
                     "suggestion": RESULT_SEVERITY.INFO}
-..
+
 
 We can test our bear like this
 
