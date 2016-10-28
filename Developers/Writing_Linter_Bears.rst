@@ -203,6 +203,7 @@ understands it. This is possible via the ``severity_map`` parameter of
 ``Warning`` and ``Error`` you can use. In case no severity map is provided, the a default map is used.
 The default map includes the following mappings:
 ``
+::
             severity_map={
                     "critical": RESULT_SEVERITY.MAJOR,
                     "c": RESULT_SEVERITY.MAJOR,
