@@ -60,19 +60,20 @@ each file:
                 file):
             self.debug("Hello World! Checking file", filename, ".")
 
-This bear is stored at ``./bears/HelloWorldBear``
+This bear is stored at ``./bears/HelloWorldBear.py``
 
 In order to let coala execute this bear you need to let coala know where
 to find it. We can do that with the ``-d`` (``--bear-dirs``) argument:
 
-``coala -f src/*.c -d bears -b HelloWorldBear -L DEBUG``
+``coala -f src/*.c -d bears -b HelloWorldBear -L DEBUG --flush-cache``
 
 .. note::
 
     The given bear directories must not have any glob expressions in them. Any
     character that could be interpreted as a part of a glob expression will be
     escaped. Please use comma separated values to give several such
-    directories instead.
+    directories instead. Do not forget to flush the cache when you set a new bear 
+    on a file that has already been analyzed previously. 
 
 You should now see the debug message for our sample file.
 
@@ -119,7 +120,7 @@ Try executing it:
 
 ::
 
-    coala -f=src/\*.c -d=bears -b=CommunicationBear -L=DEBUG
+    coala -f=src/\*.c -d=bears -b=CommunicationBear -L=DEBUG --flush-cache
 
 Hey, we'll get asked for the user\_input! Wasn't that easy? Go ahead,
 enter something and observe the output.
