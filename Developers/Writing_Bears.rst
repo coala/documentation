@@ -60,7 +60,7 @@ each file:
                 file):
             self.debug("Hello World! Checking file", filename, ".")
 
-This bear is stored at ``./bears/HelloWorldBear``
+This bear is stored at ``./bears/HelloWorldBear.py``
 
 In order to let coala execute this bear you need to let coala know where
 to find it. We can do that with the ``-d`` (``--bear-dirs``) argument:
