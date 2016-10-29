@@ -30,6 +30,9 @@ also show you more information about your current pip version:
 
     $ pip show pip
 
+Make sure you have pip >= 8 installed as older versions might prevent coala
+from being installed properly.
+
 Installing coala
 ----------------
 
