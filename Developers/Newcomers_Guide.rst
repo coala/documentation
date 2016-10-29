@@ -164,11 +164,11 @@ developers by starting your ``Pull Request`` title with ``wip``
 Step 7. Waiting for Review
 --------------------------
 
-After creating a Pull Request, your PR is open to the review process (to read
-more about it, have patience and it is explained on the next step), and all
-you can do is wait. The best thing you can do while at this step is review
-other people's PRs. Not only will this help the maintainers with the workload,
-but this is one of the three core steps towards becoming a full-norm coalaian.
+After creating a Pull Request, your PR is open to the review process (explained
+in the next step), and all you can do is wait. The best thing you can do while
+waiting is review other people's PRs. Not only will this help the maintainers
+with the workload, but this is one of the three core steps towards becoming a
+full-norm coalaian.
 
 For more information about reviewing code, check out
 :doc:`the Review page.<Review>`
