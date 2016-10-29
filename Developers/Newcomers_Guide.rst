@@ -3,16 +3,18 @@
 Welcome to the Newcomers Guide!
 ===============================
 
-To become part of the coala developers' team, there are few steps you need
-to complete. The newcomer onboarding process is as follows:
+To become part of the coala developer team, there are few steps you need
+to complete. You will start as a newcomer, which is kind of a trial.
+There are two parts of the onboarding process:
 
-You will start as a newcomer, which is kind of a trial. If you complete the
-following tasks, you will become a developer at coala:
+  - tackle a ``difficulty/newcomer`` issue
+  - tackle a ``difficulty/low`` issue
 
-  - merge a ``difficulty/newcomer`` Pull Request
-  - review at least a ``difficulty/newcomer`` Pull Request
-  - merge a ``difficulty/low`` Pull Request
-  - review at least a``difficulty/low`` or higher Pull Request
+and each of them involves following steps:
+
+  - solve an issue marked with the corresponding label
+  - open a Pull Request for your issue and get it merged
+  - review at least one Pull Request with the same difficulty
 
 Once you have achieved all these, just ask for being promoted on the chat and
 provide links to your reviews and merged Pull Requests. Then, you will be able
