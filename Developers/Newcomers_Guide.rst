@@ -3,8 +3,8 @@
 Welcome to the Newcomers Guide!
 ===============================
 
-To become part of the coala developers team, there's a few steps you need
-to complete. The newcomer process is as it follows:
+To become part of the coala developers' team, there are few steps you need
+to complete. The newcomer onboarding process is as follows:
 
 You will start as a newcomer, which is kind of a trial. If you complete the
 following tasks, you will become a developer at coala:
@@ -24,7 +24,7 @@ to name yourself a coala developer!
     of work. We're all volunteers and we can't keep this up if you don't help
     us in other areas as well!
 
-Of course, the order is not important, although, we recommend you to start
+Of course, the order is not important, however, we recommend you to start
 with a ``newcomer`` issue, end with a ``low`` issue, and review other PRs in
 the meantime!
 
@@ -37,9 +37,9 @@ Step 1. Meet the Community!
 ---------------------------
 
 To get started, the first step is to meet the community. We use gitter to
-communicate, and there the helpful community will guide you.
+communicate, and there, the helpful community will guide you.
 Join us at `coala gitter <https://coala.io/chat>`_.
-The newcomers should ping us "Hello World" to let us know they are here
+The newcomers should ping us a "Hello World" to let us know they are here
 because we care!
 
 **Congratulations!** You are now part of our community.
@@ -98,7 +98,7 @@ Now you can start working on it.
 Step 4. Creating a Fork and Testing Your Changes
 ------------------------------------------------
 
-This tutorial implies you working on your fork. To fork the repository, go
+This tutorial implies you work on a fork. To fork the repository, go
 to the official repository of coala/coala-bears and click on the ``Fork``
 button from the website interface. To add it locally, simply run:
 
@@ -181,17 +181,17 @@ For more information about reviewing code, check out
 Step 8. Review Process
 ----------------------
 
-After creating your ``Pull Request``, it is under the review process. This can
-be deduced from the ``process/pending review`` label. Now all you have to do
-is wait, or let the other developers know on Gitter that you have published
-your changes.
+After you've created your ``Pull Request``, it is under the review process.
+This can be deduced from the ``process/pending review`` label. Now all you have
+to do is wait, or let the other developers know on Gitter that you have
+published your changes.
 
 .. note::
 
     Do not tag the reviewers every time you push a change. They review PRs
     consistently whenever they have time!
 
-Now there's two possibilities:
+Now there are two possibilities:
 
 - your ``Pull Request`` gets accepted, and your commits will get merged into
   the master branch
@@ -201,7 +201,7 @@ Now there's two possibilities:
 .. note::
 
     Wait until the reviewer has already reviewed your whole Pull Request
-    and has labeled it ``process/wip``. Else, if you push again and his
+    and has labeled it ``process/wip``. Else, if you push again and their
     comments disappear, it can be considered rude.
 
 .. note::
@@ -226,7 +226,7 @@ commit it using
     $ git commit -a --amend
 
 This will edit your last commit message. If your commit message was considered
-fine by our reviewers, you can simply send it again like this. If not, edit it
+fine by our reviewers, you can simply send it again as it was. If not, edit it
 and send it. You have successfully edited your last commit!
 
 .. note::
