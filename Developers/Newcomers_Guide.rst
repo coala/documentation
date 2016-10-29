@@ -52,7 +52,7 @@ invitation to our org. This is your first step towards contributing.
 A maintainer will command ``cobot`` (our gitter bot) to invite
 you and be part of the Newcomer team.
 The invitation will be sent by mail and you will have to accept
-it to join. If you don't find the invitation, accept it `here <https://github.com/coala>`_.
+it to join. If you don't find the invitation, accept it `on github <https://github.com/coala>`_.
 
 Now that you are part of our organization, you can start working on issues.
 If you are familiar with git, you can skip the next section and pick an issue.
@@ -63,9 +63,9 @@ Optional. Get Help With Git
 We use GitHub to manage our repository. If you're not familiar with git, we
 strongly recommend following a tutorial, such as `this one <https://try.github.io/levels/1/challenges/1>`_.
 
-We also have a page dedicated to git commands that will help you learn the
-basics,
-:doc:`here <Git_Basics>`.
+We also have a
+:doc:`page dedicated to git commands <Git_Basics>`
+that will help you learn the basics.
 
 If there's anything unclear, or you are encountering problems, feel free
 to contact us on `gitter <https://coala.io/chat>`_,
@@ -171,7 +171,7 @@ other people's PRs. Not only will this help the maintainers with the workload,
 but this is one of the three core steps towards becoming a full-norm coalaian.
 
 For more information about reviewing code, check out
-:doc:`this link.<Review>`
+:doc:`the Review page.<Review>`
 
 .. note::
 
@@ -208,7 +208,7 @@ Now there are two possibilities:
 
     You might be wondering what those CI things on your ``Pull Request`` are.
     For more detailed info about them, see
-    :doc:`this page <../Help/FAQ>`.
+    :doc:`the FAQ <../Help/FAQ>`.
 
 It's highly unlikely that your ``Pull Request`` will be accepted on the first
 attempt - but don't worry, that's just how it works. It helps us maintain
