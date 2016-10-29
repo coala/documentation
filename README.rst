@@ -22,8 +22,8 @@ You can test the documentation locally through simply running
 
     make html
 
-in the root directory. This generates _build\html\index.html that you can view
-on your browser.
+in the root directory. This generates ``_build/html/index.html`` that you can
+view on your browser.
 
 If you want to add new pages, you need to alter the index.rst file in the root
 directory. Please read
