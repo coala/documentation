@@ -11,6 +11,13 @@ In order to complete this tutorial you will need coala installed.
 (Installation is actually not required but it's more convenient and
 recommended.)
 
+.. note::
+
+    Here's a list of our
+    'supported languages
+    <https://github.com/coala/bear-docs/blob/master/README.rst>`.
+
+
 Get Some Code
 -------------
 
