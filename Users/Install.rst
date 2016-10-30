@@ -2,7 +2,7 @@
 ==================
 
 This page will run you through the installation of coala. coala currently
-supports Windows and Linux, and has some features on OS X too.
+supports Windows and Linux, and has some features on Mac OS too.
 
 Installing Python and Pip
 --------------------------
@@ -51,7 +51,7 @@ system-wide, use:
     For this and all future steps, some steps require root access
     (also known as administrative privileges in Windows).
 
-    **Unix based** (OS X, Linux) - This can be achieved by using ``sudo``
+    **Unix based** (Mac OS, Linux) - This can be achieved by using ``sudo``
     in front of the command, as in: ``sudo command_name`` instead of
     ``command_name``
 
@@ -96,7 +96,7 @@ folder:
 Now, whenever you want to work on the project, you only have to activate
 the corresponding environment.
 
-    On **Unix based** systems (OS X and Linux), this can be done with:
+    On **Unix based** systems (Mac OS and Linux), this can be done with:
 
     ::
 
@@ -222,7 +222,7 @@ work, you need to install ``libclang``:
    Fedora 21 or lower.)
 -  ArchLinux: ``pacman -Sy clang``
 -  Windows: ``nuget install ClangSharp``
--  OS X: ``brew install llvm --with-clang``
+-  Mac OS: ``brew install llvm --with-clang``
 
 If these do not help you, search for a package that contains
 ``libclang.so``.
