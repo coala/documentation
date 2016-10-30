@@ -114,6 +114,7 @@ More Examples
 -------------
 
 Example 1 (fixed bug):
+
 ::
 
     setup: Install .coafile via package_data
@@ -126,6 +127,7 @@ Example 1 (fixed bug):
     Fixes https://github.com/coala/coala/issues/269
 
 Example 2 (implemented feature):
+
 ::
 
     Linter: Output command on debug
