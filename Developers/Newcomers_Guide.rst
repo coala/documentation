@@ -77,6 +77,10 @@ Step 3. Picking Up an Issue
 Now it is time to pick an issue.
 Here is the link that will lead you to `Newcomers issues <https://coala.io/new>`_.
 
+.. note::
+
+    You need to be logged in before you follow the Newcomers issues link.
+
 .. seealso::
 
     For more information about what bears are, please check the following link: `Writing bears <http://coala.readthedocs.io/en/latest/Developers/Writing_Bears.html>`_
