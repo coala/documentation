@@ -94,11 +94,6 @@ it, then leave a comment that you would like to get assigned. This way
 we don't have multiple people working on the same issue at the same time.
 Now you can start working on it.
 
-.. note::
-
-    Before starting to write your first commit, check out this link:
-    :doc:`Writing good commits <Writing_Good_Commits>`.
-
 Step 4. Creating a Fork and Testing Your Changes
 ------------------------------------------------
 
@@ -127,24 +122,57 @@ into your bash. This will analyze your code and help you fix it.
 
     `Executing tests <http://coala.readthedocs.io/en/latest/Developers/Executing_Tests.html>`_
 
-Step 5. Sending Your Changes
-----------------------------
+Step 5. Create Branch and Commit Changes
+----------------------------------------
 
-Now that you've fixed the issue, you've tested it and you think it is ready
-to be merged, create a commit and push it to your fork, using:
+When you are happy with your code, you should do two things.
+
+First create new branch so your changes are separated.
 
 ::
 
-    $ git push myfork
+    $ git checkout -b my-fixed-issue
 
-where ``myfork`` is the name of your fork that you added at the previous step.
+Where ``my-fixed-issue`` is some arbitrary name to help you associate
+this issue with your changes.
+
+Second part is commit your changes to this branch. For this you need to
+prepare changes files to commit and then commit them with commit message.
+
+::
+
+    $ git add .
+    $ git commit -m "SomeFile.py: Short commit message
+
+    There should be some details about changes.
+
+    Fixes https://github.com/coala/coala/issues/2066
+    "
+
+.. note::
+
+    Before starting to write your first commit, check out this link:
+    :doc:`Writing good commits <Writing_Good_Commits>`.
+
+Step 6. Sending Your Changes
+----------------------------
+
+Now that you've fixed the issue, you've tested it and you think it is ready
+to be merged, push new branch to your fork, using:
+
+::
+
+    $ git push myfork my-fixed-issue
+
+where ``myfork`` is the name of your fork and ``my-fixed-issue`` is then
+atritrary name of your issue branch.
 
 .. note::
 
     You could also add a profile picture on your Github account, so that
     you can be distinguished out from the crowd!
 
-Step 6. Creating a ``Pull Request``
+Step 7. Creating a ``Pull Request``
 -----------------------------------
 
 Now that your commit has been sent to your fork, it is time
@@ -165,7 +193,7 @@ ready to be accepted, you can optionally indicate this to other
 developers by starting your ``Pull Request`` title with ``wip``
 (case-insensitive).
 
-Step 7. Waiting for Review
+Step 8. Waiting for Review
 --------------------------
 
 After creating a Pull Request, your PR is open to the review process (to read
@@ -182,7 +210,7 @@ For more information about reviewing code, check out
     Reviewing code helps you by watching other people's mistakes and not making
     them yourself in the future!
 
-Step 8. Review Process
+Step 9. Review Process
 ----------------------
 
 After creating your ``Pull Request``, it is under the review process. This can
