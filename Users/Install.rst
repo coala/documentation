@@ -70,6 +70,11 @@ To install coala only (without any bears), you can do:
 
     $ pip3 install coala
 
+    Install.rst: Add post-Java installation info
+.. note::
+
+    Make sure that you have **Java** installed if you install the coala-bears package. You might need to restart your shell after installing it so that coala picks it up. Java is needed for our grammar checking analysis routines.        
+
 Installing inside a virtualenv
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
