@@ -312,8 +312,6 @@ documentation together with the metadata attributes:
         checks and error codes.
         """
 
-        LANGUAGES = ("Python", "Python 2", "Python 3")
-
         @staticmethod
         def create_arguments(filename, file, config_file,
                              pylint_rcfile: str=os.devnull):
@@ -366,8 +364,6 @@ it should look something like this
         https://pylint.org/
         """
 
-        LANGUAGES = ("Python", "Python 2", "Python 3")
-
         @staticmethod
         def create_arguments(filename, file, config_file,
                              pylint_rcfile: str=os.devnull):
@@ -377,6 +373,63 @@ it should look something like this
             """
             return ('--msg-template="L{line}C{column}: {msg_id} - {msg}"',
                     '--reports=n', '--rcfile=' + pylint_rcfile, filename)
+
+Adding Metadata Attributes
+--------------------------
+
+Now we need to add some more precious information to our bear. This helps
+by giving more information about each bear and also helps some functions
+gather information by using these values. Our bear now looks like:
+
+::
+
+  import os
+
+  from coalib.bearlib.abstractions.Linter import linter
+  from coalib.bears.requirements.PipRequirement import PipRequirement
+  from coalib.results.RESULT_SEVERITY import RESULT_SEVERITY
+
+  @linter(executable='pylint',
+          output_format='regex',
+          output_regex=r'L(?P<line>\d+)C(?P<column>\d+): '
+                       r'(?P<message>(?P<severity>[WFECRI]).*)',
+          severity_map={'W': RESULT_SEVERITY.NORMAL,
+                        'F': RESULT_SEVERITY.MAJOR,
+                        'E': RESULT_SEVERITY.MAJOR,
+                        'C': RESULT_SEVERITY.NORMAL,
+                        'R': RESULT_SEVERITY.NORMAL,
+                        'I': RESULT_SEVERITY.INFO})
+  class PylintTutorialBear:
+      """
+      Lints your Python files!
+
+      Check for codings standards (like well-formed variable names), detects
+      semantical errors (like true implementation of declared interfaces or
+      membership via type inference), duplicated code.
+
+      See http://pylint-messages.wikidot.com/all-messages for a list of all
+      checks and error codes.
+
+      https://pylint.org/
+      """
+
+      LANGUAGES = {"Python", "Python 2", "Python 3"}
+      REQUIREMENTS = {PipRequirement('pylint', '1.*')}
+      AUTHORS = {'The coala developers'}
+      AUTHORS_EMAILS = {'coala-devel@googlegroups.com'}
+      LICENSE = 'AGPL-3.0'
+      CAN_DETECT = {'Unused Code', 'Formatting', 'Duplication', 'Security',
+                    'Syntax'}
+
+      @staticmethod
+      def create_arguments(filename, file, config_file,
+                           pylint_rcfile: str=os.devnull):
+        """
+        :param pylint_rcfile:
+            The configuration file Pylint shall use.
+        """
+        return ('--msg-template="L{line}C{column}: {msg_id} - {msg}"',
+                '--reports=n', '--rcfile=' + pylint_rcfile, filename)
 
 Running and Testing our Bear
 ----------------------------

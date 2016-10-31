@@ -72,8 +72,10 @@ analysis, which in this case is only the ``use_spaces`` setting. We
 recommend setting it to ``True``.
 
 coala will now check the code and, in case you use the tutorial code,
-yield two results. In the case of the SpaceConsistencyBear you will
-see trailing whitespace errors on your console.
+yield one result. SpaceConsistencyBear will detect a trailing whitespace at
+the end of the line, after ``#include <stdio.h>`` in the ``main.c`` file. coala
+will then ask you to remove the trailing space, by applying the suggested
+patch (option 2).
 
 Feel free to experiment a bit. You've successfully analysed some code!
 But don't stop reading - you don't have to enter all those values again!

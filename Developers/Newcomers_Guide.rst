@@ -12,7 +12,7 @@ following tasks, you will become a developer at coala:
   - merge a ``difficulty/newcomer`` Pull Request
   - review at least a ``difficulty/newcomer`` Pull Request
   - merge a ``difficulty/low`` Pull Request
-  - review at least a``difficulty/low`` or higher Pull Request
+  - review at least a ``difficulty/low`` or higher Pull Request
 
 Once you have achieved all these, just ask for being promoted on the chat and
 provide links to your reviews and merged Pull Requests. Then, you will be able
@@ -76,6 +76,10 @@ Step 3. Picking Up an Issue
 
 Now it is time to pick an issue.
 Here is the link that will lead you to `Newcomers issues <https://coala.io/new>`_.
+
+.. note::
+
+    You need to be logged in before you follow the Newcomers issues link.
 
 .. seealso::
 

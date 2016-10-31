@@ -84,10 +84,10 @@ Communicating with the User
 ---------------------------
 
 Now we can send messages through the queue, we can do the real work.
-Lets say:
+Let's say:
 
 -  We want some information from the user (e.g. the tab width if we rely
-   on indentation)
+   on indentation).
 -  We've got some useful information for the user and want to show it to
    them. This might be some issue with their code or just an information
    like the number of lines.
