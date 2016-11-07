@@ -13,7 +13,7 @@ We highly recommend installing coala in a virtualenv for development. This
 will allow you to have a contained environment in which to modify coala,
 separate from any other installation of coala that you may not want to
 break. For more information about virtualenvs, please refer to the
-:ref:`virtualenv setup <venv-setup>` section for information on setting one
+`virtualenv setup <https://docs.coala.io/en/latest/Help/MAC_Hints.html#create-virtual-environments-with-pyvenv>`__ section for information on setting one
 up.
 
 Repositories
