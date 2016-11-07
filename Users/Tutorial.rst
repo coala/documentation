@@ -14,8 +14,8 @@ recommended.)
 .. note::
 
     Here's a list of our
-    'supported languages
-    <https://github.com/coala/bear-docs/blob/master/README.rst>`.
+    `supported languages
+    <https://github.com/coala/bear-docs/blob/master/README.rst>`__.
 
 
 Get Some Code
