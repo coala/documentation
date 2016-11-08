@@ -13,3 +13,7 @@ div.sphinxsidebar .caption-text {
 img.logo {
     width: 100px;
 }
+
+.sphinxsidebarwrapper a.current.reference.internal {
+    font-weight: bold;
+}
