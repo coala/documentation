@@ -29,7 +29,6 @@ Welcome to the coala documentation!
    Writing a coala Configuration File (coafile and coarc) <Users/coafile>
    Using Glob Patterns <Users/Glob_Patterns>
    Exit Codes <Users/Exit_Codes>
-   External APIs <Users/External_APIs>
    Adding coala as a Git Hook <Users/coala_as_Git_Hook>
    Shell Autocompletion <Users/Shell_Autocompletion>
    coala as a Docker Image <Users/Docker_Image>
