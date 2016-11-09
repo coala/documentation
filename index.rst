@@ -129,9 +129,10 @@ else than just writing your algorithm!
   Check out :doc:`Writing Bears <Developers/Writing_Bears>` for more
   information on this.
 
-Also, coala provides an external API using the dbus message protocol.
-This allows other applications to easily use the code analysis
-functionalities coala provides in their applications.
+To programmatically access coala's functionality, use ``coala-json`` or
+``coala-format`` if you want to use a custom format string. Both of those
+binaries, among with ``coala-ci``, are noninteractive and thus suitable for
+continuous integration.
 
 .. seealso::
 
