@@ -4,6 +4,34 @@ Frequently Asked Questions
 This is a list of frequently asked questions, aiming to answer any possible
 questions by newcomers or even contributors.
 
+What does coala do (for me)?
+----------------------------
+
+coala is like a spell and grammar checker for source code. Imagine using
+LibreOffice Writer to spellcheck something in English. Why should you have to
+write LibreOfficES to check something written in Spanish?
+That is what coala  tries to fix. Why write the whole thing again if you
+actually just want another analyzing routine? Thats what bears are for. You
+want to use clang or pylint on your project? We got you covered. One command
+and one configuration to lint all languages in your project.
+
+You have an awesome idea for a new kind of code analysis but don't want to
+write a CLI? Write just the parameters your custom analysis needs and the
+analysis part, we'll take care of the rest. Everything is handled by coala.
+
+All in all coala does two things:
+
+- Make it easy to use existing static code analyzers by unifying and
+  simplifying the configs
+- Make it easy to write new routines by offering the interface part
+  and everything but the actual analyzer routine.
+
+Can I Use coala in my Continuous Integration?
+---------------------------------------------
+
+Yes! There's a dedicated *coala-ci* binary that is noninteractive, shows
+results cleanly in the log and returns error codes if something is wrong.
+
 Why did you choose the name?
 ----------------------------
 
@@ -54,6 +82,31 @@ We are very active on our
 and will try to respond to any question in a matter of minutes.
 However, for a full list of how to get in touch with us, consult
 :doc:`this link <Getting_In_Touch>`.
+
+Installation is Failing! Help!
+------------------------------
+
+Don't panic!
+
+Scroll down the error log, you will probably see something like `ValueError:
+('Expected version spec in', 'appdirs ~=1.4.0', 'at', ' ~=1.4.0')` there.
+If not, `ask us! <coala.io/chat>`__
+
+If so, you're probably on a Debian with an outdated pip that doesn't support
+our version specifiers yet. You have to create a virtual environment with
+a newer pip:
+
+.. code-block:: bash
+
+  pip3 install virtualenv
+  virtualenv -p python3 ~/venvs/coala
+  . ~/venvs/coala/bin/activate
+  pip install -U pip
+  pip install coala-bears
+
+
+should do the job. You have to activate this virtualenv on every terminal
+session you want to use coala though (tip: add it to bashrc!)
 
 What are those things failing/passing on my Pull Request?
 ---------------------------------------------------------
