@@ -43,7 +43,7 @@ Command Line Interface
 
 In order to specify the files to analyze, you can use the ``--files``
 argument of coala like demonstrated below. For all file paths, you can
-specify (recursive) globs.
+specify (recursive) `globs <../Users/Glob_Patterns.html>`__.
 
 Because analysis routines can do many various things we named them
 **bears**. A bear can check your code for potential problems, calculate metrics
@@ -382,8 +382,8 @@ due to its modular design:
 -  If you want to write your own bears, take a look at
    :doc:`our tutorial <../Developers/Writing_Bears>`.
 -  If you want to add custom actions for results, take a look at the
-   code in ``coalib/results/results_actions``.
+   code in `coalib/results/results_actions <https://github.com/coala/coala/tree/master/coalib/results/result_actions>`__.
 -  If you want to have some custom outputs (e.g. HTML pages, a GUI or
-   voice interaction) take a look at modules lying in ``coalib/output``.
+   voice interaction) take a look at modules lying in `coalib/output <https://github.com/coala/coala/tree/master/coalib/output>`__.
 
 Happy coding!
