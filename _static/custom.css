@@ -17,3 +17,11 @@ img.logo {
 .sphinxsidebarwrapper a.current.reference.internal {
     font-weight: bold;
 }
+
+div.bodywrapper {
+    margin: 0 220px 0 0;
+}
+
+div.sphinxsidebar {
+    float: right;
+}
