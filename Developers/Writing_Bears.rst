@@ -150,6 +150,37 @@ This will show the user a bunch of information related to the bear like:
 - A description of what the bear does - The sections which uses it - The
 settings it uses (optional and required)
 
+.. note::
+
+    The bears are not yet installed. We still have to specify
+    the bear directory using ``-d`` or ``--bear-dirs`` flag.
+
+
+Install locally Written Bears
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Let's say that we wrote a file NewBear.py that contain our NewBear and
+we want to run it locally. To install our NewBear:
+
+-  Move the ``NewBear.py`` to our clone of coala-bears in
+   ``coala-bear/bears/<some_directory>``.
+
+-  Update all bears from source with:
+
+::
+
+    pip install -U <path/to/coala-bears>
+
+Our NewBear is installed.
+
+Try Executing:
+
+::
+
+    coala --show-bears
+
+This shows a list of all installed bears. We can find our NewBear in the list.
+
 What Data Types are Supported?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
