@@ -33,6 +33,17 @@ at coala, making you familiar with the work flow!
 
 For more information about Pull Requests, keep reading!
 
+.. note::
+
+    **You do not need to read the coala codebase to get started** - this guide
+    is intended to help you do that without reading tons of meaningless code.
+    Nobody is good at that.
+
+    Most importantly, this guide is not intended to "check if you are fit" to
+    contribute but rather a crash course to *make you fit* to contribute. We
+    are a bit picky when it comes to code quality but it's actually not at all
+    hard to get to this level if you bear with us through this guide.
+
 Step 1. Meet the Community!
 ---------------------------
 
