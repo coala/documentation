@@ -20,39 +20,39 @@ Usage
 
 To use the tool, you need to give it arguments.
 
-To install bears, simply run ``cib --install`` followed by names of bears,
+To install bears, simply run ``cib install`` followed by names of bears,
 or by ``all``. Therefore:
 
 ::
 
-    $ cib --install all
+    $ cib install all
 
 will install all the available bears, whereas
 
 ::
 
-    $ cib --install CPPCheckBear PEP8Bear
+    $ cib install CPPCheckBear PEP8Bear
 
 will install the specified bears only.
-``cib --uninstall`` works exactly the same way as ``cib --install``.
+``cib uninstall`` works exactly the same way as ``cib install``.
 
 To see the full list of available bears, run
 
 ::
 
-    $ cib --show
+    $ cib show
 
 To upgrade the already installed bears, run
 
 ::
 
-    $ cib --upgrade all
+    $ cib upgrade all
 
 to upgrade all installed bears, or
 
 ::
 
-    $ cib --upgrade CPPCheckBear PEP8Bear
+    $ cib upgrade CPPCheckBear PEP8Bear
 
 to upgrade the specified bears. However, if they are not installed, they will
 not be upgraded.
@@ -61,10 +61,10 @@ not be upgraded.
 
 ::
 
-    $ cib --check-deps all
+    $ cib check-deps all
 
 For more information, run
 
 ::
 
-    $ cib --help
+    $ cib help
