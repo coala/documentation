@@ -130,7 +130,8 @@ one to make.
 
         cout << in;
 
-    return 0;
+        return 0;
+    }
 
 8. Create a ``Makefile``. The JSON library requires C++11 so a sample
    ``Makefile`` would look like this:
