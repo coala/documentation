@@ -21,7 +21,7 @@ Example of a good commit:
    maximum of 50 characters.
 
 - `This entrypoint.. ..for this`: Describe the reasoning of your changes
-   in maximum of 72 characters.
+   in maximum of 72 characters per line.
 
 - `Fixes https://github.com/coala/coala/issues/5861`: Mention the URL
    of the issue it closes or fixes.
