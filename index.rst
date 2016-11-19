@@ -133,6 +133,11 @@ To programmatically access coala's functionality, use ``coala-json`` or
 binaries, among with ``coala-ci``, are noninteractive and thus suitable for
 continuous integration.
 
+.. Hint::
+
+    Use coala-json and coala-format!
+
+
 .. seealso::
 
   Check :doc:`External APIs <Users/External_APIs>` for more information.
