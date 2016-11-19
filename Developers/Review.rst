@@ -15,7 +15,10 @@ The review process for coala is as follows:
    the case of assignment should be asked on the main channel.
 3. The commits will undergo review of the developer that is assigned,
    while other developers have the possibility of reviewing it as well.
-4. The Pull Request will be labeled with a ``process`` label:
+4. After the review is received, if you agree with the reviewer, you do not
+   need to reply on it. If only you do not agree with the reviewer or there is
+   a technical discussion, you should comment on the review.
+5. The Pull Request will be labeled with a ``process`` label:
 
     - ``pending review`` the commit has just been pushed and is awaiting review
     - ``wip`` the Pull Request has been marked as a ``Work in Progress`` by the
@@ -24,7 +27,7 @@ The review process for coala is as follows:
     - ``approved`` the commits have been reviewed by the developers and they
       are ready to be merged into the master branch
 
-5. The developers will acknowledge the commits by writing
+6. The developers will acknowledge the commits by writing
 
 ::
 
@@ -38,9 +41,9 @@ in case the commit is ready, or
 
 in case it is not ready yet and needs some more work.
 
-6. If the commits are not linearly mergeable into master, rebase and go
+7. If the commits are not linearly mergeable into master, rebase and go
    to step one.
-7. All commits are acknowledged and fit linearly onto master. All
+8. All commits are acknowledged and fit linearly onto master. All
    continuous integration services (as described below) pass. Anyone
    with collaborator permission may leave the ``@rultor merge`` command
    to get the PR merged automatically.
