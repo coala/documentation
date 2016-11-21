@@ -32,6 +32,9 @@ Welcome to the coala documentation!
    Adding coala as a Git Hook <Users/coala_as_Git_Hook>
    Shell Autocompletion <Users/Shell_Autocompletion>
    coala as a Docker Image <Users/Docker_Image>
+   MAC Hints <Help/MAC_Hints>
+   How To Get In Touch With Us <Help/Getting_In_Touch>
+   Frequently Asked Questions <Help/FAQ>
 
 .. toctree::
    :caption: For Developers
@@ -53,13 +56,6 @@ Welcome to the coala documentation!
    Writing Documentation <Developers/Writing_Documentation>
    Executing Tests <Developers/Executing_Tests>
 
-.. toctree::
-   :caption: Help
-   :hidden:
-
-   How To Get In Touch With Us <Help/Getting_In_Touch>
-   Frequently Asked Questions <Help/FAQ>
-   MAC Hints <Help/MAC_Hints>
 
 You might also want to look at `our website <http://coala.io/>`_.
 
