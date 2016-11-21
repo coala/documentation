@@ -381,7 +381,7 @@ containing file paths, relative to the file containing the bear, to the
             'google_checks.xml'}
 
 CAN_DETECT and CAN_FIX
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
 To easily keep track of what a bear can do, you can set the value of
 `CAN_FIX` and `CAN_DETECT` sets.

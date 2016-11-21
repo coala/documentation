@@ -1,5 +1,5 @@
 Coverage Installation Hints for macOS Users:
-==========================================
+============================================
 
 1. Make sure you have installed Xcode and Homebrew.
 ---------------------------------------------------
