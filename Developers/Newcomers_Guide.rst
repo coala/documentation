@@ -55,6 +55,12 @@ because we care!
 
 **Congratulations!** You are now part of our community.
 
+.. note::
+    
+    The first thing you should do is check other developers' pull requests to get the 
+    hang of things.
+    You should also start working on difficulty/low labelled issues or help us with artwork, tweets, etc.
+
 Step 2. Grab an Invitation to the Organization
 ----------------------------------------------
 
@@ -257,6 +263,12 @@ and send it. You have successfully edited your last commit!
 Now you should go for
 `a low issue <https://coala.io/low>`__,
 they are really rewarding!
+
+.. note::
+    
+    The first thing you should do is check other developers' pull requests to get the 
+    hang of things.
+    You should also start working on difficulty/low labelled issues or help us with artwork, tweets, etc.
 
 .. note::
 
