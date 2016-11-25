@@ -64,13 +64,13 @@ How do I get started with coala?
 --------------------------------
 
 If you're looking to get started using coala, we have a full tutorial
-:doc:`here <../Users/Tutorial>`
+`here <../Users/Tutorial.rst>`_ .
 that will teach you everything you need to know to use coala.
 
 If you're willing to contribute and become a part of our coalaian community,
 we have written a guide that will help you fix an issue on your own, just by
 following and understanding the indications
-:doc:`here <../Developers/Newcomers_Guide>`.
+`here <../Developers/Newcomers_Guide.rst>`_ .
 It is meant for newcomers, and it does not require you to have any precedent
 knowledge regarding coala.
 
@@ -81,7 +81,7 @@ We are very active on our
 `gitter channel <https://coala.io/chat>`__
 and will try to respond to any question in a matter of minutes.
 However, for a full list of how to get in touch with us, consult
-:doc:`this link <Getting_In_Touch>`.
+`this <../Help/Getting_In_Touch.rst>`_ .
 
 Installation is Failing! Help!
 ------------------------------
@@ -128,8 +128,7 @@ our master branch. Right now we use 7 of those checks:
   be given by any coala member and shows that the commit has been reviewed and
   has no problems, so it is ready to be merged. It can be done by commenting
   ``ack commit_sha``. For more information about the whole process, we have
-  it all documented
-  :doc:`here <../Developers/Review>`.
+  it all documented `here <../Developers/Review.rst>`_
 
 - **scrutinizer** Checks for the code quality, and points out all the code
   elements that were added, such as functions, classes, etc.
