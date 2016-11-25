@@ -214,3 +214,7 @@ the coala root folder ``py.test``.
         def test_case1(self):
             # A test method. Put your test code here.
             pass
+
+Glossary
+--------
+- ``uut`` - Unit Under Test
