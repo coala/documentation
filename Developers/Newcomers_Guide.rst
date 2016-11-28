@@ -190,8 +190,8 @@ For more information about reviewing code, check out
 
 .. note::
 
-    Reviewing code helps you by watching other people's mistakes and not making
-    them yourself in the future!
+    Reviewing code helps you improve the quality of your work and gets you one step closer
+to being an efficient developer.
 
 Step 8. Review Process
 ----------------------
