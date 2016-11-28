@@ -19,6 +19,14 @@ this will do:
 
     $ sudo apt-get install git-all
 
+If you are using MacOS, you can use brew instead to install git:
+
+::
+
+    $ brew install git
+
+
+
 Getting Started with coala
 --------------------------
 
