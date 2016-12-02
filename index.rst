@@ -36,25 +36,6 @@ Welcome to the coala documentation!
    How To Get In Touch With Us <Help/Getting_In_Touch>
    Frequently Asked Questions <Help/FAQ>
 
-.. toctree::
-   :caption: For Developers
-   :hidden:
-
-   Newcomers' Guide <Developers/Newcomers_Guide>
-   Bear Installation Tool <Developers/Bear_Installation_Tool>
-   Writing Good Commit Messages <Developers/Writing_Good_Commits>
-   Codestyle <Developers/Codestyle>
-   Git Basics <Developers/Git_Basics>
-   Review <Developers/Review>
-   Development Setup <Developers/Development_Setup>
-   Writing Bears <Developers/Writing_Bears>
-   Writing Linter Bears <Developers/Writing_Linter_Bears>
-   Linter Bears - Advanced <Developers/Linter_Bears_Advanced>
-   External Bears <Developers/External_Bears>
-   Testing Bears <Developers/Testing_Bears>
-   Writing Tests <Developers/Writing_Tests>
-   Writing Documentation <Developers/Writing_Documentation>
-   Executing Tests <Developers/Executing_Tests>
 
 
 You might also want to look at `our website <http://coala.io/>`_.
@@ -88,7 +69,7 @@ If you are here to use coala for your own projects, take a look at our
 :doc:`installation guide<Users/Install>`.
 
 If you want to start contributing to coala, you can follow our
-:doc:`tutorial for newcomers<Developers/Newcomers_Guide>` which aims to get
+`tutorial for newcomers`_ which aims to get
 everyone to fix an issue by themselves.
 
 .. note::
@@ -121,7 +102,7 @@ else than just writing your algorithm!
 
 .. seealso::
 
-  Check out :doc:`Writing Bears <Developers/Writing_Bears>` for more
+  Check out `Writing Bears`_ for more
   information on this.
 
 To programmatically access coala's functionality, use ``coala-json`` or
@@ -146,3 +127,7 @@ rely on the upcoming release being rock stable.
 If you want to see how the development progresses, check out
 `coala <https://github.com/coala/coala>`__ and
 `coala-bears <https://github.com/coala/coala-bears>`__.
+
+
+.. _tutorial for newcomers: https://api.coala.io/en/latest/Developers/Newcomers_Guide.html
+.. _Writing Bears: https://api.coala.io/en/latest/Developers/Writing_Bears.html
