@@ -88,7 +88,7 @@ If you are here to use coala for your own projects, take a look at our
 :doc:`installation guide<Users/Install>`.
 
 If you want to start contributing to coala, you can follow our
-:doc:`tutorial for newcomers<Developers/Newcomers_Guide>` which aims to get
+`tutorial for newcomers`_ which aims to get
 everyone to fix an issue by themselves.
 
 .. note::
@@ -121,7 +121,7 @@ else than just writing your algorithm!
 
 .. seealso::
 
-  Check out :doc:`Writing Bears <Developers/Writing_Bears>` for more
+  Check out `Writing Bears`_ for more
   information on this.
 
 To programmatically access coala's functionality, use ``coala-json`` or
@@ -146,3 +146,7 @@ rely on the upcoming release being rock stable.
 If you want to see how the development progresses, check out
 `coala <https://github.com/coala/coala>`__ and
 `coala-bears <https://github.com/coala/coala-bears>`__.
+
+
+.. _tutorial for newcomers: https://coala.io/newcomers
+.. _Writing Bears: https://coala.io/writingbears
