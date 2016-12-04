@@ -40,21 +40,7 @@ Welcome to the coala documentation!
    :caption: For Developers
    :hidden:
 
-   Newcomers' Guide <Developers/Newcomers_Guide>
-   Bear Installation Tool <Developers/Bear_Installation_Tool>
-   Writing Good Commit Messages <Developers/Writing_Good_Commits>
-   Codestyle <Developers/Codestyle>
-   Git Basics <Developers/Git_Basics>
-   Review <Developers/Review>
-   Development Setup <Developers/Development_Setup>
-   Writing Bears <Developers/Writing_Bears>
-   Writing Linter Bears <Developers/Writing_Linter_Bears>
-   Linter Bears - Advanced <Developers/Linter_Bears_Advanced>
-   External Bears <Developers/External_Bears>
-   Testing Bears <Developers/Testing_Bears>
-   Writing Tests <Developers/Writing_Tests>
-   Writing Documentation <Developers/Writing_Documentation>
-   Executing Tests <Developers/Executing_Tests>
+   coala API Documentation <https://api.coala.io>
 
 
 You might also want to look at `our website <http://coala.io/>`_.
