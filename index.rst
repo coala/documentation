@@ -35,6 +35,7 @@ Welcome to the coala documentation!
    MAC Hints <Help/MAC_Hints>
    How To Get In Touch With Us <Help/Getting_In_Touch>
    Frequently Asked Questions <Help/FAQ>
+   Hackathon <Help/Hackathon>
 
 .. toctree::
    :caption: For Developers
