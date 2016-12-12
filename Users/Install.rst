@@ -119,7 +119,7 @@ Installing coala from source
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you would like to develop coala, you should check out our
-:doc:`Newcomer Tutorial <../Developers/Newcomers_Guide>` and
+`Newcomer Tutorial <http://coala.io/newcomer>`_ and
 :doc:`get in touch with us <../Help/Getting_In_Touch>`.
 
 If you only desire to use the latest development version of coala, then you
@@ -282,5 +282,5 @@ repository:
 You can then open ``_build\html\index.html`` in your favourite
 browser.
 
-See :doc:`Writing Documentation <../Developers/Writing_Documentation>`
+See `Writing Documentation <http://api.coala.io/en/latest/Developers/Writing_Documentation.html>`_
 for more information.

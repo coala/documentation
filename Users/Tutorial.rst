@@ -380,7 +380,7 @@ If you need more flexibility, know that coala is extensible in many ways
 due to its modular design:
 
 -  If you want to write your own bears, take a look at
-   :doc:`our tutorial <../Developers/Writing_Bears>`.
+   `our tutorial <http://coala.io/writingbears>`_.
 -  If you want to add custom actions for results, take a look at the
    code in `coalib/results/results_actions <https://github.com/coala/coala/tree/master/coalib/results/result_actions>`__.
 -  If you want to have some custom outputs (e.g. HTML pages, a GUI or

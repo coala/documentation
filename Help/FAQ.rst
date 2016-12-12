@@ -70,7 +70,7 @@ that will teach you everything you need to know to use coala.
 If you're willing to contribute and become a part of our coalaian community,
 we have written a guide that will help you fix an issue on your own, just by
 following and understanding the indications
-:doc:`here <../Developers/Newcomers_Guide>`.
+`here <http://coala.io/newcomer>`_.
 It is meant for newcomers, and it does not require you to have any precedent
 knowledge regarding coala.
 
@@ -129,7 +129,7 @@ our master branch. Right now we use 7 of those checks:
   has no problems, so it is ready to be merged. It can be done by commenting
   ``ack commit_sha``. For more information about the whole process, we have
   it all documented
-  :doc:`here <../Developers/Review>`.
+  `here <http://api.coala.io/en/latest/Developers/Review.html>`_.
 
 - **scrutinizer** Checks for the code quality, and points out all the code
   elements that were added, such as functions, classes, etc.
