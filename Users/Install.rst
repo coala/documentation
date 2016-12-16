@@ -8,7 +8,9 @@ dependencies because it has so much code analysis for so many languages. If you
 use our docker image, you can run it like any other tool but you do not need to
 care about those! The general command to run coala is:
 
-`docker run -ti -v $(pwd):/app --workdir=/app coala/base coala --version`
+```
+$ docker run -ti -v $(pwd):/app --workdir=/app coala/base coala --version
+```
 
 .. note::
 
@@ -19,7 +21,9 @@ care about those! The general command to run coala is:
 To make this simpler for you, you can add an alias. This will allow you to run
 `coala` like any other binary and it will use docker behind the scenes:
 
-`alias coala="docker run -ti -v $(pwd):/app --workdir=/app coala/base coala"`
+```
+alias coala="docker run -ti -v $(pwd):/app --workdir=/app coala/base coala"
+```
 
 To make this persistent, you can add this to your `.bashrc` or `.zshrc`
 respectively.
