@@ -24,6 +24,12 @@ To make this simpler for you, you can add an alias. This will allow you to run
 To make this persistent, you can add this to your `.bashrc` or `.zshrc`
 respectively.
 
+Windows
+-------
+
+If you use windows, you can install docker easiest
+[here](https://www.docker.com/products/docker-toolbox).
+
 Installing coala Natively
 =========================
 
