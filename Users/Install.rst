@@ -68,13 +68,21 @@ To install the nightly build from our master branch, you can do:
 
 ::
 
-    $ pip3 install coala-bears --pre
+    $ git clone https://github.com/coala/coala-bears
+
+    $ cd coala/coala-bears
+
+    $ pip3 install .
 
 To install coala only (without any bears), you can do:
 
 ::
 
-    $ pip3 install coala
+    $ git clone https://github.com/coala/coala
+
+    $ cd coala/coala
+
+    $ pip3 install .
 
 Installing inside a virtualenv
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -119,7 +127,14 @@ virtualenv with:
 
 ::
 
-    (venv)$ pip3 install coala-bears
+    (venv)$ git clone https://github.com/coala/coala
+    (venv)$ cd coala/coala
+    (venv)$ pip3 install .
+    (venv)$ cd -
+::
+    (venv)$ git clone https://github.com/coala/coala-bears
+    (venv)$ cd coala/coala-bears
+    (venv)$ pip3 install .
 
 Using coala With Docker
 =======================
@@ -184,8 +199,8 @@ options are documented in the
     <http://stackoverflow.com/questions/14149422/using-pip-behind-a-proxy>`_
     for further clarification.
 
-Dependencies
-------------
+Optional Dependencies
+---------------------
 
 This section lists dependencies of coala that are not automatically
 installed. On Windows, you can get many with ``nuget``
