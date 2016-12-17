@@ -1,41 +1,14 @@
-Using coala With Docker
-=======================
-
-Use this installation method if you *just simply want to use coala*.
-
-The recommended way to use coala is using docker: coala has a lot of
-dependencies because it has so much code analysis for so many languages. If you
-use our docker image, you can run it like any other tool but you do not need to
-care about those! The general command to run coala is:
-
-::
-
-    $ docker run -ti -v $(pwd):/app --workdir=/app coala/base coala --version
+Installing coala Natively
+=========================
 
 .. note::
 
-    This will automatically download the docker image with all the coala
-    dependencies for you. The image may take up a bit over 2GB of space on your
-    disk. Check out the native installation if this is not for you.
-
-Windows
--------
-
-If you use windows, you can install docker easiest
-[here](https://www.docker.com/products/docker-toolbox).
-
-Installing coala Natively
-=========================
+    If you have a working docker and you do not want to work with python,
+    go to the bottom on the docker setup.
 
 This page will run you through the installation of coala without docker. coala
 currently supports Linux and Windows, and is known to work on OS X (meaning we
 do not have continuous integration for it but it works).
-
-You might want to install coala natively if you develop coala itself or if
-docker doesn't work for you for some reason.
-
-**You do not need to install coala natively in most cases! coala has a lot of
-dependencies, using the docker image will be much easier.**
 
 Installing Python and Pip
 --------------------------
@@ -147,6 +120,32 @@ virtualenv with:
 ::
 
     (venv)$ pip3 install coala-bears
+
+Using coala With Docker
+=======================
+
+Use this installation method if you *just simply want to use coala*.
+
+The recommended way to use coala is using docker: coala has a lot of
+dependencies because it has so much code analysis for so many languages. If you
+use our docker image, you can run it like any other tool but you do not need to
+care about those! The general command to run coala is:
+
+::
+
+    $ docker run -ti -v $(pwd):/app --workdir=/app coala/base coala --version
+
+.. note::
+
+    This will automatically download the docker image with all the coala
+    dependencies for you. The image may take up a bit over 2GB of space on your
+    disk. Check out the native installation if this is not for you.
+
+Windows
+-------
+
+If you use windows, you can install docker easiest
+[here](https://www.docker.com/products/docker-toolbox).
 
 Installing coala from source
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
