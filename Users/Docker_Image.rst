@@ -11,6 +11,19 @@ on your code in the working directory, like this:
 
     docker run --volume=$(pwd):/app --workdir=/app coala/base coala-ci
 
+In bash, an alias is an alternative and usually easier-to-understand or
+more significant name for a defined data object.
+ 
+Syntax: ``alias`` "name" ``command``.
+
+Now "name" has the command value.
+
+To run coala from docker using only the ``coala`` command, you can use:
+
+::
+
+ alias coala="docker run -ti -v \`pwd\`:/app --workdir=/app coala/base coala"
+
 .. seealso::
   See also https://hub.docker.com/r/coala/base/.
 
