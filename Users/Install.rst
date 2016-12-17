@@ -18,16 +18,6 @@ care about those! The general command to run coala is:
     dependencies for you. The image may take up a bit over 2GB of space on your
     disk. Check out the native installation if this is not for you.
 
-To make this simpler for you, you can add an alias. This will allow you to run
-`coala` like any other binary and it will use docker behind the scenes:
-
-::
-
-    alias coala="docker run -ti -v $(pwd):/app --workdir=/app coala/base coala"
-
-To make this persistent, you can add this to your `.bashrc` or `.zshrc`
-respectively.
-
 Windows
 -------
 
