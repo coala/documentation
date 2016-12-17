@@ -159,7 +159,13 @@ can run
 
 ::
 
-    (venv)$ pip3 install coala-bears --pre
+    (venv)$ git clone https://github.com/coala/coala
+    (venv)$ cd coala
+    (venv)$ pip3 install .
+    (venv)$ cd -
+    (venv)$ git clone https://github.com/coala/coala-bears
+    (venv)$ cd coala-bears
+    (venv)$ pip3 install .
 
 which will always install the most recent code from our master branch.
 
@@ -184,8 +190,18 @@ options are documented in the
     <http://stackoverflow.com/questions/14149422/using-pip-behind-a-proxy>`_
     for further clarification.
 
-Dependencies
-------------
+Optional Dependencies
+---------------------
+
+Those dependencies are not mandatory. You may install all of the
+dependencies if you want to install all the bears. The bear
+application also asks for the packages needed in case it does not
+have it.
+
+The requirements files ( Gemfile, requirements.txt, etc.) are in
+the coala-bears repository and you should not get them from 
+source, but you should git clone the repository if you want to
+execute those commands.
 
 This section lists dependencies of coala that are not automatically
 installed. On Windows, you can get many with ``nuget``
