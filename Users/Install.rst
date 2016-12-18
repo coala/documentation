@@ -147,27 +147,18 @@ Windows
 If you use windows, you can install docker easiest
 [here](https://www.docker.com/products/docker-toolbox).
 
-Installing coala from source
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Bleeding edge installation
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you would like to develop coala, you should check out our
 `Newcomer Tutorial <http://coala.io/newcomer>`_ and
 :doc:`get in touch with us <../Help/Getting_In_Touch>`.
 
-If you only desire to use the latest development version of coala, then you
-can run
-
 ::
 
-    (venv)$ git clone https://github.com/coala/coala
-    (venv)$ cd coala
-    (venv)$ pip3 install .
-    (venv)$ cd -
-    (venv)$ git clone https://github.com/coala/coala-bears
-    (venv)$ cd coala-bears
-    (venv)$ pip3 install .
+    $ pip3 install coala-bears --pre
 
-which will always install the most recent code from our master branch.
+Also check out the `Developers Setup <http://coala.io/devsetup>`_ docs.
 
 Alternate location installation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
