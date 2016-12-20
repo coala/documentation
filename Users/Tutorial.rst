@@ -323,6 +323,25 @@ If you put an ``all`` instead of the bear names directly after the
 ``ignore``/``ignoring`` keyword, the results of all bears affecting
 those lines will be ignored.
 
+If you've used another linter in the past, you don't have to change your
+pre-existing code with the ``noqa`` keywords to ``ignore`` as the examples
+below work as well. If no bears are specified, ``noqa`` will be applicable to
+work for all bears.
+
+::
+
+    # noqa
+    long_line = "This is a long line ... "       
+
+If you wish to specify which bear to use with ``noqa``, as is done
+with ``ignore``, you would have to proceed as follows:
+
+::
+
+    # noqa LineLengthBear
+    long_line = "This is a long line ... "
+
+
 Enabling/Disabling Sections
 ---------------------------
 
