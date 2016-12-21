@@ -110,10 +110,10 @@ else than just writing your algorithm!
   Check out `Writing Bears`_ for more
   information on this.
 
-To programmatically access coala's functionality, use ``coala-json`` or
-``coala-format`` if you want to use a custom format string. Both of those
-binaries, among with ``coala-ci``, are noninteractive and thus suitable for
-continuous integration.
+To programmatically access coala's functionality, use the ``--json`` option.
+Use the ``--format`` option if you want to use a custom format string. Both of
+these arguments along with ``--ci`` argument run coala in non-interactive mode
+which is suitable for continuous integration.
 
 .. seealso::
 

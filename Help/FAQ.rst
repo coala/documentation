@@ -29,8 +29,9 @@ All in all coala does two things:
 Can I Use coala in my Continuous Integration?
 ---------------------------------------------
 
-Yes! There's a dedicated *coala-ci* binary that is noninteractive, shows
-results cleanly in the log and returns error codes if something is wrong.
+Yes! There's an argument *--ci* that runs the coala binary in non-interactive
+mode, which shows results cleanly in the log and returns error codes
+if something goes wrong.
 
 Why did you choose the name?
 ----------------------------

@@ -9,7 +9,7 @@ on your code in the working directory, like this:
 
 ::
 
-    docker run --volume=$(pwd):/app --workdir=/app coala/base coala-ci
+    docker run -v=$(pwd):/app --workdir=/app coala/base coala --ci
 
 .. seealso::
   See also https://hub.docker.com/r/coala/base/.
@@ -26,7 +26,7 @@ on your code with a ``.gitlab-ci.yml``, like this:
       image: coala/base
       script:
       - pip install -r requirements.txt
-      - coala-ci
+      - coala --ci
 
 .. note::
 
@@ -63,7 +63,7 @@ on your code with a ``.travis.yml``, like this:
 
     language: generic
     services: docker
-    script: docker run --volume=$(pwd):/app --workdir=/app coala/base coala-ci
+    script: docker run -v=$(pwd):/app --workdir=/app coala/base coala --ci
 
 .. note::
 
