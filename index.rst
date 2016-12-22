@@ -115,6 +115,18 @@ Use the ``--format`` option if you want to use a custom format string. Both of
 these arguments along with ``--ci`` argument run coala in non-interactive mode
 which is suitable for continuous integration.
 
+Hint
+~~~~
+
+``--json`` makes the coala output easy to read and understand. It consists of
+a collection of name/value pairs usually represented by objects and an ordered
+list of values stored in arrays. You can read more about this format `here
+<http://www.json.org>`__.
+
+``--format`` has a linear, one line return. Its output can be easily parsed
+as it is fully customizable. This option will not show all the tested areas
+but those with issues. In case of no errors, ``--format`` will have no output.
+
 .. seealso::
 
   Check :doc:`External APIs <Users/External_APIs>` for more information.
