@@ -197,7 +197,7 @@ brackets. Parentheses that have no match are ignored as well as
     >>> fnmatch("ac", "a?c")
     False
 
-``\*``
+``*``
 ~~~~~~
 
     Matches everything but the directory separator.
@@ -216,7 +216,7 @@ brackets. Parentheses that have no match are ignored as well as
     >>> fnmatch("ac", "a*c")
     True
 
-``\*\*``
+``**``
 ~~~~~~~~
 
     Matches everything.
