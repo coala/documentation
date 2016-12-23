@@ -389,7 +389,8 @@ shows:
 Continuing the Journey
 ----------------------
 
-If you want to know about more options, take a look at our help with
+If you want to know about more options, take a look at our `coala settings
+<https://coala.io/help>`_ documentation or with
 ``coala -h``. If you liked or disliked this tutorial, feel free to drop
 us a note at our `bug tracker
 <https://github.com/coala/coala/issues>`_ or `mailing list
