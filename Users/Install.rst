@@ -190,7 +190,7 @@ application also asks for the packages needed in case it does not
 have it.
 
 The requirements files ( Gemfile, requirements.txt, etc.) are in
-the coala-bears repository and you should not get them from 
+the coala-bears repository and you should not get them from
 source, but you should git clone the repository if you want to
 execute those commands.
 

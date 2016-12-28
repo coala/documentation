@@ -331,7 +331,7 @@ work for all bears.
 ::
 
     # noqa
-    long_line = "This is a long line ... "       
+    long_line = "This is a long line ... "
 
 If you wish to specify which bear to use with ``noqa``, as is done
 with ``ignore``, you would have to proceed as follows:
