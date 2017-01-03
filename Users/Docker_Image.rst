@@ -69,3 +69,25 @@ on your code with a ``.travis.yml``, like this:
 
   For more information about Travis CI configuration, consult the
   `official documentation <https://docs.travis-ci.com/>`__.
+
+
+coala on Circle CI
+------------------
+
+You can use the ``coala/base`` docker image to perform static code analysis
+on your code with a ``circle.yml``, like this:
+
+::
+
+    machine:
+      services:
+        - docker
+
+    test:
+      override:
+        - docker run -v=$(pwd):/app --workdir=/app coala/base coala --ci
+
+.. note::
+
+  For more information about Circle CI configuration, consult the
+  `official documentation <https://circleci.com/docs/>`__.
