@@ -54,14 +54,18 @@ There are two kinds of bears:
 - LocalBears, which only perform analysis on each file itself
 - GlobalBears, which are project wide, like the GitCommitBear
 
-Let's find out what bears are available for C:
+Let's find out what bears are available for C or Python:
 
 ::
 
-    coala --show-bears --filter-by-language C
+    coala --show-bears --filter-by-language C Python
 
-coala now lists all bears that can operate on C code. You can specify the
-kind of analysis with the ``--bears`` argument:
+coala now lists all bears that can operate on C or Python code.
+Note that here you can give space separated language names as muliple
+arguments.
+
+You can specify the bears that you want coala to run using the ``--bears``
+argument:
 
 ::
 
