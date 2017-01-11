@@ -7,24 +7,23 @@ questions by newcomers or even contributors.
 What does coala do (for me)?
 ----------------------------
 
-coala is like a spell and grammar checker for source code. Imagine using
-LibreOffice Writer to spellcheck something in English. Why should you have to
-write LibreOfficES to check something written in Spanish?
-That is what coala  tries to fix. Why write the whole thing again if you
-actually just want another analyzing routine? Thats what bears are for. You
-want to use clang or pylint on your project? We got you covered. One command
-and one configuration to lint all languages in your project.
+coala is like a spell and grammar checker for your project source code.
+Imagine using LibreOffice Writer to spellcheck a document in English.
+Would you rewrite LibreOffice to do the same in Spanish? This is what
+coala tries to fix. Why rewrite the tool if all you want is just another
+analysis routine? That's what bears are for. One command and one
+configuration to lint all languages in your project.
 
-You have an awesome idea for a new kind of code analysis but don't want to
-write a CLI? Write just the parameters your custom analysis needs and the
-analysis part, we'll take care of the rest. Everything is handled by coala.
+Have an awesome idea for a custom code analyzer(bear) but too lazy to make a
+CLI? Just write the parameters your analysis needs and the analysis logic, coala
+will take care of the rest.
 
-All in all coala does two things:
+In short coala does two things:
 
-- Make it easy to use existing static code analyzers by unifying and
-  simplifying the configs
-- Make it easy to write new routines by offering the interface part
-  and everything but the actual analyzer routine.
+- Unifies existing static code analyzers such as clang, pylint(and many
+  others), making them easy to use
+- Makes it easy to write new routines by offering an interface and
+  everything but the analyzer routine.
 
 Can I Use coala in my Continuous Integration?
 ---------------------------------------------
