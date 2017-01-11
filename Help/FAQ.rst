@@ -15,8 +15,8 @@ analysis routine? That's what bears are for. One command and one
 configuration to lint all languages in your project.
 
 Have an awesome idea for a custom code analyzer(bear) but too lazy to make a
-CLI? Just write the parameters your analysis needs and the analysis logic, coala
-will take care of the rest.
+CLI? Just write the parameters your analysis needs and the analysis logic,
+coala will take care of the rest.
 
 In short coala does two things:
 
