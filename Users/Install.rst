@@ -280,14 +280,12 @@ For x86 python or for x64 python:
 
 Replace "XXX" with the ClangSharp version you received from nuget.
 
-
 Integrating Shell Autocompletion
 --------------------------------
 
 You can also use coala for tab completion in bash or zsh.
 This will autocomplete coala arguments and bear names.
 You can set them up `here <http://coala.readthedocs.io/en/stable/Users/Tutorials/Shell_Autocompletion.html>`_.
-
 
 Installation Errors
 -------------------
