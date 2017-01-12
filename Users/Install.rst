@@ -284,7 +284,7 @@ Replace "XXX" with the ClangSharp version you received from nuget.
 Integrating Shell Autocompletion
 --------------------------------
 
-Coala also provides bindings for tab completion for coala arguments and bear names in bash or zsh.
+You can also use coala for tab completion in bash or zsh. This will autocomplete coala arguments and bear names.
 You can set them up `here <http://coala.readthedocs.io/en/stable/Users/Tutorials/Shell_Autocompletion.html>`_.
 
 
