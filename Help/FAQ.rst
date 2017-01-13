@@ -132,9 +132,6 @@ our master branch. Right now we use 7 of those checks:
   it all documented
   `here <http://api.coala.io/en/latest/Developers/Review.html>`_.
 
-- **scrutinizer** Checks for the code quality, and points out all the code
-  elements that were added, such as functions, classes, etc.
-
 - **codecov/project** This one checks whether all your code is being tested. We
   cannot merge anything that may not work or may broke somewhere, so to avoid
   obvious bugs we use this. To fix it, write doctests or unittests for your
