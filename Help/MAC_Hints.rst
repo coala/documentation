@@ -48,7 +48,7 @@ Coverage Installation Hints for macOS Users:
     $ source ~/.bash_profile
 
     # Get Python3 path (python3_pth)
-    $ where python3
+    $ which python3
 
     # Create a new virtual environment with Python3
     $ mkvirtualenv --python=python3_path myenv
