@@ -4,6 +4,8 @@ Frequently Asked Questions
 This is a list of frequently asked questions, aiming to answer any possible
 questions by newcomers or even contributors.
 
+.. contents:: Table of Contents
+
 What does coala do (for me)?
 ----------------------------
 
