@@ -56,15 +56,16 @@ system-wide, use:
     $ pip3 install coala-bears
 
 .. note::
-    **Ubuntu Users** - Don't install coala using Advanced Packaging Tool (APT) command, Its a completely different software
-    
+    **Ubuntu Users** - Don't install coala using **apt** command
+	Its a completely different software
+	
     For this and all future steps, some steps require root access
     (also known as administrative privileges in Windows).
-    
+
     **Unix based** (OS X, Linux) - This can be achieved by using ``sudo``
     in front of the command, as in: ``sudo command_name`` instead of
     ``command_name``
-    
+
     **Windows** - The easiest way on Windows is to start a
     command prompt as an administrator and start ``setup.py``.
 
