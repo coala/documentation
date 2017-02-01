@@ -49,11 +49,6 @@ Because analysis routines can do many various things we named them
 **bears**. A bear can check your code for potential problems, calculate metrics
 and even provide corrections for your code.
 
-There are two kinds of bears:
-
-- LocalBears, which only perform analysis on each file itself
-- GlobalBears, which are project wide, like the GitCommitBear
-
 Let's find out what bears are available for C or Python:
 
 ::
