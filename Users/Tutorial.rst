@@ -372,59 +372,6 @@ enabled settings. You can specify several targets separated by a space.
 
 What was that TODO again?
 
-Show bears' Information
------------------------
-
-To get help on using a bear or to get a description of the bear, use the
-``--show-details`` argument:
-
-::
-
-    coala --show-bears --show-details
-
-This will display a large amount of information regarding the bears in
-the coala-bears directory. It shows:
-
--  A description of what the bear does
--  The languages it analyses
--  The settings it uses (optional and required)
--  The categories it can detect and fix
--  Absolute file path of the bear
-
-Example:
-::
-
-  SpaceConsistencyBear
-
-  Check and correct spacing for all textual data. This includes usage
-  of tabs vs. spaces, trailing whitespace and (missing) newlines
-  before the end of the file.
-
-  Supported languages:
-   * All
-
-  Needed Settings:
-   * use_spaces: True if spaces are to be used instead of tabs.
-
-  Optional Settings:
-   * allow_trailing_whitespace: Whether to allow trailing
-      whitespace or not. (Optional, defaults to 'False'.)
-   * indent_size: Number of spaces per indentation level.
-      (Optional, defaults to '4'.)
-   * enforce_newline_at_EOF: Whether to enforce a newline at
-      the End Of File. (Optional, defaults to 'True'.)
-   * tab_width: Number of spaces per indentation level.
-      (Optional, defaults to '4'.)
-
-  Can detect:
-   * Formatting
-
-  Can fix:
-   * Formatting
-
-  Path:
-   '/home/some_user/coala-bears/bears/general/SpaceConsistencyBear.py'
-
 Continuing the Journey
 ----------------------
 
