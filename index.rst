@@ -127,6 +127,11 @@ list of values stored in arrays. You can read more about this format `here
 as it is fully customizable. This option will not show all the tested areas
 but those with issues. In case of no errors, ``--format`` will have no output.
 
+.. Hint::
+
+    Use coala-json and coala-format!
+
+
 .. seealso::
 
   Check :doc:`External APIs <Users/External_APIs>` for more information.
