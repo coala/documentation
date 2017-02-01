@@ -83,6 +83,15 @@ the end of the line, after ``#include <stdio.h>`` in the ``main.c`` file. coala
 will then ask you to remove the trailing space, by applying the suggested
 patch (option 2).
 
+You can also run coala in non interactive mode (given that all the settings
+required by the bears you are using are provided in the ``.coafile``)
+
+::
+
+    coala  --non-interactive
+
+In this case there won't be any interaction, the patch will be shown directly.
+
 Feel free to experiment a bit. You've successfully analysed some code!
 But don't stop reading - you don't have to enter all those values again!
 We have given coala the ``--save`` argument, which means that it will
