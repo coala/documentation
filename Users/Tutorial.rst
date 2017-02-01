@@ -49,16 +49,6 @@ Because analysis routines can do many various things we named them
 **bears**. A bear can check your code for potential problems, calculate metrics
 and even provide corrections for your code.
 
-Let's find out what bears are available for C or Python:
-
-::
-
-    coala --show-bears --filter-by-language C Python
-
-coala now lists all bears that can operate on C or Python code.
-Note that here you can give space separated language names as muliple
-arguments.
-
 You can specify the bears that you want coala to run using the ``--bears``
 argument:
 
