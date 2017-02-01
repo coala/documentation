@@ -18,6 +18,16 @@ In short coala does two things:
   everything but the actual analyzer routine. Write just the parameters
   your custom analysis needs and the analysis part, we'll take care of the rest
 
+What is a bear anyway?
+---------------------------------------------
+
+A bear is meant to perform analysis on source code. It can be used to detect
+indentation inconsistencies and trailing white spaces. Each bear has its own
+function and supported languages.
+
+Find out more about bears
+`here <http://coala.readthedocs.io/en/latest/Developers/Writing_Bears.html>`__.
+
 Can I Use coala in my Continuous Integration?
 ---------------------------------------------
 
