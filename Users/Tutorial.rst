@@ -8,8 +8,7 @@ Prerequisites
 -------------
 
 In order to complete this tutorial you will need coala installed.
-(Installation is actually not required but it's more convenient and
-recommended.)
+Installation instructions can be found `here <https://coala.io/install>`_.
 
 .. note::
 
