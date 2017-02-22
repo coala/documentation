@@ -15,5 +15,122 @@ img.logo {
 }
 
 .sphinxsidebarwrapper a.current.reference.internal {
-    font-weight: bold;
+    font-weight: 300;
+}
+
+body {
+    font-family: Roboto;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Roboto !important;
+    font-weight: 200 !important;
+}
+
+.toctree-l1 {
+    padding-bottom: 0.5em;
+}
+
+div.body p, div.body dd, div.body li {
+    line-height: 2 !important;
+    font-weight: 300;
+    font-size: 1.1em;
+    font-family: Roboto;
+    text-align: justify;
+}
+
+.sphinxsidebarwrapper > h3 {
+    margin-top: 1em !important;
+}
+
+.sphinxsidebarwrapper ul {
+    margin-bottom: 1em !important;
+}
+
+div.sphinxsidebar input[type="submit" i] {
+    font-family: 'Roboto', serif !important;
+    margin-top: 1em;
+}
+
+p.caption {
+    margin-top: 1em !important;
+}
+
+.caption-text {
+    font-weight: 500;
+}
+
+div.sphinxsidebarwrapper h1.logo-name {
+    display: none;
+}
+
+.sphinxsidebarwrapper .logo {
+    margin-bottom: 2em;
+}
+
+.admonition, .note {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    position: relative;
+    margin: 0.5rem 0 1rem 0;
+    background-color: #263238 !important;
+    transition: box-shadow .25s;
+    border-radius: 0 !important;
+    border: none !important;
+    font-family: Roboto !important;
+    color: white;
+}
+
+div.admonition p.admonition-title {
+    font-family: 'Roboto', serif !important;
+    margin: 0 0 5px 0 !important;
+    font-weight: 100;
+}
+
+.admonition p {
+    margin-top: 1em !important;
+    font-weight: 200 !important;
+}
+
+.admonition a {
+    color: #eee;
+}
+
+.admonition a:hover {
+    color: white;
+}
+
+strong {
+    font-weight: 400;
+}
+
+pre {
+    background: #37474f;
+    color: white;
+}
+
+.pre {
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+}
+
+code {
+    background-color: #ecf0f3;
+    color: #222;
+    padding: 0 em !important;
+    display: inline-block;
+}
+
+.admonition a {
+    font-weight: 300;
+}
+
+img {
+    max-width: 100%;
+    height: auto !important;
+}
+
+/* Override few pygments styles */
+
+.highlight .nn {
+    text-decoration: none;
 }
