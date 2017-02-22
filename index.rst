@@ -45,7 +45,9 @@ Welcome to the coala documentation!
 
 You might also want to look at `our website <http://coala.io/>`_.
 
-.. image:: https://cloud.githubusercontent.com/assets/7521600/15992701/ef245fd4-30ef-11e6-992d-275c5ca7c3a0.jpg
+.. image:: _static/images/coala-header.png
+   :scale: 50
+   :align: center
 
 coala: Language Independent Code Analysis
 -----------------------------------------
