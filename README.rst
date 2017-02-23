@@ -8,7 +8,9 @@ The coala repository can be found
 `here <https://github.com/coala/coala>`__.
 
 How to build
-============
+============  
+
+
 
 You should run this command before trying to build the documentation:
 
