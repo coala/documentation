@@ -1,5 +1,5 @@
 ﻿Git Hooks
-=========
+==========
 
 This document is a guide on how to add coala as a git hook. Using a git hook
 coala can be executed automatically, ensuring your code follows your quality
