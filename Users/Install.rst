@@ -79,6 +79,11 @@ To install coala only (without any bears), you can do:
 
     $ pip3 install coala
 
+.. note::
+
+    **Ubuntu Users** - Do not use ``apt-get install coala``
+    for installing coala as that is different software.
+
 Installing inside a virtualenv
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
