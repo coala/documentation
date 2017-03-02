@@ -18,7 +18,7 @@ If you're using ``bash``, add the following to your ``.bashrc``:
 
 ::
 
-    eval "$(register-python-argcomplete `which coala`)"
+    eval "$(register-python-argcomplete coala)"
 
 If you're using ``zsh``, add the following to your ``.zshrc``:
 
@@ -26,7 +26,4 @@ If you're using ``zsh``, add the following to your ``.zshrc``:
 
     autoload bashcompinit
     bashcompinit
-    eval "$(register-python-argcomplete `which coala`)"
-
-If you're seeing issues about ```which coala``` not being able to find
-``coala``, you could replace it with the path to your ``coala`` executable.
+    eval "$(register-python-argcomplete coala)"
