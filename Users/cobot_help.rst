@@ -1,12 +1,15 @@
 Usage of cobot
 ==============
+
 .. note::
 
 Display all of the help commands that Hubot knows about
 ---------------------------------------------------------
 
     cobot help
+    
 ::
+
     cobot help
 
 Display all help comments that match <query>
