@@ -1,5 +1,6 @@
 Usage of cobot
 ==============
+.. note::
 
 Display all of the help commands that Hubot knows about
 ---------------------------------------------------------
