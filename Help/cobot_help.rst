@@ -10,7 +10,7 @@ cobot help
 
 ::
 
-cobot help
+    cobot help
 
 Display all help comments that match <query>
 ----------------------------------------------
@@ -19,7 +19,7 @@ cobot help <query>
 
 ::
 
-cobot help explain
+    cobot help explain
 
 Assigns issus <issus_link> to user
 ------------------------------------
@@ -28,7 +28,7 @@ conbot assign <issus_link>
 
 ::
 
-cobot assign https://github.com/coala/coala/issues/3845
+    cobot assign https://github.com/coala/coala/issues/3845
 
 Unassign the user from the issus <issue_link>
 ------------------------------------------------
@@ -37,7 +37,7 @@ cobot unassign <issus_link>
 
 ::
 
-cobot unssign https://github.com/coala/coala/issues/3845
+    cobot unssign https://github.com/coala/coala/issues/3845
 
 Create a Github issus given the title and repository
 -------------------------------------------------------
@@ -46,7 +46,7 @@ cobot new issus
 
 ::
 
-cobot new issus cobot "Add example of assigning an issue"
+    cobot new issus cobot "Add example of assigning an issue"
 
 Marks the given pull request as work in process/pending review
 -----------------------------------------------------------------
@@ -55,7 +55,7 @@ cobot mark (wip|pending) <pull URL>
 
 ::
 
-cobot mark wip https://github.com/coala/projects/pull/237
+    cobot mark wip https://github.com/coala/projects/pull/237
 
 Returns the info we have on your topic
 ----------------------------------------
@@ -64,7 +64,7 @@ cobot explain <topic>
 
 ::
 
-cobot explain fixed
+    cobot explain fixed
 
 Maintainers invite users to the coala organization
 ----------------------------------------------------
@@ -73,7 +73,7 @@ cobot (invite|inv) <username> [to [team]]
 
 ::
 
-cobot invite Bob
+    cobot invite Bob
 
 
 Doesn't mind
@@ -83,7 +83,7 @@ cobot <nevermind|nm>
 
 ::
 
-cobot nevermind
+    cobot nevermind
 
 Searches Wolfram Alpha for the answer to the question
 -------------------------------------------------------
@@ -92,7 +92,7 @@ cobot <wa|wolfram> <question>
 
 ::
 
-cobot wa "How to code"
+    cobot wa "How to code"
 
 Searchs google for you
 ------------------------
@@ -101,7 +101,7 @@ cobot lmgtfy <term>
 
 ::
 
-cobot lmgtfy coala
+    cobot lmgtfy coala
 
 Make sure hubot still knows the rules
 ----------------------------------------
@@ -110,7 +110,7 @@ cobot the rules
 
 ::
 
-cobot the rule
+    cobot the rule
 
 Real talk yo
 --------------
@@ -119,4 +119,4 @@ cobot ghetto
 
 ::
 
-cobot ghetto
+    cobot ghetto
