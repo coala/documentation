@@ -285,6 +285,14 @@ For x86 python or for x64 python:
 
 Replace "XXX" with the ClangSharp version you received from nuget.
 
+Shell-Autocompletion Support
+----------------------------
+
+If you are a bash/zsh user , checkout the
+`guide <https://docs.coala.io/en/latest/Users/Shell_Autocompletion.html>`_
+to set up autocompletion for coala arguments and bear names.
+
+
 Installation Errors
 -------------------
 
