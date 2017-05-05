@@ -38,49 +38,71 @@ wide coafile which has the lowest priority. The ``default_coafile`` must
 lie in the coala installation directory and is valid for everyone using
 this coala installation.
 
-Setting Inheritance
--------------------
+Explicit Setting Inheritance
+----------------------------
 
-Every coafile consists out of one or more sections. Section names are
-case insensitive. The ``default`` section is implicitly available and
-all settings which have no section specified belong to it. The
-``default`` section is special because all settings residing in it are
-automatically inherited to all other sections specified in the same
-coafile.
+Every coafile contains one or more sections. Section names are case
+insensitive. The old(pre 0.11.x) implicit section inheritance syntax
+has been deprecated and has been scheduled for removal in coala version 0.12.0.
+Instead, define section inheritance explicitly by naming a section in the
+format ``[basesection.newsection]``. Extra values can be appended to an
+inherited setting using the ``+=`` operator.
 
-This is an example coafile:
+Consider the following coafile::
 
-::
+  [all]
+  enabled = True
+  overridable = 2
+  ignore = vendor1/
 
-    enabled = True
-    overridable = 2
+  [all.section1]
+  overridable = 3
+  ignore += vendor2/
+  other = some_value
 
-    [section-1]
-    overridable = 3
-    other = 4
+  [all.section2]
+  overridable = 4
+  ignore += vendor3/
+  other = some_other_value
 
-    [section-2]
-    overridable = 5
-    other = 2
+This is the same file without section inheritance::
 
-This coafile would be interpreted the very same as this one, written a
-bit more explicitly:
+  [all]
+  enabled = True
+  overridable = 2
+  ignore = vendor1/
 
-::
+  [section1]
+  enabled = True
+  overridable = 3
+  ignore = vendor1/, vendor2/
+  other = some_value
 
-    [default]
-    enabled = True
-    overridable = 2
+  [section2]
+  enabled = True
+  overridable = 4
+  ignore = vendor1/, vendor3/
+  other = some_other_value
 
-    [section-1]
-    enabled = True
-    overridable = 3
-    other = 4
+All settings must be part of a section, so don't do this for implicit
+inheritance (this is also deprecated behavior)::
 
-    [section-2]
-    enabled = True
-    overridable = 5
-    other = 2
+  # bad!
+  setting1 = 1
+
+  [section1]
+  # setting1 is inherited
+  setting2 = 2
+
+Instead, make the inheritance explicit::
+
+  # better!
+  [all]
+  setting1 = 1
+
+  [all.section1]
+  # setting1 is inherited
+  setting2 = 2
 
 Comments, Escaping and Multiline Values and Keys
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
