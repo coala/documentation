@@ -85,7 +85,9 @@ This is the same file without section inheritance::
   other = some_other_value
 
 All settings must be part of a section, so don't do this for implicit
-inheritance (this is also deprecated behavior)::
+inheritance (this is also deprecated behavior). Implicit inheritance
+was leading to a section automatically getting inherited to all other
+sections without semantically making sense.
 
   # bad!
   setting1 = 1
