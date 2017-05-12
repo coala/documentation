@@ -298,7 +298,8 @@ Installation Errors
 In case you are getting
 ``ValueError:('Expected version spec in', 'appdirs ~=1.4.0', 'at',
 ' ~=1.4.0')``, then don't panic. It happens when you are using an outdated
-version of pip that doesn't support our version specifiers yet.
+version of pip that doesn't support our `version specifiers
+<https://www.python.org/dev/peps/pep-0440/#version-specifiers>`_ yet.
 
 
     Ideally, you have to create a virtual environment with a newer pip:
