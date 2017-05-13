@@ -20,6 +20,23 @@ In short coala does two things:
   everything but the actual analyzer routine. Write just the parameters
   your custom analysis needs and the analysis part, we'll take care of the rest
 
+What is a bear anyway?
+----------------------
+
+A bear is meant to do some analysis on source code. It can check your code for
+potential problems, calculate metrics and even provide corrections for your code.
+The source code will be provided by coala so the bear doesn’t have to care where
+it comes from or where it goes.
+
+Each bear has its own function and supported languages. So for different purposes
+you can use different bears.
+
+Find out more about bears
+`here <http://api.coala.io/en/latest/Developers/Writing_Native_Bears.html>`__.
+
+For more about different bears and languages each support
+`here <https://coala.io/#!/languages>`__.
+
 Can I Use coala in my Continuous Integration?
 ---------------------------------------------
 
