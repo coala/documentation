@@ -152,8 +152,8 @@ care about those! The general command to run coala is:
 Windows
 -------
 
-If you use windows, you can install docker easiest
-[here](https://www.docker.com/products/docker-toolbox).
+If you use Windows, you can install docker easily using
+`Docker Toolbox <https://www.docker.com/products/docker-toolbox>`_.
 
 Bleeding edge installation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
