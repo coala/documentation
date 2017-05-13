@@ -56,6 +56,8 @@ system-wide, use:
     $ pip3 install coala-bears
 
 .. note::
+    **Ubuntu Users** - Don't install coala using **apt** command
+    It's a completely different software
 
     For this and all future steps, some steps require root access
     (also known as administrative privileges in Windows).
