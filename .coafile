@@ -1,5 +1,5 @@
 [DOCS]
-bears = SpaceConsistencyBear, LineLengthBear
+bears = SpaceConsistencyBear, LineLengthBear, ProseLintBear
 
 files = **/*.rst, README.rst
 ignore = venv/**
