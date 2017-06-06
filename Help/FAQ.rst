@@ -25,7 +25,8 @@ Can I Use coala in my Continuous Integration?
 
 Yes! There's an argument *--ci* that runs the coala binary in non-interactive
 mode, which shows results cleanly in the log and returns error codes
-if something goes wrong.
+if something goes wrong. List of the exit codes and their meanings:
+`Exit Codes <https://docs.coala.io/en/latest/Users/Exit_Codes.html>`__.
 
 Why did you choose the name?
 ----------------------------
