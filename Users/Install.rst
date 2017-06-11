@@ -7,8 +7,7 @@ Installing coala Natively
     go to the bottom on the docker setup.
 
 This page will run you through the installation of coala without docker. coala
-currently supports Linux and Windows, and is known to work on OS X (meaning we
-do not have continuous integration for it but it works).
+currently supports Linux, Windows and OS X.
 
 Installing Python and Pip
 --------------------------
