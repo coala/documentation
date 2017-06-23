@@ -21,3 +21,7 @@ bears = InvalidLinkBear
 [rstcheck]
 bears = RSTcheckBear
 files = **.rst
+
+[yml]
+bears = YAMLLintBear
+files = **.yml
