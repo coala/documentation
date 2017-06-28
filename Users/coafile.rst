@@ -3,7 +3,8 @@ Writing a coala Configuration File (coafile and coarc)
 
 This document gives a short introduction to the specification of a
 coala configuration file. It is meant to be rather factual. If you wish
-to learn by example, please take a look at the :doc:`Tutorial`.
+to learn by example, please take a look at :doc:`Tutorial`. It also
+teaches how to change settings inside a coala file to suit your taste.
 
 Naming, Scope and Location
 --------------------------
@@ -133,3 +134,5 @@ As the backslash is the escape character it is recommended to use
 forward slashes as path separator even on Windows (to keep relative
 paths platform independent), use double-backslashes if you really mean a
 backslash in all places.
+
+You can now move on to an example with :doc:`Tutorial`.
