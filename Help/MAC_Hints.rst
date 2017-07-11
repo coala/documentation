@@ -8,10 +8,10 @@ Here we will be using ``venv``, which is part of python's standard
 libary since python 3.3, to create a virtualenv for development.
 
 1. Make sure you have installed Xcode and Homebrew.
----------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 2. Install Python 3.
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 For coala you will need to use Python 3, so you may
 simply use homebrew to install Python 3, or you could also
@@ -25,7 +25,7 @@ maintain other python versions.
     $ python3 --version   # To check the installed version
 
 3. Create Virtual Environments with venv
-----------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ::
 
@@ -40,7 +40,7 @@ maintain other python versions.
     $ python
 
 4. Virtualenvwrapper with Python 3:
------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ::
 
@@ -65,7 +65,7 @@ maintain other python versions.
     $ mkvirtualenv --python=python3_path myenv
 
 Finally!
---------
+~~~~~~~~
 
 ::
 
