@@ -66,11 +66,54 @@ coala will now ask you for missing values that are needed to perform the
 analysis, which in this case is only the ``use_spaces`` setting. We
 recommend setting it to ``True``.
 
+::
+
+    Please enter a value for the setting "use_spaces" (True if spaces
+    are to be used instead of tabs.) needed by SpaceConsistencyBear
+    for section "cli"
+
 coala will now check the code and, in case you use the tutorial code,
 yield one result. SpaceConsistencyBear will detect a trailing whitespace at
 the end of the line, after ``#include <stdio.h>`` in the ``main.c`` file. coala
 will then ask you to remove the trailing space, by applying the suggested
 patch (option 2).
+
+::
+
+    Executing section cli...
+
+    src/main.c
+    |   1| #include·<stdio.h>·
+    |    | [NORMAL] SpaceConsistencyBear:
+    |    | Line contains following spacing inconsistencies:
+    |    | - Trailing whitespaces.
+    |----|    | /path/coala-tutorial/src/main.c
+    |    |++++| /path/coala-tutorial/src/main.c
+    |   1|    |-#include <stdio.h>
+    |    |   1|+#include <stdio.h>
+    |   2|   2|
+    |   3|   3| int main(void) {
+    |   4|   4|     printf("Welcome to coala. Keep following the
+                    tutorial, you are doing a great job so far!\n");
+    |    | *0: Do nothing
+    |    |  1: Open file(s)
+    |    |  2: Apply patch
+    |    |  3: Print more info
+    |    |  4: Add ignore comment
+    |    | Enter number (Ctrl-D to exit): 2
+
+If the patch was applied succesfully, you should see something like this:
+
+::
+
+    |    | Patch applied successfully.
+    |    | *0: Do nothing
+    |    |  1: Open file(s)
+    |    |  2: Print more info
+    |    |  3: Add ignore comment
+    |    | Enter number (Ctrl-D to exit):
+
+Exit by pressing Ctrl-D.
 
 You can also run coala in non interactive mode (given that all the settings
 required by the bears you are using are provided in the ``.coafile``)
