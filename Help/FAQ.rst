@@ -46,8 +46,7 @@ What sort of analysis does coala do? What languages are supported?
 ------------------------------------------------------------------
 
 A list of all analysis routines and supported languages is
-`here <https://github.com/coala/bear-docs/blob/master/README.rst#supported-languages>`__
-- fully browsable.
+`fully browsable <https://github.com/coala/bear-docs/blob/master/README.rst#supported-languages>`__.
 
 For a top level view on what languages support what kind of analysis roughly,
 consult `this link <https://docs.google.com/spreadsheets/d/1bm63TQHndmGf3HQ33fp9UEmGKNYI7dTkjMyFIof2PqA/edit?usp=sharing>`__.
@@ -59,14 +58,14 @@ your code. Their capabilities and information can be seen
 How do I get started with coala?
 --------------------------------
 
-If you're looking to get started using coala, we have a full tutorial
-:doc:`here <../Users/Tutorial>`
+If you're looking to get started using coala, we have a
+:doc:`full tutorial <../Users/Tutorial>`
 that will teach you everything you need to know to use coala.
 
 If you're willing to contribute and become a part of our coalaian community,
-we have written a guide that will help you fix an issue on your own, just by
-following and understanding the indications
-`here <http://coala.io/newcomer>`_.
+we have written a `newcomers guide <http://coala.io/newcomer>`_ that will help
+you fix an issue on your own, just by following and understanding the
+indications.
 It is meant for newcomers, and it does not require you to have any precedent
 knowledge regarding coala.
 
