@@ -1,0 +1,20 @@
+sudo: false
+language: python
+python: 3.4.6
+cache:
+  pip: true
+  directories:
+    - docs/_build
+
+before_install:
+  - cp docs-requirements.txt requirements.txt
+
+script:
+  - make html SPHINXOPTS=-W
+
+notifications:
+  email: false
+
+branches:
+  exclude:
+    - /^sils\//
