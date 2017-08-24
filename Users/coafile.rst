@@ -107,6 +107,31 @@ Instead, make the inheritance explicit::
   # setting1 is inherited
   setting2 = 2
 
+Defining Aspects and Tastes
+---------------------------
+
+Aspects is an alternative way to configure coala. In this mode, we don't need
+to explicitly state list of bears, coala will choose it automatically based on
+requested aspects in coafile. To run coala in this mode, we need to define
+`aspects`, `files`, `languages`, and optionally aspect tastes setting. See
+the following example::
+
+  [all]
+  files = **
+  aspects = aspectname1, AspectName2 # case-insensitive
+  # defining an aspect's taste
+  aspectname1:aspect_taste = 80
+  # we can define subaspect taste through its parent
+  aspectname1:subaspect_taste = word1, word2, word3
+
+  [all.python]
+  files = **.py
+  language = Python
+  # appending additional aspect
+  aspects += aspectname3
+  # excluding certain subaspect
+  excludes = AspectName2Subaspect
+
 Comments, Escaping and Multiline Values and Keys
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
