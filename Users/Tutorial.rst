@@ -196,6 +196,12 @@ option to directly open the file in an editor of your choice.
 
 .. note::
 
+    If you want to set a default editor and not be asked for one every time,
+    you can simply add ``editor=$editorName`` (i.e. editor=vim) to your
+    project's ``.coafile`` and it will automatically open in that one.
+
+.. note::
+
     If your editor is already open this may not work, because the other
     process will shortly communicate with the existent process and
     return immediately. coala handles this for some editors
