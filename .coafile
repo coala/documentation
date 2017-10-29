@@ -10,7 +10,7 @@ use_spaces = True
 [commit]
 bears = GitCommitBear
 shortlog_trailing_period = False
-shortlog_regex = ([^:]*|\S+: [A-Z0-9*].*)
+shortlog_regex = ([^:]*|[^:]+[^ ]: [A-Z0-9*].*)
 
 [invalidlinks]
 enabled = False
