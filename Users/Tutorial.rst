@@ -153,6 +153,19 @@ This should yield something like this:
     files = src/*.c
     use_spaces = yeah
 
+.. note::
+
+    - The ``bears`` key specifies which bears (plugins) you want to use.
+      We support a huge number of languages and you can find the whole
+      list here If you don't find your language there, we've got some
+      bears that work for all languages. Or you can file an issue and
+      we would create a bear for you!
+    - The ``files`` key tells coala which files to lint - here we're
+      linting all python files inside the src/ directory by using a
+      glob expression.
+    - ``use_spaces`` enforces spaces over tabs in the codebase.
+      use_spaces is a setting for the SpaceConsistencyBear defined here.
+
 If you now invoke ``coala`` it will parse this ``.coafile`` from your
 current directory. This makes it easy to specify once for your project
 what is checked with which bears and make it available to all
