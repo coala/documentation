@@ -58,6 +58,10 @@ on your code in the working directory, like this:
 .. seealso::
   See also https://hub.docker.com/r/coala/base/.
 
+.. note::
+
+  The coala Docker image does not support Python 2 analysis.
+
 coala on GitLab CI
 ------------------
 
