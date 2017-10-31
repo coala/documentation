@@ -39,6 +39,11 @@ wide coafile which has the lowest priority. The ``default_coafile`` must
 lie in the coala installation directory and is valid for everyone using
 this coala installation.
 
+It can be used to define the type of files you usually don't want to lint,
+like minified files (e.g. ``*.min.js``) and backup files (e.g. ``*.orig``)::
+
+    ignore = **.min.js, **.orig
+
 Explicit Setting Inheritance
 ----------------------------
 
