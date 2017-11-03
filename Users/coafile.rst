@@ -34,7 +34,7 @@ You can place a ``.coarc`` file in your home directory to set certain
 user wide settings. Those settings will automatically be taken for all
 projects executed by that user.
 
-All settings specified here override only settings given by the system-wide 
+All settings specified here override only settings given by the system-wide
 coafile which has the lowest priority. The ``default_coafile`` must
 lie in the coala installation directory and is valid for everyone using
 this coala installation.
@@ -42,9 +42,9 @@ this coala installation.
 Explicit Setting Inheritance
 ----------------------------
 
-Every coafile contains one or more sections. Section names are case-insensitive. 
-The old(pre 0.11.x) implicit section inheritance syntax
-has been deprecated and has been scheduled for removal in coala version 0.12.0.
+Every coafile contains one or more sections. Section names are
+case-insensitive. The old(pre 0.11.x) implicit section inheritance syntax has
+been deprecated and has been scheduled for removal in coala version 0.12.0.
 Instead, define section inheritance explicitly by naming a section in the
 format ``[basesection.newsection]``. Extra values can be appended to an
 inherited setting using the ``+=`` operator.

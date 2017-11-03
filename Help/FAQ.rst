@@ -126,10 +126,10 @@ our master branch. Right now we use 7 of those checks:
   it all documented
   `here <http://api.coala.io/en/latest/Developers/Review.html>`_.
 
-- **codecov/project** This one checks whether all your code is being tested. We
-  cannot merge anything that may not work or may be broken somewhere, so to avoid
-  obvious bugs we use this. To fix it, write doctests or unittests for your
-  functions / classes.
+- **codecov/project** This one checks whether all your code is being tested.
+  We cannot merge anything that may not work or may be broken somewhere, so to
+  avoid obvious bugs we use this. To fix it, write doctests or unittests for
+  your functions / classes.
 
 - **ci/circleCI** This is one of the two containers we use to continuously
   test the code. It basically runs all the tests and checks your code in a
