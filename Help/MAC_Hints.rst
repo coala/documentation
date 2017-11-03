@@ -5,7 +5,7 @@ venv
 ----
 
 Here we will be using ``venv``, which is part of python's standard
-libary since python 3.3, to create a virtualenv for development.
+library since python 3.3, to create a virtualenv for development.
 
 1. Make sure you have installed Xcode and Homebrew.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -13,7 +13,7 @@ libary since python 3.3, to create a virtualenv for development.
 2. Install Python 3.
 ~~~~~~~~~~~~~~~~~~~~
 
-For coala you will need to use Python 3, so you may
+For coala, you will need to use Python 3, so you may
 simply use homebrew to install Python 3, or you could also
 `refer to the pyenv section <#pyenv>`__ to install Python 3 while you can also
 maintain other python versions.

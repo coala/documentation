@@ -16,7 +16,7 @@ Suppose you want ``SpaceConsistencyBear`` to perform an analysis on a file
     with a bear, you should go through `Tutorial
     <http://coala.readthedocs.io/en/latest/Users/Tutorial.html>`_ first.
 
-Now, if you want all the ``.c`` files in a specific directory to be analysed,
+Now, if you want all the ``.c`` files in a specific directory to be analyzed,
 you can take help of glob patterns.
 ::
 
@@ -44,7 +44,7 @@ subdirectories, you can use ``**`` glob pattern for that.
 
 In coala, files and directories are specified by file name. To allow
 input of multiple files without requiring a large number of filenames,
-coala supports a number of wildcards. These are based on the unix-style
+coala supports a number of wildcards. These are based on the Unix-style
 glob syntax and they are *not* the same as regular expressions.
 
 .. note::
@@ -148,7 +148,7 @@ brackets have to be placed at the first position.
     Matches either sequence\_a or sequence\_b as a whole. More than two
     or just one sequence can be given.
 
-Parentheses cannot be part of an alternative, unless they are escaped by
+Parentheses cannot be part of an alternative unless they are escaped by
 brackets. Parentheses that have no match are ignored as well as
 ``|``-separators that are not inside matching parentheses.
 

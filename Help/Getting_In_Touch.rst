@@ -21,6 +21,6 @@ We appreciate any help. (Partially with words, partially with chocolate
 if you live near Hamburg or join us at conferences.)
 
 Modularity, clean good code as well as a high usability for both users
-and developers of analyse routines (called bears) stand in the
+and developers of analyze routines (called bears) stand in the
 foreground of the development. We will not speed up our development if
 it needs sacrificing any aspect of quality.
