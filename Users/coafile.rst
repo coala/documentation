@@ -6,7 +6,7 @@ coala configuration file. It is meant to be rather factual. If you wish
 to learn by example, please take a look at :doc:`Tutorial`. It also
 teaches how to change settings inside a coala file to suit your taste.
 
-Naming, Scope and Location
+Naming, Scope, and Location
 --------------------------
 
 You can use up to three coafiles to configure your project.
@@ -32,19 +32,19 @@ User-Wide and System-Wide coafile
 
 You can place a ``.coarc`` file in your home directory to set certain
 user wide settings. Those settings will automatically be taken for all
-projects executed with that user.
+projects executed by that user.
 
-All settings specified here override only settings given by the system
-wide coafile which has the lowest priority. The ``default_coafile`` must
+All settings specified here override only settings given by the system-wide
+coafile which has the lowest priority. The ``default_coafile`` must
 lie in the coala installation directory and is valid for everyone using
 this coala installation.
 
 Explicit Setting Inheritance
 ----------------------------
 
-Every coafile contains one or more sections. Section names are case
-insensitive. The old(pre 0.11.x) implicit section inheritance syntax
-has been deprecated and has been scheduled for removal in coala version 0.12.0.
+Every coafile contains one or more sections. Section names are
+case-insensitive. The old(pre 0.11.x) implicit section inheritance syntax has
+been deprecated and has been scheduled for removal in coala version 0.12.0.
 Instead, define section inheritance explicitly by naming a section in the
 format ``[basesection.newsection]``. Extra values can be appended to an
 inherited setting using the ``+=`` operator.
@@ -113,7 +113,7 @@ Defining Aspects and Tastes
 Aspects is an alternative way to configure coala. In this mode, we don't need
 to explicitly state list of bears, coala will choose it automatically based on
 requested aspects in coafile. To run coala in this mode, we need to define
-`aspects`, `files`, `languages`, and optionally aspect tastes setting. See
+`aspects`, `files`, `languages`, and optionally aspect taste setting. See
 the following example::
 
   [all]
@@ -132,7 +132,7 @@ the following example::
   # excluding certain subaspect
   excludes = AspectName2Subaspect
 
-Comments, Escaping and Multiline Values and Keys
+Comments, Escaping, and Multiline Values and Keys
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Comments are simply done with a preceding ``#``. If you want to use a

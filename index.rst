@@ -93,7 +93,7 @@ As a User
 coala allows you to simply check your code against certain quality
 requirements. The checking routines are named **Bears** in coala. You
 can easily define a simple project file to check your project with all
-bears either shipped with coala or ones you found in the internet and
+bears either shipped with coala or ones you found on the internet and
 trust.
 
 As a Developer

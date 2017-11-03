@@ -12,7 +12,7 @@ What does coala do (for me)?
 coala is like a spell and grammar checker for source code. It offers one
 command and one configuration to lint all languages in your project.
 
-In short coala does two things:
+In short, coala does two things:
 
 - Makes it easy to use existing static code analyzers such as clang,
   pylint(and many others) by unifying and simplifying the configs
@@ -48,7 +48,7 @@ What sort of analysis does coala do? What languages are supported?
 A list of all analysis routines and supported languages is
 `fully browsable <https://github.com/coala/bear-docs/blob/master/README.rst#supported-languages>`__.
 
-For a top level view on what languages support what kind of analysis roughly,
+For a top-level view on what languages support what kind of analysis roughly,
 consult `this link <https://docs.google.com/spreadsheets/d/1bm63TQHndmGf3HQ33fp9UEmGKNYI7dTkjMyFIof2PqA/edit?usp=sharing>`__.
 
 There are also generic bears, which can be applied language independently on
@@ -113,7 +113,7 @@ our master branch. Right now we use 7 of those checks:
   issues.
 
 - **review/gitmate/pr** Checks whether your code respects our styling (PEP8),
-  doesn't contain unneeded newlines, trailing whitespace, etc. Basically it is
+  doesn't contain unneeded newlines, trailing whitespace, etc. Basically, it is
   like running coala over your code, so to fix this, simply run ``$ coala``
   before pushing! In case you have multiple commits, and the issue is in one
   of them, the status will still be failed, so be careful to run ``$ coala``
@@ -126,10 +126,10 @@ our master branch. Right now we use 7 of those checks:
   it all documented
   `here <http://api.coala.io/en/latest/Developers/Review.html>`_.
 
-- **codecov/project** This one checks whether all your code is being tested. We
-  cannot merge anything that may not work or may broke somewhere, so to avoid
-  obvious bugs we use this. To fix it, write doctests or unittests for your
-  functions / classes.
+- **codecov/project** This one checks whether all your code is being tested.
+  We cannot merge anything that may not work or may be broken somewhere, so to
+  avoid obvious bugs we use this. To fix it, write doctests or unittests for
+  your functions / classes.
 
 - **ci/circleCI** This is one of the two containers we use to continuously
   test the code. It basically runs all the tests and checks your code in a

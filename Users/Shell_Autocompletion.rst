@@ -10,7 +10,7 @@ Install ``argcomplete``:
 
     $ pip install argcomplete
 
-After this you have to either activate it
+After this, you have to either activate it
 `globally <https://github.com/kislyuk/argcomplete#activating-global-completion>`__
 or modify your configuration.
 

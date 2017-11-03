@@ -7,7 +7,7 @@ to the usage of coala.
 Prerequisites
 -------------
 
-In order to complete this tutorial you will need coala installed.
+In order to complete this tutorial, you will need coala installed.
 Installation instructions can be found `here <https://coala.io/install>`_.
 
 .. note::
@@ -20,7 +20,7 @@ Installation instructions can be found `here <https://coala.io/install>`_.
 Get Some Code
 -------------
 
-In order to perform a static code analysis on your code you will need
+In order to perform a static code analysis on your code, you will need
 some code to check. If you do not have your own code you want to check, you
 can retrieve our tutorial samples:
 
@@ -102,7 +102,7 @@ patch (option 2).
     |    |  4: Add ignore comment
     |    | Enter number (Ctrl-D to exit): 2
 
-If the patch was applied succesfully, you should see something like this:
+If the patch was applied successfully, you should see something like this:
 
 ::
 
@@ -115,16 +115,16 @@ If the patch was applied succesfully, you should see something like this:
 
 Exit by pressing Ctrl-D.
 
-You can also run coala in non interactive mode (given that all the settings
+You can also run coala in non-interactive mode (given that all the settings
 required by the bears you are using are provided in the ``.coafile``)
 
 ::
 
     coala  --non-interactive
 
-In this case there won't be any interaction, the patch will be shown directly.
+In this case, there won't be any interaction, the patch will be shown directly.
 
-Feel free to experiment a bit. You've successfully analysed some code!
+Feel free to experiment a bit. You've successfully analyzed some code!
 But don't stop reading - you don't have to enter all those values again!
 We have given coala the ``--save`` argument, which means that it will
 automatically generate a ``.coafile`` into the current directory. Read on!
@@ -166,7 +166,7 @@ into your ``.coafile``.
 Sections
 --------
 
-Thats all nice and well but we also have a Makefile for our project we
+That's all nice and well but we also have a Makefile for our project we
 want to check. So let us introduce another feature of our configuration
 syntax: *sections*.
 
@@ -355,7 +355,7 @@ specify glob wildcards that match several bears:
     another_unwrappable_string = unwrappable_string + unwrappable_string_2
     # Stop ignoring
 
-In the above example all bears matching the glob `Line*` and `Py*` will
+In the above example, all bears matching the glob `Line*` and `Py*` will
 be ignored. You may also specify more complex globs here such as
 `# Start ignoring (Line*|P[yx]*)` which will ignore all bears' names which
 start with `Line`, `Py`, and `Px`.

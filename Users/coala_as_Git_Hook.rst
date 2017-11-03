@@ -47,5 +47,5 @@ can make it executable by running
 
     $ chmod +x .git/hooks/pre-commit
 
-and you’re done! It will run every time before you commit, and prevent
+and you’re done! It will run every time before you commit and prevent
 you from committing if the code has any errors.
