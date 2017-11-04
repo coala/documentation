@@ -69,7 +69,6 @@ on your code with a ``.gitlab-ci.yml``, like this:
     check_code:
       image: coala/base
       script:
-      - pip install -r requirements.txt
       - coala --ci
 
 .. note::
