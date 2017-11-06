@@ -149,9 +149,11 @@ value of the last key:
 
     a_key = a
     value
-    # this is not part of the value
+    # this is not part of the value, as this is a comment line
     that /= is
     very long!
+
+``a_key`` is set to ``a value that = is very long!``
 
 Similarly, you can also set a value to multiple keys:
 ``key_1, key_2 = value`` is equivalent to ``key_1 = value`` and
