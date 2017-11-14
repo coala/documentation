@@ -1,21 +1,29 @@
 What is Docker?
 ===============
 
-Docker is a tool designed to make it easier to create, deploy, and run
-applications by using containers. Containers allow a developer to package
-up an application with all of the parts it needs, like libraries and other
-dependencies, and ship it all out as a single package.
+  Docker is a tool designed to make it easier to create, deploy, and run
+  applications by using containers. Containers allow a developer to package
+  up an application with all of the parts it needs, such as libraries and other
+  dependencies, and ship it all out as one package. By doing so, thanks to the
+  container, the developer can rest assured that the application will run
+  on any other Linux machine regardless of any customized settings that
+  machine might have that could differ from the machine used for writing
+  and testing the code.
 
-With the help of containers, the developer can rest assured that
-the application will run on other machines regardless of any
-customized settings his machine might have that could differ from the
-machine used for writing and testing the code.
+  In a way, Docker is a bit like a virtual machine. But unlike a virtual
+  machine, rather than creating a whole virtual operating system, Docker
+  allows applications to use the same Linux kernel as the system that
+  they're running on and only requires applications be shipped with things
+  not already running on the host computer. This gives a significant
+  performance boost and reduces the size of the application.
 
-Unlike a virtual machine, rather than creating a whole virtual operating
-system, Docker allows applications to use the same kernel as the system
-that they're running on and only requires applications being shipped
-with things not already running on the host computer. This gives a
-significant performance boost and reduces the size of the application.
+Cited from `opensource.com <https://opensource.com/resources/what-docker>`__.
+
+What is Docker? is licensed under a
+Creative Commons Attribution-ShareAlike 4.0 International License
+
+Refer to `CC-BY-SA-4.0 <https://creativecommons.org/2014/01/07/plaintext-versions-of-creative-commons-4-0-licenses/>`__
+for more information.
 
 What is a Docker Image and how is it different from a container?
 ----------------------------------------------------------------
