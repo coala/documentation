@@ -14,7 +14,7 @@ Installation instructions can be found `here <https://coala.io/install>`_.
 
     Here's a list of our
     `supported languages
-    <https://github.com/coala/bear-docs/blob/master/README.rst>`__.
+    <https://coala.io/#/languages>`__.
 
 
 Get Some Code
@@ -226,7 +226,7 @@ sequentially.
 .. note::
 
     For a list of configuration options for the bears, take a look at our
-    `bear-docs <https://github.com/coala/bear-docs>`_ documentation.
+    `coala languages <https://coala.io/#/languages>`_ directory.
 
 Auto-applying Results
 ---------------------

@@ -65,12 +65,12 @@ popular languages such as **C/C++**, **Python**, **JavaScript**, **CSS**,
 **Java** and many more, in addition to some generic language independent
 algorithms. To learn more about the different languages supported and the
 bears themselves,
-`click here. <https://github.com/coala/bear-docs/blob/master/README.rst>`__
+`click here. <https://coala.io/#/languages>`__
 
 .. note::
 
   To see what coala can do for you and your language, take a look at
-  `our capabilities listing <https://github.com/coala/bear-docs/blob/master/README.rst>`__.
+  `our capabilities listing <https://coala.io/#/languages>`__.
 
 If you are here to use coala for your own projects, take a look at our
 :doc:`installation guide<Users/Install>`.

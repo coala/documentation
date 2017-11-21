@@ -46,14 +46,14 @@ What sort of analysis does coala do? What languages are supported?
 ------------------------------------------------------------------
 
 A list of all analysis routines and supported languages is
-`fully browsable <https://github.com/coala/bear-docs/blob/master/README.rst#supported-languages>`__.
+`fully browsable <https://coala.io/#/languages>`__.
 
 For a top level view on what languages support what kind of analysis roughly,
 consult `this link <https://docs.google.com/spreadsheets/d/1bm63TQHndmGf3HQ33fp9UEmGKNYI7dTkjMyFIof2PqA/edit?usp=sharing>`__.
 
 There are also generic bears, which can be applied language independently on
 your code. Their capabilities and information can be seen
-`here <https://github.com/coala/bear-docs/blob/master/README.rst#all>`__.
+`here <https://coala.io/#/languages>`__.
 
 How do I get started with coala?
 --------------------------------
