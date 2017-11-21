@@ -1,0 +1,3 @@
+NOTE: 
+
+Always rebase before pushing your stuff.
