@@ -52,7 +52,7 @@ system-wide, use:
 
 ::
 
-    $ pip3 install coala-bears
+    $ sudo pip3 install coala-bears
 
 .. note::
 
@@ -70,13 +70,13 @@ To install the nightly build from our master branch, you can do:
 
 ::
 
-    $ pip3 install coala-bears --pre
+    $ sudo pip3 install coala-bears --pre
 
 To install coala only (without any bears), you can do:
 
 ::
 
-    $ pip3 install coala
+    $ sudo pip3 install coala
 
 .. note::
 
@@ -96,7 +96,7 @@ with ``pip3`` easily:
 
 ::
 
-    $ pip3 install virtualenv
+    $ sudo pip3 install virtualenv
 
 Once you have virtualenv installed, just fire up a shell and create
 your own environment. I usually create a project folder and a ``venv``
@@ -126,7 +126,7 @@ virtualenv with:
 
 ::
 
-    (venv)$ pip3 install coala-bears
+    (venv)$ sudo pip3 install coala-bears
 
 Using coala With Docker
 =======================
@@ -163,7 +163,7 @@ If you would like to develop coala, you should check out our
 
 ::
 
-    $ pip3 install coala-bears --pre
+    $ sudo pip3 install coala-bears --pre
 
 Also check out the `Developers Setup <http://coala.io/devsetup>`_ docs.
 
@@ -217,7 +217,7 @@ order for them to be usable, you need to install them via ``npm``
 
 ::
 
-    $ npm install -g
+    $ sudo npm install -g
 
 If a bear still doesn't work for you, please make sure that you have a
 recent version of ``npm`` installed. Many linux distributions ship a
@@ -234,7 +234,7 @@ To grab ``bundler``, use:
 
 ::
 
-    $ gem install bundler
+    $ sudo gem install bundler
 
 Then, simply run:
 
