@@ -15,7 +15,7 @@ You should run this command before trying to build the documentation:
 
 ::
 
-    pip3 install -r docs-requirements.txt
+    pip3 install -r requirements.txt
 
 You can test the documentation locally through simply running
 

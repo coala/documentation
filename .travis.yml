@@ -6,9 +6,6 @@ cache:
   directories:
     - docs/_build
 
-before_install:
-  - cp docs-requirements.txt requirements.txt
-
 script:
   - make html SPHINXOPTS=-W
 
