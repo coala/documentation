@@ -237,6 +237,12 @@ that allows you to set the action for a bear that shall be automatically
 applied on run. We have a command line alias ``--apply-patches`` to make it
 easier to use.
 
+By using ``--apply-patches``, the user does not have to press
+``2. (A)pply patch`` for applying a patch. Every patch is applied
+automatically.
+Alternatively, using the setting ``default_actions="*: ApplyPatchAction"``
+will automatically apply ``--apply-patches`` on run.
+
 Let's automatically fix Python code. Take a look at our sample Python
 code:
 
