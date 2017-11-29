@@ -83,10 +83,52 @@ To install coala only (without any bears), you can do:
     **Ubuntu Users** - Do not use ``apt-get install coala``
     for installing coala as that is different software.
 
+Installing inside a pipenv
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Pipenv is a user-friendly method of managing virtual environments and
+packages.
+You can look at it as a mix of ``pip`` and ``virtualenv``, so you don't have
+to manage them seperately for your projects.
+
+We'll now install ``pipenv`` by running the following command::
+
+    $ pip3 install pipenv
+
+Now we create a Python 3 environment for the project. Move to your project
+directory and run the following command::
+
+    $ pipenv --three
+
+The above command will create a virtual environment isolated from your system
+global installation.
+
+To install coala and all bears, run the following command::
+
+    $ pipenv install coala-bears
+
+Great, you have now setup a pipenv environment for your project directory and
+installed coala using it.
+You can now activate the pipenv by running::
+
+    $ pipenv shell
+
+Your virtual environment (virtualenv) is now active. You'll notice the change
+before the ``$`` sign on the command-line which will have your project
+directory name and some alpha-numeric value to make it unique.
+You can use coala by running the ``coala`` command and exit the virtualenv
+environment by entering ``exit`` at any time.
+
+You can read more about `pipenv <https://docs.pipenv.org>`_ in its
+documentation.
+
 Installing inside a virtualenv
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Virtualenv is probably what you want to use during development.
+Although ``pipenv`` sorts all your package and virtual environment needs, if
+you still feel the need to use ``virtualenv`` separately you can follow the
+steps given below.
+
 You can read more about
 it at the `virtualenv documentation <http://virtualenv.readthedocs.org>`_.
 

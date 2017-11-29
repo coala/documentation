@@ -25,6 +25,8 @@ venv/
 *.egg-info/
 .installed.cfg
 *.egg
+Pipfile
+Pipfile.lock
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
