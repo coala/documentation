@@ -85,7 +85,7 @@ Don't panic!
 
 Scroll down the error log, you will probably see something like `ValueError:
 ('Expected version spec in', 'appdirs ~=1.4.0', 'at', ' ~=1.4.0')` there.
-If not, `ask us! <coala.io/chat>`__
+If not, `ask us! <http://coala.io/chat>`__
 
 If so, you're probably on a Debian with an outdated pip that doesn't support
 our version specifiers yet. You have to create a virtual environment with
