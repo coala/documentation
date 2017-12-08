@@ -62,6 +62,12 @@ on your code in the working directory, like this:
 
   The coala Docker image does not support Python 2 analysis.
 
+You can add coala as alias for docker image, like this:
+
+::
+
+  alias coala="docker run -ti -v $(pwd):/app --workdir=/app coala/base coala"
+
 coala on GitLab CI
 ------------------
 
