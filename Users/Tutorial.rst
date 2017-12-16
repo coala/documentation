@@ -148,10 +148,10 @@ This should yield something like this:
 
 ::
 
-    [Default]
+    [cli]
     bears = SpaceConsistencyBear
     files = src/*.c
-    use_spaces = yeah
+    use_spaces = true
 
 If you now invoke ``coala`` it will parse this ``.coafile`` from your
 current directory. This makes it easy to specify once for your project
