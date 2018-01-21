@@ -106,6 +106,13 @@ folder:
 
     $ virtualenv venv
 
+.. note::
+
+    If you have both Python 3 and Python 2 installed, use
+    ``virtualenv venv -p $(which python3)``.
+    This creates an isolated Python 3 environment named ``venv``
+    in your current directory, as coala only works for Python 3.4 and above.
+
 Now, whenever you want to work on the project, you only have to activate
 the corresponding environment.
 
