@@ -332,7 +332,7 @@ repository:
 
 ::
 
-    $ make html
+    $ python setup.py docs
 
 You can then open ``_build\html\index.html`` in your favourite
 browser.
