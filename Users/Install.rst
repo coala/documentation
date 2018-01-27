@@ -90,13 +90,21 @@ Virtualenv is probably what you want to use during development.
 You can read more about
 it at the `virtualenv documentation <http://virtualenv.readthedocs.org>`_.
 
-First, we need to install virtualenv to the system. You may already have this
-installed as ``virtualenv`` or ``pyvenv``. If you do not, this can be done
-with ``pip3`` easily:
+First, we need to install virtualenv to the system. You may already
+have this installed as ``virtualenv`` or ``pyvenv``. You can
+check if it's already installed by typing:
 
 ::
 
-    $ pip3 install virtualenv
+    $ virtualenv --version
+
+If you see a version number, its already installed. If you do
+not, this can be done with pip3 easily:
+
+::
+
+    $ pip3 install --user virtualenv
+
 
 Once you have virtualenv installed, just fire up a shell and create
 your own environment. I usually create a project folder and a ``venv``
