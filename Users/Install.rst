@@ -91,8 +91,16 @@ You can read more about
 it at the `virtualenv documentation <http://virtualenv.readthedocs.org>`_.
 
 First, we need to install virtualenv to the system. You may already have this
+<<<<<<< HEAD
 installed as ``virtualenv`` or ``pyvenv``. If you do not, this can be done
 with ``pip3`` easily:
+=======
+installed as ``virtualenv`` or ``pyvenv``. You can check if it's already
+installed by typing:
+::
+
+    $ virtualenv --version
+>>>>>>> 032a564... Install.rst: Install virtualenv with --user
 
 ::
 
