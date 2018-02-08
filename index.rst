@@ -57,7 +57,7 @@ your code, regardless of the programming languages you use.**
 
 With coala, users can create
 :doc:`rules and standards <Users/coafile>` to be followed in the source
-code. coala has a **user-friendly interface** that is completely customizable.
+code. coala has a **user-friendly interface** that is completely customisable.
 It can be used in any environment and is completely modular.
 
 coala has a set of official bears (plugins) for several languages, including
