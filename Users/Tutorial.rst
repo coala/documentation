@@ -170,11 +170,14 @@ Thats all nice and well but we also have a Makefile for our project we
 want to check. So let us introduce another feature of our configuration
 syntax: *sections*.
 
-The line ``[Default]`` specifies that everything below will belong to
-the Default section. If nothing is specified, a setting will implicitly
-belong to this section.
+The line ``[cli]`` in the ``.coafile`` implies that everything below
+belongs to the special ``cli`` section. You may specify sections when
+you enter the settings via the Command Line Interface (CLI). You will
+soon learn all about them.  When you don't specify any sections, the
+settings will implicitly belong to the ``[cli]`` section.
 
-Let's check the line lengths of our Makefile:
+Next you will see how to specify sections using the command line when
+you are running coala. Let's check the line lengths of our Makefile:
 
 ::
 
@@ -270,24 +273,34 @@ That looks horrible, doesn't it? Let's fix it!
     $ coala -S python.bears=PEP8Bear python.files=\*\*/\*.py \
     --apply-patches --save
     # other output ...
+    Executing section cli...
     Executing section python...
     [INFO][11:03:37] Applied 'ApplyPatchAction' for 'PEP8Bear'.
     [INFO][11:03:37] Applied 'ApplyPatchAction' for 'PEP8Bear'.
 
 coala would now fix all spacing issues and without bothering you again.
 
+.. note::
+
+    When you try the above example, you may get a warning, saying that all
+    settings in the ``cli`` section are implicitly inherited to all
+    other sections (if they do not override their values). It also advises
+    us to change the name of that section to avoid unexpected behavior.
+    The next section explains what it means and how you can avoid
+    it.
+
 Setting Inheritance
 -------------------
+Let's first see what inheritance means.
 
-All settings in the default section are implicitly inherited to all
-other sections (if they do not override their values). We can use that
-to save a few lines!
+Before proceeding, rename the ``cli`` section in the ``.coafile`` to
+``all`` (we will soon explain the reason behind this change).
 
 Lets add the following section to our ``.coafile``:
 
 ::
 
-    [TODOS]
+    [all.TODOS]
     bears = KeywordBear
 
 And execute ``coala`` with the ``-s`` argument which is the same as
@@ -298,10 +311,26 @@ After the results we've already seen, we'll see a new informational one
 which informs us that we have a TODO in our code.
 
 Did you note that we didn't specify which files to check this time? This
-is because all settings, including ``files = src/*.c``, from the Default
-section are already available in every other section implicitly. Thus
-the default section is a good point to set things like logging and
-output settings or specifying a default set of files to check.
+is because all settings, including ``files = src/*.c``, from the ``all``
+section (previously called ``cli``) have been inherited in the new
+``TODOS`` section that we just added.
+
+You can make a section inherit from any previously defined section using
+this syntax:
+
+::
+
+    [parentSection.childSection]
+
+.. note::
+
+    ``cli`` is an internally reserved section name. All of its settings
+    are implicitly inherited to every other section by default. It is
+    because of this implicit inheritance feature that we are adviced to
+    rename the ``cli`` section to something else. Doing so will save us
+    from having unexpected values of ``cli`` being implicitly inherited
+    into our sections. We strongly suggest renaming it.
+
 
 Ignoring Issues
 ---------------
