@@ -17,9 +17,9 @@ repository and add the lines:
 
 .. code:: bash
 
-    $ #!/bin/sh
-    $ set -e
-    $ coala
+    #!/bin/sh
+    set -e
+    coala
 
 You can also specify arguments like ``-S autoapply=false`` which tells
 coala to not apply any patch by itself. Or you can run specific sections with
