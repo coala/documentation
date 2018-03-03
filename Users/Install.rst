@@ -147,6 +147,8 @@ not, this can be done with pip3 easily:
 
     $ pip3 install --user virtualenv
 
+The ```--user``` tag is required to install it with root access.
+
 Once you have virtualenv installed, just fire up a shell and create
 your own environment. I usually create a project folder and a ``venv``
 folder:
