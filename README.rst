@@ -11,7 +11,20 @@ The coala repository can be found
 How to build
 ============
 
-You should run this command before trying to build the documentation:
+Install ``virtualenv`` if you don't have it yet:
+
+::
+
+    pip3 install virtualenvwrapper
+
+Create a new ``virtualenv`` and activate it:
+
+::
+
+    virtualenv -p python3 coala-venv
+    source coala-venv/bin/activate
+
+And then run this command before trying to build the documentation:
 
 ::
 
