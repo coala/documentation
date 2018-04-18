@@ -68,3 +68,4 @@ target/
 # Git
 *.orig
 rultor_secrets.sh
+rultor_github_secrets.sh
