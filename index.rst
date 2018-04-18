@@ -27,6 +27,7 @@ Welcome to the coala documentation!
    Installing coala <Users/Install>
    Getting Started with coala <Users/Tutorial>
    Writing a coala Configuration File (coafile and coarc) <Users/coafile>
+   Generating a .coafile using coala-quickstart <Users/coala_quickstart.rst>
    Using Glob Patterns <Users/Glob_Patterns>
    Exit Codes <Users/Exit_Codes>
    Adding coala as a Git Hook <Users/coala_as_Git_Hook>
