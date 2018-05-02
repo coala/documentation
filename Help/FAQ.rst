@@ -138,3 +138,31 @@ our master branch. Right now we use 7 of those checks:
 
 - **continuous-integration/appveyor/pr** This one does the same as the one
   above, but for Windows, both 32 and 64bits versions.
+
+What is coala Community Code of Conduct?
+----------------------------------------
+
+The coala team and community is made up of a mixture of
+professionals and volunteers from all over the world. Diversity is
+one of our huge strengths, but it can also lead to communication
+issues and unhappiness. To that end, we have a few ground
+rules that we ask people to adhere to. A guide to make it easier to
+enrich all of us and the technical communities in which we participate.
+This code of conduct applies to all spaces managed by the coala project.
+
+If you believe someone is violating the code of conduct, we ask that
+you report it by emailing ``community AT coala DOT io``. In general:
+
+- **Be friendly and patient.**
+
+- **Be welcoming.**
+
+- **Be considerate.**
+
+- **Be respectful.**
+
+- **Be careful in the words that you choose.**
+
+- **When we disagree, try to understand why.**
+
+For more information refer `Code of Conduct <http://coala.io/coc>`__.
