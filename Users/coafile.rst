@@ -35,7 +35,7 @@ user wide settings. Those settings will automatically be taken for all
 projects executed with that user.
 
 All settings specified here override only settings given by the system
-wide coafile which has the lowest priority. The ``default_coafile`` must
+wide coafile which has the lowest priority. The ``system_coafile`` must
 lie in the coala installation directory and is valid for everyone using
 this coala installation.
 
