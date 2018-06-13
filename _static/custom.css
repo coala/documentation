@@ -5,17 +5,17 @@
  * Custom stylesheet
  *
  */
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,500,700,900');  /* Ignore CSSLintBear */
 
-div.sphinxsidebar .caption-text {
+.sphinxsidebar .caption-text {
     font-size: 120%;
 }
 
-img.logo {
+.logo {
     width: 100%;
 }
 
-.sphinxsidebarwrapper a.current.reference.internal {
+.sphinxsidebarwrapper .internal, .sphinxsidebarwrapper .external {
     font-weight: 300;
 }
 
@@ -24,44 +24,44 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: Roboto !important;
-    font-weight: 200 !important;
+    font-family: Roboto !important;  /* Ignore CSSLintBear */
+    font-weight: 200 !important;  /* Ignore CSSLintBear */
 }
 
 .toctree-l1 {
     padding-bottom: 0.5em;
 }
 
-div.body p, div.body dd, div.body li {
-    line-height: 2 !important;
-    font-weight: 300;
-    font-size: 1.1em;
+.body p, .body dd, .body li {
     font-family: Roboto;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 2;
     text-align: justify;
 }
 
-.sphinxsidebarwrapper > h3 {
-    margin-top: 1em !important;
+.search {
+    margin-bottom: 1em;
 }
 
 .sphinxsidebarwrapper ul {
-    margin-bottom: 1em !important;
+    margin-bottom: 1em;
 }
 
-div.sphinxsidebar input[type="submit" i] {
-    font-family: 'Roboto', serif !important;
+.sphinxsidebar input[type="submit"] {
+    font-family: 'Roboto', serif ;
     margin-top: 1em;
 }
 
-p.caption {
-    margin-top: 1em !important;
+.caption {
+    margin-top: 1em ;
 }
 
 .caption-text {
     font-weight: 500;
 }
 
-div.sphinxsidebarwrapper h1.logo-name {
+.sphinxsidebarwrapper .logo-name {
     display: none;
 }
 
@@ -69,31 +69,52 @@ div.sphinxsidebarwrapper h1.logo-name {
     margin-bottom: 2em;
 }
 
-.admonition, .note {
+div.admonition {  /* Ignore CSSLintBear */
+    background-color: #263238;
+    border: none;
+    border-radius: 0;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-    position: relative;
-    margin: 0.5rem 0 1rem 0;
-    background-color: #263238 !important;
-    transition: box-shadow .25s;
-    border-radius: 0 !important;
-    border: none !important;
-    font-family: Roboto !important;
     color: white;
+    font-family: Roboto;
+    padding: 2em;
+    position: relative;
+    transition: box-shadow .25s;
 }
 
-div.admonition p.admonition-title {
-    font-family: 'Roboto', serif !important;
-    margin: 0 0 5px 0 !important;
-    font-weight: 100;
+div.attention {  /* csslint allow: overqualified-elements */
+    background-color: #d9534f;
 }
 
-.admonition p {
-    margin-top: 1em !important;
-    font-weight: 200 !important;
+div.caution {  /* csslint allow: overqualified-elements */
+    background-color: #f0ad4e;
+}
+
+div.important {  /* csslint allow: overqualified-elements */
+    background-color: #d9534f;
+}
+
+div.tip {  /* csslint allow: overqualified-elements */
+    background-color: #428bca;
+}
+
+div.note {  /* csslint allow: overqualified-elements */
+    background-color: #5bc0de;
+}
+
+div.admonition p.admonition-title {  /* Ignore CSSLintBear */
+    font-family: 'Roboto', serif;
+    font-weight: 200;
+    margin: 0 0 5px 0;
+}
+
+div.admonition p {
+    font-weight: 300;
+    margin-top: 1em;
 }
 
 .admonition a {
     color: #eee;
+    font-weight: 300;
 }
 
 .admonition a:hover {
@@ -117,21 +138,17 @@ pre {
 code {
     background-color: #ecf0f3;
     color: #222;
-    padding: 0 em !important;
     display: inline-block;
-}
-
-.admonition a {
-    font-weight: 300;
+    padding: 0;
 }
 
 img {
+    height: auto ;
     max-width: 100%;
-    height: auto !important;
 }
 
 /* Override few pygments styles */
 
-.highlight .nn {
+.highlight .nn, .highlight .nc {
     text-decoration: none;
 }

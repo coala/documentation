@@ -22,3 +22,6 @@ copy:
   - runtime.txt: runtime.txt
   - Makefile: docs/Makefile
   - make.bat: docs/make.bat
+  - _static/custom.css: docs/custom.css
+  - _static/images/coala-header.png: docs/images/coala-header.png
+  - _static/images/coala_logo.svg: docs/images/coala_logo.svg
