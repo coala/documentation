@@ -16,6 +16,8 @@ following things:
 -  Give us feedback. If you think we're doing something useless or something
    amazing, let us know by dropping a message on gitter or a mail on our
    mailing lists!
+-  If you believe someone is violating the `code of conduct <http://docs.coala.io/en/latest/Help/FAQ.html#what-is-coala-community-code-of-conduct>`__
+   , we ask that you report it by emailing ``community AT coala DOT io``.
 
 We appreciate any help. (Partially with words, partially with chocolate
 if you live near Hamburg or join us at conferences.)
