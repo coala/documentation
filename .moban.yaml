@@ -1,0 +1,24 @@
+overrides: coala.yaml
+
+name: documentation
+
+docs_dir: ./.
+
+dependencies:
+  - coala
+  - '-r docs-requirements.txt'
+
+configuration:
+  template_dir:
+    - ../coala-mobans/templates/
+    - ../coala-mobans/assets/
+  configuration: .moban.yaml
+  configuration_dir: ../coala-mobans/
+targets:
+  - requirements.txt: requirements.txt.jj2
+  - netlify.toml: docs/netlify.toml
+copy:
+  - docs-requirements.txt: docs/docs-requirements.txt
+  - runtime.txt: runtime.txt
+  - Makefile: docs/Makefile
+  - make.bat: docs/make.bat

@@ -1,0 +1,3 @@
+[build]
+  publish = "././_build/html"
+  command = "pip install -r docs-requirements.txt && export PYTHONPATH=$(pwd) && make html"

@@ -1,2 +1,2 @@
 coala
-sphinx~=1.4.9
+-r docs-requirements.txt
