@@ -15,6 +15,7 @@ configuration:
   configuration: .moban.yaml
   configuration_dir: ../coala-mobans/
 targets:
+  - .gitignore: gitignore.jj2
   - requirements.txt: requirements.txt.jj2
   - netlify.toml: docs/netlify.toml
 copy:
