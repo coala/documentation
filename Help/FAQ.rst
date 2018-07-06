@@ -55,6 +55,14 @@ There are also generic bears, which can be applied language independently on
 your code. Their capabilities and information can be seen
 `here <https://coala.io/#/languages>`__.
 
+What is a bear anyway?
+----------------------
+
+A bear is a routine that is used by a coala package to check for lints and
+fix issues if found. A group of these routines is used for defining certain
+quality requirements in various languages and these checking routines are
+named as bears in coala.
+
 How do I get started with coala?
 --------------------------------
 
