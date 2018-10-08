@@ -69,7 +69,7 @@ How do I get started with coala?
 --------------------------------
 
 If you're looking to get started using coala, we have a
-:doc:`full tutorial <../Users/Tutorial>`
+https://docs.coala.io/en/latest/Users/Tutorial.html 
 that will teach you everything you need to know to use coala.
 
 If you're willing to contribute and become a part of our coalaian community,
@@ -83,7 +83,7 @@ How do I get in touch with the coala team?
 ------------------------------------------
 
 We are very active on our
-`gitter channel <https://coala.io/chat>`__
+`gitter channel https://gitter.im/coala/coala
 and will try to respond to any question in a matter of minutes.
 However, for a full list of how to get in touch with us, consult
 :doc:`this link <Getting_In_Touch>`.
