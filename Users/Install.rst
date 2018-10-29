@@ -41,6 +41,10 @@ it system-wide or directly from source.
 After successfully installing coala, you will need to install all the
 dependencies the bears have.
 
+.. note::
+
+  If Java is installed after coala, you will need to restart your shell.
+
 System Wide Installation
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
