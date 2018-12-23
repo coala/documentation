@@ -1,39 +1,5 @@
 sudo: false
-language: python
-python: 3.4.6
-cache:
-  pip: true
-  directories:
-    - docs/_build
-
-script:
-  - make html SPHINXOPTS=-W
-
-.check_moban_master: &check_moban_master
-  python: 3.6
-  stage: moban
-  install: pip install moban
-  script: .ci/check_moban.sh
-  if: branch = master AND type != pull_request
-
-.check_moban_other: &check_moban_other
-  <<: *check_moban_master
-  if: branch != master OR type = pull_request
-
-# env forces jobs to be created from the top level settings
-env:
-jobs:
-  include:
-    - *check_moban_master
-    - *check_moban_other
-  allow_failures:
-    - *check_moban_other
-
-notifications:
-  email: false
-  webhooks: https://www.travisbuddy.com/
-  on_success: never
-
-branches:
-  exclude:
-    - /^sils\//
+dist: xenial
+language: generic
+services: docker
+script: docker run -v=$(pwd):/app -v=/tmp/coala:/cache --workdir=/app coala/base coala --ci
