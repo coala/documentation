@@ -184,6 +184,9 @@ virtualenv with:
 Using coala With Docker
 =======================
 
+Don't know what Docker is? Have a look at
+`What is Docker? <Docker_Image.html>`_
+
 Use this installation method if you *just simply want to use coala*.
 
 The recommended way to use coala is using docker: coala has a lot of
