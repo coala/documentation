@@ -136,6 +136,11 @@ our master branch. Right now we use 7 of those checks:
   it all documented
   `here <http://api.coala.io/en/latest/Developers/Review.html>`_.
 
+- **review/gitmate/manual/pr** This is a manual process in which the pull request
+  can be reviewed by any coala member. Once the pull request is reviewed and 
+  approved, it is ready to be merged into the master branch. Post approval, it will 
+  be labeled with a ``process`` label marked as ``approved``.
+
 - **codecov/project** This one checks whether all your code is being tested. We
   cannot merge anything that may not work or may broke somewhere, so to avoid
   obvious bugs we use this. To fix it, write doctests or unittests for your
