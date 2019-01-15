@@ -46,9 +46,8 @@ Welcome to the coala documentation!
 
 You might also want to look at `our website <http://coala.io/>`_.
 
-.. image:: _static/images/coala-header.png
-   :scale: 50
-   :align: center
+.. raw:: html
+   :file: _static/logo.html
 
 coala: Language Independent Code Analysis
 -----------------------------------------
