@@ -123,9 +123,11 @@ on your code with a ``.travis.yml``, like this:
 
 ::
 
+    sudo: false
+    dist: xenial
     language: generic
     services: docker
-    script: docker run -v=$(pwd):/app --workdir=/app coala/base coala --ci
+    script: docker run -v=$(pwd):/app --workdir=/app coala/base
 
 .. note::
 
