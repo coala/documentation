@@ -341,7 +341,7 @@ Shell-Autocompletion Support
 ----------------------------
 
 If you are a bash/zsh user , checkout the
-`guide <https://docs.coala.io/en/latest/Users/Shell_Autocompletion.html>`_
+:doc:`guide <Shell_Autocompletion>`
 to set up autocompletion for coala arguments and bear names.
 
 

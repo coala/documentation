@@ -13,8 +13,7 @@ Suppose you want ``SpaceConsistencyBear`` to perform an analysis on a file
 .. note::
 
     If you don't know the functions of a bear or how to perform the analysis
-    with a bear, you should go through `Tutorial
-    <http://coala.readthedocs.io/en/latest/Users/Tutorial.html>`_ first.
+    with a bear, you should go through :doc:`Tutorial <Tutorial>` first.
 
 Now, if you want all the ``.c`` files in a specific directory to be analysed,
 you can take help of glob patterns.
@@ -82,8 +81,7 @@ The special characters used in shell-style wildcards are:
 
     If you're looking for a negation pattern to exclude paths, check out the
     ``--ignore`` argument or ``ignore`` .coafile option `here
-    <http://coala.readthedocs.io/en/latest/Users/Tutorial.html#ignoring
-    -issues>`_.
+    <Tutorial.html#ignoring-issues>`_.
 
 Examples
 --------

@@ -42,7 +42,7 @@ Command Line Interface
 
 In order to specify the files to analyze, you can use the ``--files``
 argument of coala like demonstrated below. For all file paths, you can
-specify (recursive) `globs <../Users/Glob_Patterns.html>`__.
+specify (recursive) :doc:`globs <Glob_Patterns>`.
 
 Because analysis routines can do many various things we named them
 **bears**. A bear can check your code for potential problems, calculate metrics
