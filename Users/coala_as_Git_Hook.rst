@@ -34,6 +34,10 @@ coala to not apply any patch by itself. Or you can run specific sections with
         Documentation on how to configure coala using the coafile
         specification.
 
+    Module :doc:`coala configuration in TOML <toml_config>`
+        Documentation on how to configure coala using TOML
+        specification.
+
 .. note::
 
     If you allow coala to auto apply patches, it's recommended to add

@@ -27,6 +27,7 @@ Welcome to the coala documentation!
    Installing coala <Users/Install>
    Getting Started with coala <Users/Tutorial>
    Writing a coala Configuration File (coafile and coarc) <Users/coafile>
+   Writing a Configuration File in TOML <Users/toml_config>
    Generating a .coafile using coala-quickstart <Users/coala_quickstart.rst>
    Using Glob Patterns <Users/Glob_Patterns>
    Exit Codes <Users/Exit_Codes>
