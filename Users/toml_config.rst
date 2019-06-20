@@ -151,7 +151,7 @@ Config file in TOML
  inherits = [ 'all', 'java']
 
 You can use this syntax to specify multiple inheritance
-The same is coafile appears as
+The same in coafile format appears as
 
 .. code::
 
@@ -178,11 +178,11 @@ The same is coafile appears as
 .. note::
 
    - If you want to append multiple settings then use ``appends`` as a list
-     .. code::
+     ::
 
         appends = [ 'a', 'b']
    - If you want to inherit multiple sections use ``inherits`` as a list
-     .. code::
+     ::
 
         inherits = [ 'section1', 'section2']
    - You can only inherit sections
