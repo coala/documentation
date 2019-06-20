@@ -43,7 +43,7 @@ like minified files (e.g. ``*.min.js``) and backup files (e.g. ``*.orig``)::
     ignore = [ '**.min.js', '**.orig' ]
 
 Basic TOML concepts
-~~~~~~~~~~~~~~~~~~~~
+---------------------
 This part describes the basic TOML concepts required to write coala
 configuration files in TOML
 
@@ -54,7 +54,9 @@ configuration files in TOML
 - A table is a collection of key-value pairs. Use a table for specifying
   a coala section.
 
-This is an example of a coala configuration file written in TOML ::
+This is an example of a coala configuration file written in TOML
+
+.. code::
 
     [cli]
     bears = 'SpaceConsistencyBear'
@@ -74,12 +76,14 @@ that govern a section. To write coala configuration file you will
 be using TOML strings, booleans, integers and arrays as values.
 
 Section Inheritance
-~~~~~~~~~~~~~~~~~~~~
+---------------------
 coala supports section inheritance. You can define section inheritance
 by using the key ``inherits``.
 Extra values can be appended to an inherited setting using the ``appends`` key.
 
-Consider the following configuration file in TOML ::
+Consider the following configuration file in TOML
+
+.. code::
 
   [all]
   enabled = true
@@ -105,7 +109,9 @@ In the inherited sections above, ``appends`` key specifies that the value of
 ``ignore`` in the derived sections must be appended with the value of
 ``ignore`` key in the base section.
 
-This is the same file without section inheritance::
+This is the same file without section inheritance
+
+.. code::
 
   [all]
   enabled = true
@@ -129,7 +135,7 @@ Consider another example
 
 Config file in TOML
 
-::
+.. code::
 
  [all]
  a = 1
@@ -147,7 +153,7 @@ Config file in TOML
 You can use this syntax to specify multiple inheritance
 The same is coafile appears as
 
-::
+.. code::
 
  [all]
  a = 1
@@ -169,14 +175,31 @@ The same is coafile appears as
  p = 5
  q = 6
 
+.. note::
+
+   - If you want to append multiple settings then use ``appends`` as a list
+     .. code::
+
+        appends = [ 'a', 'b']
+   - If you want to inherit multiple sections use ``inherits`` as a list
+     .. code::
+
+        inherits = [ 'section1', 'section2']
+   - You can only inherit sections
+   - You can only append settings
+   - If  a setting is redefined in the inherited section then it will
+     overwritten if appends is not used.
+
 Defining Aspects and Tastes
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------
 
 Aspects is an alternative way to configure coala. In this mode, we don't need
 to explicitly state list of bears, coala will choose it automatically based on
 requested aspects in configuration file. To run coala in this mode, we need to
 define `aspects`, `files`, `languages`, and optionally aspect tastes setting.
-See the following example::
+See the following example
+
+.. code::
 
   [all]
   files = '**'
@@ -186,23 +209,33 @@ See the following example::
   # we can define subaspect taste through its parent
   aspectname1.subaspect_taste = ['word1', 'word2', 'word3']
 
-  ['all.python']
+  [python]
   files = '**.py'
   language = 'Python'
+  inherits = 'all'
   # appending additional aspect
   appends = 'all'
   aspects = 'aspectname3'
   # excluding certain subaspect
   excludes = 'AspectName2Subaspect'
 
+For caofile users who want to write configuration in TOML
+
+- If you are using aspects  ``a:b = 'c'``  in a section named `example`
+  then replace ``a:b = 'c'`` with ``a.b = 'c'`` or
+
+  .. code::
+
+   [example.a]
+   b = 'c'
 
 For existing coala users
-~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
 In this section we will see how to convert a complex coafile into
 a configuration file in TOML
 
-coafile ::
+.. code::
 
  [all]
  files = *.py, coantlib/**/*.py, tests/**/*.py, coantbears/**/*.py, .ci/*.py
@@ -217,15 +250,12 @@ coafile ::
  bears = SpaceConsistencyBear
  language = Python
  preferred_quotation = '
-
  default_actions = **: ApplyPatchAction
 
  [all.flakes]
  # Do not set default_action to ApplyPatchAction as it may lead to some
  # required imports being removed that might result in coala behaving weirdly.
-
  default_actions = *: ShowPatchAction
-
  bears += PyUnusedCodeBear
  language = Python
  remove_all_unused_imports = true
@@ -234,26 +264,20 @@ To convert a coafile to configuration file in TOML
 
 - Enclose all string values in quotes
 - Use array notation to depict list of strings
-- Replace ``[parent_section.inherited_section]]`` with ``[inherited.section]``
+- Replace ``[parent_section.inherited_section]`` with ``[inherited.section]``
   and add ``inherits = parent_section`` as a key-value pair
 - Use ``true`` or ``false`` to specify booleans
 - Replace ``a += b`` with
-  ::
+
+.. code::
 
    a = 'b'
    appends = 'a'
 
-- If you are using aspects  ``a:b = 'c'``  in a section named `example`
-  then replace
-  ``a:b = 'c'`` with ``a.b = 'c'`` or
-  ::
-
-   [example.a]
-   b = 'c'
 
 Using the above rules we get a configuration file in TOML
 
-::
+.. code::
 
  [all]
  files = ['*.py', 'coantlib/**/*.py', 'tests/**/*.py', 'coantbears/**/*.py',
@@ -270,7 +294,6 @@ Using the above rules we get a configuration file in TOML
  bears = 'SpaceConsistencyBear'
  language = 'Python'
  preferred_quotation = '
-
  default_actions = '**: ApplyPatchAction'
 
  [flakes]
@@ -278,7 +301,6 @@ Using the above rules we get a configuration file in TOML
  # required imports being removed that might result in coala behaving weirdly.
  inherits = 'all'
  default_actions = '*: ShowPatchAction'
-
  bears = 'PyUnusedCodeBear'
  appends = 'bears'
  language = 'Python'
