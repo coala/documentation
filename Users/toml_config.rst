@@ -226,7 +226,7 @@ See the following example
   # excluding certain subaspect
   excludes = 'AspectName2Subaspect'
 
-For caofile users who want to write configuration in TOML
+For coafile users who want to write configuration in TOML
 
 - If you are using aspects  ``a:b = 'c'``  in a section named `example`
   then replace ``a:b = 'c'`` with ``a.b = 'c'`` or
