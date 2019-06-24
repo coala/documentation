@@ -8,6 +8,9 @@ Naming, Scope and Location
 --------------------------
 
 You can use up to three configuration files to configure your project.
+Two of these configuration files ``.coarc.toml`` and ``system_coafile.toml``
+can be same for any number of projects but ``.coafile.toml`` can be
+different for different projects.
 
 1. A project-wide configuration file.
 2. A user-wide configuration file.
@@ -53,6 +56,10 @@ configuration files in TOML
   pairs to specify rules for coala bears.
 - A table is a collection of key-value pairs. Use a table for specifying
   a coala section.
+
+A list of settings required to write configuration can be found at
+`Settings
+<http://api.coala.io/en/latest/Developers/coala_settings.html>`_
 
 This is an example of a coala configuration file written in TOML
 
@@ -229,8 +236,8 @@ For caofile users who want to write configuration in TOML
    [example.a]
    b = 'c'
 
-For existing coala users
--------------------------
+For existing coala users who want to use TOML
+---------------------------------------------
 
 In this section we will see how to convert a complex coafile into
 a configuration file in TOML
@@ -305,4 +312,3 @@ Using the above rules we get a configuration file in TOML
  appends = 'bears'
  language = 'Python'
  remove_all_unused_imports = true
-
