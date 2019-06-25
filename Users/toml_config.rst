@@ -9,7 +9,7 @@ Naming, Scope and Location
 
 You can use up to three configuration files to configure your project.
 Two of these configuration files ``.coarc.toml`` and ``system_coafile.toml``
-can be same for any number of projects but ``.coafile.toml`` can be
+can be the same for any number of projects but ``.coafile.toml`` can be
 different for different projects.
 
 1. A project-wide configuration file.
