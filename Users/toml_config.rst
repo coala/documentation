@@ -182,6 +182,50 @@ The same in coafile format appears as
  p = 5
  q = 6
 
+Sometimes during multiple inheritance you may want to specify
+what key you want to inherit from what section. For that
+you can use `appends.parent_section` as a key.
+
+For example
+
+.. code::
+
+  [section1]
+  colors = 'red'
+  fruits = 'grapes'
+
+  [section2]
+  colors = 'green'
+  fruits = 'orange'
+
+  [section3]
+  inherits = ['section1', 'section2']
+  appends.section1 = 'color'
+  appends.section2 = 'fruits'
+  colors = 'blue'
+  fruits = 'apple'
+
+The same in coafile format appears as
+
+.. code::
+
+  [section1]
+  colors = red
+  fruits = grapes
+
+  [section2]
+  colors = green
+  fruits = orange
+
+  [section1.section3]
+  colors = red, blue
+  fruits = apple
+
+  [section2.section3]
+  colors = blue
+  fruits = orange, apple
+
+
 .. note::
 
    - If you want to append multiple settings then use ``appends`` as a list
@@ -194,7 +238,7 @@ The same in coafile format appears as
         inherits = [ 'section1', 'section2']
    - You can only inherit sections
    - You can only append settings
-   - If  a setting is redefined in the inherited section then it will
+   - If a setting is redefined in the inherited section then it will
      overwritten if appends is not used.
 
 Defining Aspects and Tastes
