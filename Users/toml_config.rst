@@ -356,3 +356,26 @@ Using the above rules we get a configuration file in TOML
  appends = 'bears'
  language = 'Python'
  remove_all_unused_imports = true
+
+Configuration Converter Tool
+-----------------------------
+
+coala provides a tool to convert a coafile to a TOML file and vice
+versa. You can use it by running
+
+::
+
+    $ coala -cc input_file output_file
+
+
+-cc is short for --config-converter. It requires two arguments,
+input configuration file and output configuration file.
+
+For example
+
+::
+
+    $ coala -cc .coafile .coafile.toml
+
+
+generates .coafile.toml from .coafile

@@ -69,3 +69,17 @@ root:
 ::
 
     $ coala
+
+coala-quickstart can also generate configuration files in TOML.
+To generate a configuration file in TOML use
+
+::
+
+    $ coala-quickstart - T
+
+Once you have completed these steps just execute coala from your project's
+root:
+
+::
+
+    $ coala -T
