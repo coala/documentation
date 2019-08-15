@@ -129,6 +129,50 @@ But don't stop reading - you don't have to enter all those values again!
 We have given coala the ``--save`` argument, which means that it will
 automatically generate a ``.coafile`` into the current directory. Read on!
 
+Generation of configuration files based on style guides
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+coala can automatically generate a configuration file
+for you based on your preference of languages and style
+guides.
+
+If you want to generate a configuration file for python
+language based on pep8 style guide you can execute
+
+::
+
+    $ coala -g python:pep8:**.py
+
+This will generate a .coafile for you by which you can lint
+all your python files based on pep8 style guide.
+
+The general syntax for the command is
+
+::
+
+    $ coala -g language:style_guide:files:excludes
+
+You can also use this tool to generate a configuration
+file for different languages at the same time
+
+::
+
+    $ coala -g python:pep8:app.py html:google:index.html
+
+This command will generate a .coafile for linting
+your app.py according to pep8 guidelines and your
+index.html according to google style guidelines.
+
+Sometimes you may want to inherit certain files to
+all the sections. This can be done by executing
+
+::
+
+    $ coala -g language:style_guide:files --files style_to_lint
+
+The tool can be used even if .coafile exists. New sections
+will be appended to the file in this case.
+
 Configuration Files - coafiles
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
