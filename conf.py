@@ -15,6 +15,7 @@
 
 import sys
 import os
+import datetime
 
 import coalib
 
@@ -49,9 +50,11 @@ source_suffix = '.rst'
 # The master toctree document.
 master_doc = 'index'
 
-# General information about the project.
+# General information about the project. 
+# Copyright year updated automatically.
 project = 'coala'
-copyright = '2017, The coala Developers'
+year = datetime.datetime.now().year
+copyright = str(year)+', The coala Developers'
 author = 'The coala Developers'
 
 # The version info for the project you're documenting, acts as replacement for
