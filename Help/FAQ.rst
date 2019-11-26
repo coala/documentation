@@ -113,41 +113,11 @@ a newer pip:
 should do the job. You have to activate this virtualenv on every terminal
 session you want to use coala though (tip: add it to bashrc!)
 
-What are those things failing/passing on my Pull Request?
----------------------------------------------------------
+Need help contributing to coala?
+--------------------------------
 
-We use a few checks to make sure your Pull Request is ready to be merged into
-our master branch. Right now we use 7 of those checks:
-
-- **review/gitmate/commit** Checks this particular commit has any new gitmate
-  issues.
-
-- **review/gitmate/pr** Checks whether your code respects our styling (PEP8),
-  doesn't contain unneeded newlines, trailing whitespace, etc. Basically it is
-  like running coala over your code, so to fix this, simply run ``$ coala``
-  before pushing! In case you have multiple commits, and the issue is in one
-  of them, the status will still be failed, so be careful to run ``$ coala``
-  before making each commit.
-
-- **review/gitmate/manual** This one is the only one that is manual, this can
-  be given by any coala member and shows that the commit has been reviewed and
-  has no problems, so it is ready to be merged. It can be done by commenting
-  ``ack commit_sha``. For more information about the whole process, we have
-  it all documented
-  `here <http://api.coala.io/en/latest/Developers/Review.html>`_.
-
-- **codecov/project** This one checks whether all your code is being tested. We
-  cannot merge anything that may not work or may broke somewhere, so to avoid
-  obvious bugs we use this. To fix it, write doctests or unittests for your
-  functions / classes.
-
-- **ci/circleCI** This is one of the two containers we use to continuously
-  test the code. It basically runs all the tests and checks your code in a
-  container, checking that the tests pass on the container. This one is for
-  Linux, it runs Ubuntu 12.04.
-
-- **continuous-integration/appveyor/pr** This one does the same as the one
-  above, but for Windows, both 32 and 64bits versions.
+If you're new to coala or need any help contributing to coala,please
+checkout the `coala API documentation <http://api.coala.io/en/latest/>`_.
 
 What is coala Community Code of Conduct?
 ----------------------------------------
