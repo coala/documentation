@@ -10,7 +10,7 @@ tornado, can read other data format: json and yaml, and can access both template
 file and configuration file in any location: zip, git, pypi package, s3, etc.
 It is used in coala project to keep documentation consistent across the
 documentations of individual libraries in the same organisation. You can find
-more documentation on `Moban Documentation <https://moban.readthedocs.io/en/latest/>`_.
+more detailed documentation on `Moban Documentation <https://moban.readthedocs.io/en/latest/>`_.
 
 Install ``moban``:
 
