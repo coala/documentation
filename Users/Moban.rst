@@ -32,3 +32,21 @@ Sample usage:
 ::
 
     mohan -c [input file(JSON, YAML)] -t [template file] -o [outputfile]
+
+Moban statically generates text based on an input file and an given template, which
+can be used to modify all configuration files of an entire repository.
+
+Moban Structure
+-----------------
+
+Cathlin's section
+
+Moban Key Features
+-----------------
+
+(based on test cases) Christopher's section
+
+Why Moban, and How?
+-----------------
+
+After Jon's discovery
