@@ -52,7 +52,38 @@ Moban > moban.cd > moban.yml > template file = base.jj2 (in moban > templates)
 Moban Key Features
 -----------------
 
-(based on test cases) Christopher's section
+The layout of Moban’s test environment closely matches the layout of the actual
+repository structure. This consistency helps to ensure that each file in the
+source code has a corresponding test file. Additionally, if any test cases need
+to be modified for any reason, they will be easy to locate due to the similar
+file structure.
+
+File structure of the tests directory:
+
+tests
+|_____core
+|_____data_loaders
+|_____deprecated
+|_____fixtures
+|_____integration_tests
+|_____jinja2
+|_____mobanfile
+|_____regression_tests
+
+The core folder includes tests related to context.py, engine, and moban_factory.py.
+These tests ensure that the environment variables in context are initialized
+correctly, that the jinja2 engine object that Moban creates functions properly,
+and that all of the moban_factory functions correctly find the files that are
+needed, whether it be templates or actual yml files.
+
+The data_loaders folder checks that the json_loader, the dictionary merge
+function, and the yaml_loader all successfully perform their tasks, while
+test_overrides ensures that all overridden functions also work.
+
+The fixtures folder contains testing files that are only created on initial run
+of the test cases such that the test files are not stored in the production build
+of moban.
+
 
 Why Moban, and How?
 -----------------
