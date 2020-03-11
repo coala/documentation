@@ -42,8 +42,10 @@ Moban Structure
 - Moban reads a yaml file (data.yml), this is then rendered into a jinja template
 file (jinja files are found within the moban template folder). A “moban.output”
 file is then created.
+
 - The template inherits the .jj2 file, which is located in moban.td.
-- To use a user defined template, it can be entered within moban.yml. 
+
+- To use a user defined template, it can be entered within moban.yml.
 Moban > moban.cd > moban.yml > template file = base.jj2 (in moban > templates)
 
 
