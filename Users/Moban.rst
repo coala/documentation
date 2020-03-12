@@ -60,15 +60,17 @@ file structure.
 
 File structure of the tests directory:
 
-tests
-|_____core
-|_____data_loaders
-|_____deprecated
-|_____fixtures
-|_____integration_tests
-|_____jinja2
-|_____mobanfile
-|_____regression_tests
+::
+
+    tests
+    |_____core
+    |_____data_loaders
+    |_____deprecated
+    |_____fixtures
+    |_____integration_tests
+    |_____jinja2
+    |_____mobanfile
+    |_____regression_tests
 
 The core folder includes tests related to context.py, engine, and moban_factory.py.
 These tests ensure that the environment variables in context are initialized
