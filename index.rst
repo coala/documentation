@@ -34,6 +34,7 @@ Welcome to the coala documentation!
    Adding coala as a Git Hook <Users/coala_as_Git_Hook>
    Shell Autocompletion <Users/Shell_Autocompletion>
    coala as a Docker Image <Users/Docker_Image>
+   What is Moban? <Users/Moban>
    MAC Hints <Help/MAC_Hints>
    How To Get In Touch With Us <Help/Getting_In_Touch>
    Frequently Asked Questions <Help/FAQ>
