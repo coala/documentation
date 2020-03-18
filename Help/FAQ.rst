@@ -136,12 +136,12 @@ our master branch. Right now we use 7 of those checks:
   it all documented
   `here <http://api.coala.io/en/latest/Developers/Review.html>`_.
 
-- **codecov/project** This one checks whether all your code is being tested. We
+- **continuous-integration/travis-ci/pr** This one checks whether all your code is being tested. We
   cannot merge anything that may not work or may broke somewhere, so to avoid
   obvious bugs we use this. To fix it, write doctests or unittests for your
-  functions / classes.
+  functions / classes.  
 
-- **ci/circleCI** This is one of the two containers we use to continuously
+- **deploy/netlify** This is one of the two containers we use to continuously
   test the code. It basically runs all the tests and checks your code in a
   container, checking that the tests pass on the container. This one is for
   Linux, it runs Ubuntu 12.04.
