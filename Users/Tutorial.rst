@@ -102,7 +102,7 @@ patch (option 2).
     |    |  4: Add ignore comment
     |    | Enter number (Ctrl-D to exit): 2
 
-If the patch was applied succesfully, you should see something like this:
+If the patch was applied successfully, you should see something like this:
 
 ::
 
@@ -326,7 +326,7 @@ this syntax:
 
     ``cli`` is an internally reserved section name. All of its settings
     are implicitly inherited to every other section by default. It is
-    because of this implicit inheritance feature that we are adviced to
+    because of this implicit inheritance feature that we are advised to
     rename the ``cli`` section to something else. Doing so will save us
     from having unexpected values of ``cli`` being implicitly inherited
     into our sections. We strongly suggest renaming it.

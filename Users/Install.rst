@@ -93,7 +93,7 @@ Installing inside a pipenv
 Pipenv is a user-friendly method of managing virtual environments and
 packages.
 You can look at it as a mix of ``pip`` and ``virtualenv``, so you don't have
-to manage them seperately for your projects.
+to manage them separately for your projects.
 
 We'll now install ``pipenv`` by running the following command::
 
