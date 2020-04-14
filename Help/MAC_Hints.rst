@@ -5,7 +5,7 @@ venv
 ----
 
 Here we will be using ``venv``, which is part of python's standard
-libary since python 3.3, to create a virtualenv for development.
+library since python 3.3, to create a virtualenv for development.
 
 1. Make sure you have installed Xcode and Homebrew.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
