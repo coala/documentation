@@ -436,8 +436,9 @@ If you add the line ``TODOS.enabled=False`` to some arbitrary place to
 your ``.coafile`` or just ``enabled=False`` into the ``TODOS`` section,
 coala will not show the TODOs on every run.
 
-Especially for those bears yielding informational messages which you
-might want to see from time to time this is a good way to silence them.
+This is a good way to silence them, especially for those bears
+yielding informational messages which you might want to see from 
+time to time.
 
 Specifying Targets
 ~~~~~~~~~~~~~~~~~~
